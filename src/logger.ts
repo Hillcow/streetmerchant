@@ -96,17 +96,17 @@ export const Print = {
 		return `✖ ${buildProductString(link, store)} :: CAPTCHA`;
 	},
 	inStock(link: Link, store: Store, color?: boolean, sms?: boolean): string {
-		const productString = `${buildProductString(link, store)} :: IN STOCK`;
+		const productString = `${buildProductString(link, store)} JETZT VERFÜGBAR`;
 
 		if (color) {
-			return chalk.bgGreen.white.bold(`🚀🚨 ${productString} 🚨🚀`);
+			return chalk.bgGreen.white.bold(`‼️ ${productString}`);
 		}
 
 		if (sms) {
 			return productString;
 		}
 
-		return `🚀🚨 ${productString} 🚨🚀`;
+		return `‼️ ${productString}`;
 	},
 	inStockWaiting(link: Link, store: Store, color?: boolean): string {
 		if (color) {
@@ -221,9 +221,9 @@ function buildProductString(link: Link, store: Store, color?: boolean): string {
 	if (color) {
 		return (
 			chalk.cyan(`[${store.name}]`) +
-			chalk.grey(` [${link.brand} (${link.series})] ${link.model}`)
+			chalk.grey(` [${link.model}`)
 		);
 	}
 
-	return `[${store.name}] [${link.brand} (${link.series})] ${link.model}`;
+	return `[${store.name}] ${link.model}`;
 }
