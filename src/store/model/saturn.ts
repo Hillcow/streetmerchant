@@ -183,13 +183,13 @@ export const Saturn: Store = {
 			brand: 'sony',
 			model: 'ps5 console',
 			series: 'sonyps5c',
-			url: 'https://www.saturn.de/de/product/-2661938.html'
+			url: 'http://bit.ly/SaturnPS5'
 		},
 		{
 			brand: 'sony',
 			model: 'ps5 digital',
 			series: 'sonyps5de',
-			url: 'https://www.saturn.de/de/product/-2661939.html'
+			url: 'https://bit.ly/35ZvzDD'
 		},
 		{
 			brand: 'microsoft',

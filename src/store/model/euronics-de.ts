@@ -46,14 +46,14 @@ export const EuronicsDE: Store = {
 			model: 'ps5 digital',
 			series: 'sonyps5de',
 			url:
-				'https://www.euronics.de/spiele-und-konsolen-film-und-musik/spiele-und-konsolen/playstation-5/spielekonsole/playstation-5-digital-edition-konsole-4061856837833'
+				'https://tidd.ly/3myxsg4'
 		},
 		{
 			brand: 'sony',
 			model: 'ps5 console',
 			series: 'sonyps5c',
 			url:
-				'https://www.euronics.de/spiele-und-konsolen-film-und-musik/spiele-und-konsolen/playstation-5/spielekonsole/playstation-5-konsole-4061856837826'
+				'https://tidd.ly/2Jyg3Gb'
 		}
 	],
 	name: 'euronics-de'

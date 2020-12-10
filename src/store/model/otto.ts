@@ -40,21 +40,7 @@ export const Otto: Store = {
 			model: 'ps5 console',
 			series: 'sonyps5c',
 			url:
-				'https://www.otto.de/p/playstation-5-1136008456/#variationId=1136008459'
-		},
-		{
-			brand: 'sony',
-			labels: {
-				inStock: {
-					container:
-						'.js_shortInfo__variationName.prd_shortInfo__variationName',
-					text: ['konsole']
-				}
-			},
-			model: 'ps5 console',
-			series: 'sonyps5c',
-			url:
-				'https://www.otto.de/p/playstation-5-1154028000#variationId=1154028001'
+				'https://t.co/SLiVVqbc4M?amp=1'
 		},
 		{
 			brand: 'sony',
@@ -68,7 +54,7 @@ export const Otto: Store = {
 			model: 'ps5 digital',
 			series: 'sonyps5de',
 			url:
-				'https://www.otto.de/p/playstation-5-digital-edition-1161042793#variationId=1161042794'
+				'https://bit.ly/3mHJN1X'
 		},
 		{
 			brand: 'microsoft',

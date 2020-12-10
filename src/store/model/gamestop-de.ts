@@ -26,13 +26,13 @@ export const GamestopDE: Store = {
 			brand: 'sony',
 			model: 'ps5 console',
 			series: 'sonyps5c',
-			url: 'https://www.gamestop.de/PS5/Games/58665'
+			url: 'https://clk.tradedoubler.com/click?p=304698&a=3195372&url=https%3A%2F%2Fwww.gamestop.de%2FPS5%2FGames%2F58665'
 		},
 		{
 			brand: 'sony',
 			model: 'ps5 digital',
 			series: 'sonyps5de',
-			url: 'https://www.gamestop.de/PS5/Games/60315'
+			url: 'https://clk.tradedoubler.com/click?p=304698&a=3195372&url=https%3A%2F%2Fwww.gamestop.de%2FPS5%2FGames%2F60315'
 		}
 	],
 	name: 'gamestop-de',

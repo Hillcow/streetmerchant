@@ -27,7 +27,7 @@ export const Mediamarkt: Store = {
 			brand: 'test:brand',
 			model: 'test:model',
 			series: 'test:series',
-			url: 'https://www.mediamarkt.de/de/product/-2641856.html'
+			url: 'https://bit.ly/2JE31XR'
 		},
 		{
 			brand: 'asus',
@@ -255,13 +255,13 @@ export const Mediamarkt: Store = {
 			brand: 'sony',
 			model: 'ps5 console',
 			series: 'sonyps5c',
-			url: 'https://www.mediamarkt.de/de/product/-2661938.html'
+			url: 'http://bit.ly/MediaMarktPS5'
 		},
 		{
 			brand: 'sony',
 			model: 'ps5 digital',
 			series: 'sonyps5de',
-			url: 'https://www.mediamarkt.de/de/product/-2661939.html'
+			url: 'https://bit.ly/301q9UU'
 		},
 		{
 			brand: 'microsoft',
@@ -274,7 +274,7 @@ export const Mediamarkt: Store = {
 			model: 'xbox series s',
 			series: 'xboxss',
 			url: 'https://www.mediamarkt.de/de/product/-2677359.html'
-		}
+		},
 	],
 	name: 'mediamarkt'
 };
