@@ -38,14 +38,14 @@ export const Expert: Store = {
 			brand: 'sony',
 			model: 'ps5 console',
 			series: 'sonyps5c',
-			url: 'https://www.expert.de/shop/11364129744-playstation-r-5.html'
+			url: 'https://tinyurl.com/y3mchd3z'
 		},
 		{
 			brand: 'sony',
 			model: 'ps5 digital',
 			series: 'sonyps5de',
 			url:
-				'https://www.expert.de/shop/11364133744-playstation-r-5-digital-edition.html'
+				'https://tinyurl.com/y2krqo5g'
 		},
 		{
 			brand: 'microsoft',

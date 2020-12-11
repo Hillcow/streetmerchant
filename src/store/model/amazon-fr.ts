@@ -165,13 +165,13 @@ export const AmazonFr: Store = {
 			brand: 'sony',
 			model: 'ps5 console',
 			series: 'sonyps5c',
-			url: 'https://www.amazon.fr/dp/B08H93ZRK9'
+			url: 'https://amzn.to/3gmANNf'
 		},
 		{
 			brand: 'sony',
 			model: 'ps5 digital',
 			series: 'sonyps5de',
-			url: 'https://www.amazon.fr/dp/B08H98GVK8'
+			url: 'https://amzn.to/3mCNaa2'
 		},
 		{
 			brand: 'microsoft',

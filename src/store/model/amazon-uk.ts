@@ -42,7 +42,7 @@ export const AmazonUk: Store = {
 				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08H95Y452&Quantity.1=1',
 			model: 'ps5 console',
 			series: 'sonyps5c',
-			url: 'https://www.amazon.co.uk/dp/B08H95Y452'
+			url: 'https://amzn.to/37Cq6Su'
 		},
 		{
 			brand: 'sony',
@@ -50,7 +50,7 @@ export const AmazonUk: Store = {
 				'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08H97NYGP&Quantity.1=1',
 			model: 'ps5 digital',
 			series: 'sonyps5de',
-			url: 'https://www.amazon.co.uk/dp/B08H97NYGP'
+			url: 'https://amzn.to/36FYJrk'
 		},
 		{
 			brand: 'microsoft',
