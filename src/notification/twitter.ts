@@ -21,7 +21,7 @@ export function sendTweet(link: Link, store: Store) {
 	) {
 		logger.debug('↗ sending twitter message');
 
-		let status = `${Print.inStock(link, store)}: ${link.url}*\n\nFolge @psletsplay für weitere Live-Updates zur PS5 Vorbestellung.`;
+		let status = `${Print.inStock(link, store)}: ${link.url}*\n\nFolge @psletsplayde für weitere Live-Updates zur PS5 Vorbestellung.`;
 
 		if (twitter.tweetTags) {
 			status += `\n\n${twitter.tweetTags}`;
