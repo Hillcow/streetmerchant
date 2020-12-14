@@ -350,7 +350,7 @@ const store = {
 			sonyps5de: envOrNumber(process.env.MAX_PRICE_SERIES_SONYPS5DE),
 			'test:series': envOrNumber(process.env.MAX_PRICE_SERIES_TEST),
 			xboxss: -1,
-			xboxsx: -1
+			xboxsx: envOrNumber(process.env.MAX_PRICE_SERIES_XBOXSX),
 		}
 	},
 	microCenterLocation: envOrArray(process.env.MICROCENTER_LOCATION, ['web']),

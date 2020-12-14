@@ -267,7 +267,7 @@ export const Mediamarkt: Store = {
 			brand: 'microsoft',
 			model: 'xbox series x',
 			series: 'xboxsx',
-			url: 'https://www.mediamarkt.de/de/product/-2677360.html'
+			url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f33022d3d793dfba07c'
 		},
 		{
 			brand: 'microsoft',

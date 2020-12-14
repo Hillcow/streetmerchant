@@ -7,6 +7,10 @@ src/config/*.yaml
 
 .env
 dotenv
+!dotenv-example
+dotenv-ps5
+dotenv-xbox
+dotenv*
 success-*.png
 
 *.wav

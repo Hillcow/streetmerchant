@@ -68,7 +68,7 @@ export const Otto: Store = {
 			model: 'xbox series x',
 			series: 'xboxsx',
 			url:
-				'https://www.otto.de/p/xbox-series-x-1229057353#variationId=1229057354'
+				'https://tidd.ly/2JZEmNs'
 		}
 	],
 	name: 'otto'

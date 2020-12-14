@@ -96,7 +96,7 @@ export const Print = {
 		return `✖ ${buildProductString(link, store)} :: CAPTCHA`;
 	},
 	inStock(link: Link, store: Store, color?: boolean, sms?: boolean): string {
-		const productString = `${buildProductString(link, store)} JETZT VORBESTELLEN`;
+		const productString = `${buildProductString(link, store)} JETZT KAUFEN`;
 
 		if (color) {
 			return chalk.bgGreen.white.bold(`‼️ ${productString}`);
@@ -218,12 +218,25 @@ function buildSetupString(
 }
 
 function buildProductString(link: Link, store: Store, color?: boolean): string {
+	let modelName = String(link.model);
+	switch (modelName) {
+		case 'ps5 console':
+			modelName = "PS5 Konsole mit Laufwerk"
+			break;
+		case 'ps5 digital':
+			modelName = "PS5 Digital Edition"
+			break;
+		case 'xbox series x':
+			modelName = "Xbox Series X"
+			break;
+	}
+
 	if (color) {
 		return (
 			chalk.cyan(`[${store.name}]`) +
-			chalk.grey(` [${link.model}`)
+			chalk.grey(` [${modelName}`)
 		);
 	}
 
-	return `[${store.name}] ${link.model}`;
+	return `[${store.name}] ${modelName}`;
 }

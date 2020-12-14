@@ -33,7 +33,13 @@ export const GamestopDE: Store = {
 			model: 'ps5 digital',
 			series: 'sonyps5de',
 			url: 'https://clk.tradedoubler.com/click?p=304698&a=3195372&url=https%3A%2F%2Fwww.gamestop.de%2FPS5%2FGames%2F60315'
-		}
+		},
+		{
+			brand: 'microsoft',
+			model: 'xbox series x',
+			series: 'xboxsx',
+			url: 'https://clk.tradedoubler.com/click?p=304698&a=3195372&url=https%3A%2F%2Fwww.gamestop.de%2FXboxSeries%2FGames%2F56357'
+		},
 	],
 	name: 'gamestop-de',
 	successStatusCodes: [[0, 399], 404]

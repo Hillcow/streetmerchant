@@ -49,6 +49,12 @@ export const Expert: Store = {
 		},
 		{
 			brand: 'microsoft',
+			model: 'xbox series x',
+			series: 'xboxsx',
+			url: 'https://tinyurl.com/yxo9yxe8'
+		},
+		{
+			brand: 'microsoft',
 			model: 'xbox series s',
 			series: 'xboxss',
 			url: 'https://www.expert.de/shop/11350018530-xbox-series-s.html'

@@ -195,7 +195,7 @@ export const Saturn: Store = {
 			brand: 'microsoft',
 			model: 'xbox series x',
 			series: 'xboxsx',
-			url: 'https://www.saturn.de/de/product/-2677360.html'
+			url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b30b7d7284317e0c48'
 		},
 		{
 			brand: 'microsoft',

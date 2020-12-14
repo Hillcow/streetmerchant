@@ -409,7 +409,7 @@ export const Alternate: Store = {
 			brand: 'microsoft',
 			model: 'xbox series x',
 			series: 'xboxsx',
-			url: 'https://www.alternate.de/product/1675115'
+			url: 'https://tidd.ly/3a6eFW5'
 		},
 		{
 			brand: 'microsoft',

@@ -54,6 +54,18 @@ export const AmazonDe: Store = {
 			series: 'sonyps5de',
 			url: 'https://www.amazon.de/dp/B08H98GVK8?tag=o5-21'
 		},
+		{
+			brand: 'microsoft',
+			labels: {
+				inStock: {
+					container: '#productTitle',
+					text: ['xbox series x']
+				}
+			},
+			model: 'xbox series x',
+			series: 'xboxsx',
+			url: 'https://amzn.to/37dIUIQ'
+		},
 	],
 	name: 'amazon-de'
 };
