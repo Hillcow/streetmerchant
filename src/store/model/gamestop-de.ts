@@ -27,19 +27,19 @@ export const GamestopDE: Store = {
 			brand: 'sony',
 			model: 'ps5 console',
 			series: 'sonyps5c',
-			url: 'https://clk.tradedoubler.com/click?p=304698&a=3195372&url=https%3A%2F%2Fwww.gamestop.de%2FPS5%2FGames%2F58665'
+			url: 'https://www.gamestop.de/PS5/Games/58665'
 		},
 		{
 			brand: 'sony',
 			model: 'ps5 digital',
 			series: 'sonyps5de',
-			url: 'https://clk.tradedoubler.com/click?p=304698&a=3195372&url=https%3A%2F%2Fwww.gamestop.de%2FPS5%2FGames%2F60315'
+			url: 'https://www.gamestop.de/PS5/Games/60315'
 		},
 		{
 			brand: 'microsoft',
 			model: 'xbox series x',
 			series: 'xboxsx',
-			url: 'https://clk.tradedoubler.com/click?p=304698&a=3195372&url=https%3A%2F%2Fwww.gamestop.de%2FXboxSeries%2FGames%2F56357'
+			url: 'https://www.gamestop.de/XboxSeries/Games/56357'
 		},
 	],
 	name: 'gamestop-de',
