@@ -11,8 +11,8 @@ export const AmazonUk: Store = {
 			text: ['enter the characters you see below']
 		},
 		inStock: {
-			container: '#availability',
-			text: ['in stock']
+			container: '#buy-now-button',
+			text: ['buy now']
 		},
 		maxPrice: {
 			container: '#priceblock_ourprice'

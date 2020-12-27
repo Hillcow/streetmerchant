@@ -9,8 +9,8 @@ export const AmazonFr: Store = {
 			text: ['entrez les caractères que vous voyez ci-dessous']
 		},
 		inStock: {
-			container: '#desktop_buybox',
-			text: ['ajouter au panier']
+			container: '#buy-now-button',
+			text: ['acheter cet article']
 		},
 		maxPrice: {
 			container: '#priceblock_ourprice',

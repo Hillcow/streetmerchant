@@ -32,7 +32,7 @@ export const Alternate: Store = {
 			brand: 'test:brand',
 			model: 'test:model',
 			series: 'test:series',
-			url: 'https://www.alternate.de/product/1662088'
+			url: 'https://tidd.ly/3oYjF36'
 		},
 		{
 			brand: 'asus',

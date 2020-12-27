@@ -12,8 +12,8 @@ export const AmazonDe: Store = {
 			]
 		},
 		inStock: {
-			container: '#add-to-cart-button',
-			text: ['in den einkaufswagen']
+			container: '#buy-now-button',
+			text: ['jetzt kaufen']
 		},
 		maxPrice: {
 			container: '#priceblock_ourprice',
