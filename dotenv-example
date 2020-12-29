@@ -3,6 +3,8 @@
 # Read https://jef.codes/streetmerchant/getting-started/#customization for help on customizing this file
 ########################################################################################################
 
+FORAUM_URL=
+FORAUM_KEY=
 ASCII_BANNER=
 ASCII_COLOR=
 AUTO_ADD_TO_CART=
