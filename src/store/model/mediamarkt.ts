@@ -12,6 +12,10 @@ export const Mediamarkt: Store = {
 			container: 'span[font-family="price"]',
 			euroFormat: false
 		},
+		inStock: {
+			container: '#pdp-add-to-cart-button',
+			text: ['in den Warenkorb']
+		},
 		outOfStock: [
 			{
 				container: '#root',

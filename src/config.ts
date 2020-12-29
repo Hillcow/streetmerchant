@@ -189,6 +189,10 @@ const docker = envOrBoolean(process.env.DOCKER, false);
 const logLevel = envOrString(process.env.LOG_LEVEL, 'info');
 
 const notifications = {
+	foraum: {
+		url: process.env.FORAUM_URL,
+		key: process.env.FORAUM_KEY,
+	},
 	desktop: process.env.DESKTOP_NOTIFICATIONS === 'true',
 	discord: {
 		notifyGroup: envOrArray(process.env.DISCORD_NOTIFY_GROUP),

@@ -15,10 +15,12 @@ import {sendTweet} from './twitter';
 import {sendTwilioMessage} from './twilio';
 import {sendTwitchMessage} from './twitch';
 import {updateRedis} from './redis';
+import {sendForaumNotification} from './foraum';
 
 export function sendNotification(link: Link, store: Store) {
 	// Priority
 	playSound();
+	sendForaumNotification(link, store);
 	sendDiscordMessage(link, store);
 	sendDesktopNotification(link, store);
 	sendEmail(link, store);
