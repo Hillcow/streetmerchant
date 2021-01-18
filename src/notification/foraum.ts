@@ -9,12 +9,16 @@ export async function sendForaumNotification(link: Link, store: Store) {
 
 	let storeName = store.name
 	let url = link.url
+	let series = link.series
 	let key = config.notifications.foraum.key
+	let console = config.notifications.foraum.console
 
 	axios.post(config.notifications.foraum.url, {
 		url,
 		storeName,
-		key
+		key,
+		console,
+		series,
 	})
 		.then(function (response: any) {
 			logger.info(response);

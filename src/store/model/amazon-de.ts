@@ -12,8 +12,8 @@ export const AmazonDe: Store = {
 			]
 		},
 		inStock: {
-			container: '#buy-now-button',
-			text: ['jetzt kaufen']
+			container: '#merchant-info',
+			text: ['Verkauf und Versand durch Amazon.']
 		},
 		maxPrice: {
 			container: '#priceblock_ourprice',
@@ -66,6 +66,12 @@ export const AmazonDe: Store = {
 			model: 'xbox series x',
 			series: 'xboxsx',
 			url: 'https://amzn.to/37dIUIQ'
+		},
+		{
+			brand: 'test:brand',
+			model: 'test:model',
+			series: 'test:series',
+			url: 'https://amzn.to/3nV9DiC'
 		},
 	],
 	name: 'amazon-de'

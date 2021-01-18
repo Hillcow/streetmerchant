@@ -192,6 +192,7 @@ const notifications = {
 	foraum: {
 		url: process.env.FORAUM_URL,
 		key: process.env.FORAUM_KEY,
+		console: process.env.FORAUM_CONSOLE,
 	},
 	desktop: process.env.DESKTOP_NOTIFICATIONS === 'true',
 	discord: {

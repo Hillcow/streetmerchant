@@ -206,7 +206,7 @@ export const Saturn: Store = {
 			brand: 'sony',
 			model: 'ps5 digital',
 			series: 'sonyps5de',
-			url: 'https://bit.ly/35ZvzDD'
+				url: 'https://bit.ly/35ZvzDD'
 		},
 		{
 			brand: 'microsoft',
