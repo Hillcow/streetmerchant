@@ -44,9 +44,7 @@ function nextProxy(store: Store) {
 		store.currentProxyIndex = 0;
 	}
 
-	logger.info(
-		`ℹ [${store.name}] Next proxy index: ${store.currentProxyIndex} / Count: ${store.proxyList.length}`
-	);
+	logger.info(`ℹ [${store.name}] Next proxy index: ${store.currentProxyIndex} / Count: ${store.proxyList.length}`);
 
 	return store.proxyList[store.currentProxyIndex];
 }

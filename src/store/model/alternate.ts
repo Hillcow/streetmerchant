@@ -4,12 +4,9 @@ export const Alternate: Store = {
 	currency: '€',
 	labels: {
 		inStock: {
-			container: '.stockStatus',
+			container: '.cart-btn-text .mx-2',
 			text: [
-				'auf lager',
-				'ware neu eingetroffen',
-				'in kürze versandfertig',
-				'ware im zulauf'
+				'In den Warenkorb'
 			]
 		},
 		maxPrice: {
@@ -18,11 +15,7 @@ export const Alternate: Store = {
 		},
 		outOfStock: [
 			{
-				container: '.stockStatus',
-				text: ['liefertermin unbekannt']
-			},
-			{
-				container: '.stockStatus',
+				container: '.d-flex.justify-content-center.align-items-center',
 				text: ['Artikel kann nicht gekauft werden']
 			}
 		]
@@ -32,7 +25,7 @@ export const Alternate: Store = {
 			brand: 'test:brand',
 			model: 'test:model',
 			series: 'test:series',
-			url: 'https://tidd.ly/3oYjF36'
+			url: 'https://tidd.ly/2NCFXdq'
 		},
 		{
 			brand: 'asus',
@@ -356,13 +349,13 @@ export const Alternate: Store = {
 			brand: 'sony',
 			model: 'ps5 console',
 			series: 'sonyps5c',
-			url: 'https://tidd.ly/33WfWv0'
+			url: 'https://tidd.ly/3omd81G'
 		},
 		{
 			brand: 'sony',
 			model: 'ps5 digital',
 			series: 'sonyps5de',
-			url: 'https://tidd.ly/2K7bx1n'
+			url: 'https://tidd.ly/3t7fPHN'
 		},
 		{
 			brand: 'xfx',
@@ -416,7 +409,7 @@ export const Alternate: Store = {
 			brand: 'microsoft',
 			model: 'xbox series x',
 			series: 'xboxsx',
-			url: 'https://tidd.ly/3a6eFW5'
+			url: 'https://tidd.ly/2MzQ2HL'
 		},
 		{
 			brand: 'microsoft',

@@ -36,6 +36,7 @@ COPY --from=builder /build/build/ build/
 COPY web/ web/
 COPY package.json package.json
 COPY version.txt version.txt
+COPY global.proxies global.proxies
 
 ENTRYPOINT ["npm", "run"]
 CMD ["start:production"]

@@ -565,14 +565,14 @@ export const Computeruniverse: Store = {
 			model: 'ps5 console',
 			series: 'sonyps5c',
 			url:
-				'https://www.computeruniverse.net/de/sony-playstation-5-weiss-schwarz-825gb-ssd'
+				'https://tidd.ly/3iSfTqh'
 		},
 		{
 			brand: 'sony',
 			model: 'ps5 digital',
 			series: 'sonyps5de',
 			url:
-				'https://www.computeruniverse.net/de/sony-playstation-5-digital-edition-weiss-schwarz-825gb-ssd'
+				'https://tidd.ly/3a9Y7uQ'
 		}
 	],
 	name: 'computeruniverse'
