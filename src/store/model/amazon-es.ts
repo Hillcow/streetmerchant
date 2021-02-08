@@ -9,8 +9,8 @@ export const AmazonEs: Store = {
 			text: ['introduzca los caracteres que ve a continuación']
 		},
 		inStock: {
-			container: '#desktop_buybox',
-			text: ['añadir a la cesta']
+			container: '#merchant-info',
+			text: ['Vendido y enviado por Amazon.']
 		},
 		maxPrice: {
 			container: '#priceblock_ourprice'
@@ -173,7 +173,7 @@ export const AmazonEs: Store = {
 				'https://www.amazon.es/gp/aws/cart/add.html?ASIN.1=B08KKJ37F7&Quantity.1=1',
 			model: 'ps5 console',
 			series: 'sonyps5c',
-			url: 'https://www.amazon.es/dp/B08KKJ37F7'
+			url: 'https://amzn.to/3jmtnec'
 		},
 		{
 			brand: 'sony',
@@ -181,7 +181,7 @@ export const AmazonEs: Store = {
 				'https://www.amazon.es/gp/aws/cart/add.html?ASIN.1=B08KJF2D25&Quantity.1=1',
 			model: 'ps5 digital',
 			series: 'sonyps5de',
-			url: 'https://www.amazon.es/dp/B08KJF2D25'
+			url: 'https://amzn.to/39RZ2RC'
 		},
 		{
 			brand: 'microsoft',

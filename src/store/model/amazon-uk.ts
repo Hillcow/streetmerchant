@@ -9,8 +9,8 @@ export const AmazonUk: Store = {
 			text: ['enter the characters you see below']
 		},
 		inStock: {
-			container: '#buy-now-button',
-			text: ['buy now']
+			container: '#merchant-info',
+			text: ['Dispatched from and sold by Amazon.']
 		},
 		maxPrice: {
 			container: '#priceblock_ourprice'
