@@ -351,6 +351,12 @@ export const Alternate: Store = {
 			series: 'sonyps5c',
 			url: 'https://tidd.ly/3omd81G'
 		},
+    {
+			brand: 'sony',
+			model: 'ps5 console bundle',
+			series: 'sonyps5c',
+			url: 'https://tidd.ly/3ubzLdd'
+		},
 		{
 			brand: 'sony',
 			model: 'ps5 digital',

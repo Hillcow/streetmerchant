@@ -113,6 +113,7 @@ export type Model =
   | 'phoenix gs oc'
   | 'phoenix gs'
   | 'phoenix'
+  | 'ps5 console bundle'
   | 'ps5 console'
   | 'ps5 digital'
   | 'pulse'

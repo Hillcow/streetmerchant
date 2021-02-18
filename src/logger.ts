@@ -250,6 +250,9 @@ function buildProductString(link: Link, store: Store, color?: boolean): string {
 		case 'ps5 console':
 			modelName = "PS5 Konsole mit Laufwerk"
 			break;
+    case 'ps5 console bundle':
+      modelName = "PS5 Konsolen-Bundle"
+      break;
 		case 'ps5 digital':
 			modelName = "PS5 Digital Edition"
 			break;
