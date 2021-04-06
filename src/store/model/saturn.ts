@@ -212,19 +212,19 @@ export const Saturn: Store = {
       brand: 'sony',
       model: 'ps5 console bundle',
       series: 'sonyps5c',
-      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f337136730cbb0875db'
+      url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b3fc577e159be17ab8'
     },
     {
       brand: 'sony',
       model: 'ps5 console bundle',
       series: 'sonyps5c',
-      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f3306be4e9f1a947191'
+      url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b3d5ecbdb58cc23012'
     },
     {
       brand: 'sony',
       model: 'ps5 console bundle',
       series: 'sonyps5c',
-      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f3372c6f38728167b8d'
+      url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b33d3e25002f8b3407'
     },
 		{
 			brand: 'microsoft',

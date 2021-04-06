@@ -56,6 +56,12 @@ export const AmazonDe: Store = {
       url: 'https://www.amazon.de/dp/B08H98GVK8?tag=o5-21'
     },
     {
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://amzn.to/3cUNOxc'
+    },
+    {
       brand: 'microsoft',
       labels: {
         inStock: {
