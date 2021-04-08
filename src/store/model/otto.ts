@@ -41,7 +41,7 @@ export const Otto: Store = {
 			model: 'ps5 console',
 			series: 'sonyps5c',
 			url:
-				'https://t.co/SLiVVqbc4M?amp=1'
+				'https://www.otto.de/p/playstation-5-1136008456/#variationId=1136008459'
 		},
 		{
 			brand: 'sony',
@@ -55,22 +55,28 @@ export const Otto: Store = {
 			model: 'ps5 digital',
 			series: 'sonyps5de',
 			url:
-				'https://bit.ly/3mHJN1X'
+				'https://www.otto.de/p/playstation-5-digital-edition-1162264145/#variationId=1162266935'
 		},
-		{
-			brand: 'microsoft',
-			model: 'xbox series s',
-			series: 'xboxss',
-			url:
-				'https://www.otto.de/p/xbox-series-s-1229056876/#variationId=1229056877'
-		},
-		{
-			brand: 'microsoft',
-			model: 'xbox series x',
-			series: 'xboxsx',
-			url:
-				'https://tidd.ly/2JZEmNs'
-		}
+    {
+      brand: 'sony',
+      labels: {
+        inStock: {
+          container:
+            '.js_shortInfo__variationName.prd_shortInfo__variationName',
+          text: ['konsole']
+        }
+      },
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://www.otto.de/p/playstation-5-inkl-zweitem-dualsense-wireless-controller-1332188066/#variationId=1332188067'
+    },
+    {
+      brand: 'microsoft',
+      model: 'xbox series x',
+      series: 'xboxsx',
+      url:
+        'https://www.otto.de/p/xbox-series-x-1229057353'
+    },
 	],
 	name: 'otto'
 };
