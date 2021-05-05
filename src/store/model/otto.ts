@@ -68,7 +68,7 @@ export const Otto: Store = {
       },
       model: 'ps5 console bundle',
       series: 'sonyps5c',
-      url: 'https://www.otto.de/p/playstation-5-inkl-zweitem-dualsense-wireless-controller-1332188066/#variationId=1332188067'
+      url: 'https://www.otto.de/p/playstation-5-inkl-spider-man-miles-morales-1378325180/#variationId=1378325181'
     },
     {
       brand: 'microsoft',

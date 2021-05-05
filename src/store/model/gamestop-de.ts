@@ -8,15 +8,11 @@ export const GamestopDE: Store = {
 				container: '#btnAddToCart',
 				text: ['In den Warenkorb']
 			},
-			{
-				container: '#btnAddToCart',
-				text: ['Vorbestellen']
-			}
+      {
+        container: 'body',
+        text: ['Waiting Room']
+      },
 		],
-		maxPrice: {
-			container: '.buySection .prodPriceCont',
-			euroFormat: true
-		},
 		outOfStock: {
 			container: '.megaButton',
 			text: ['Nicht verfügbar']
@@ -24,6 +20,12 @@ export const GamestopDE: Store = {
 	},
 	links: [
 		{
+			brand: 'sony',
+			model: 'ps5 console',
+			series: 'test:series',
+			url: 'file:///Users/fabianr/Downloads/GameStop%20Germany%20-%20Waiting%20Room.html'
+		},
+    {
 			brand: 'sony',
 			model: 'ps5 console',
 			series: 'sonyps5c',
