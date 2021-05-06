@@ -3,10 +3,17 @@ import {Store} from './store';
 export const EuronicsDE: Store = {
 	currency: '€',
 	labels: {
-		inStock: {
-			container: '.buy-btn--cart-text',
-			text: ['Warenkorb']
-		},
+		inStock: [
+		  {
+        container: '.buy-btn--cart-text',
+        text: ['Warenkorb']
+		  },
+      {
+        container: 'body',
+        text: ['Warteschlange']
+      }
+		]
+    ,
 		maxPrice: {
 			container: '.price--content',
 			euroFormat: true
