@@ -3,12 +3,20 @@ import {Store} from './store';
 export const Alternate: Store = {
 	currency: '€',
 	labels: {
-		inStock: {
-			container: '.cart-btn-text .mx-2',
-			text: [
-				'In den Warenkorb'
-			]
-		},
+		inStock: [
+		  {
+        container: '.cart-btn-text .mx-2',
+        text: [
+          'In den Warenkorb'
+        ]
+		  },
+      {
+        container: '.grid-container.listing',
+        text: [
+          'Auf Lager'
+        ]
+      }
+		],
 		maxPrice: {
 			container: 'div.price > span',
 			euroFormat: true
@@ -27,6 +35,12 @@ export const Alternate: Store = {
 			series: 'test:series',
 			url: 'https://tidd.ly/2NCFXdq'
 		},
+    {
+      brand: 'test:brand',
+      model: 'test:model',
+      series: 'test:series',
+      url: 'https://www.alternate.de/PS5-Controller'
+    },
 		{
 			brand: 'asus',
 			model: 'strix',
@@ -345,23 +359,17 @@ export const Alternate: Store = {
 			series: 'ryzen5950',
 			url: 'https://www.alternate.de/product/1685584'
 		},
+    {
+      brand: 'sony',
+      model: 'ps5 console',
+      series: 'sonyps5c',
+      url: 'https://tidd.ly/3hAtGTG'
+    },
 		{
 			brand: 'sony',
 			model: 'ps5 console',
 			series: 'sonyps5c',
-			url: 'https://tidd.ly/3omd81G'
-		},
-    {
-			brand: 'sony',
-			model: 'ps5 console bundle',
-			series: 'sonyps5c',
-			url: 'https://tidd.ly/3ubzLdd'
-		},
-		{
-			brand: 'sony',
-			model: 'ps5 digital',
-			series: 'sonyps5de',
-			url: 'https://tidd.ly/3t7fPHN'
+			url: 'https://tidd.ly/3bwJ13N'
 		},
 		{
 			brand: 'xfx',

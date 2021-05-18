@@ -573,7 +573,13 @@ export const Computeruniverse: Store = {
 			series: 'sonyps5de',
 			url:
 				'https://tidd.ly/3a9Y7uQ'
-		}
+		},
+    {
+      brand: 'microsoft',
+      model: 'xbox series x',
+      series: 'xboxsx',
+      url: 'https://tidd.ly/3nPjgAW'
+    }
 	],
 	name: 'computeruniverse'
 };
