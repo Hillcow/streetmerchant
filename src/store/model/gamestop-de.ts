@@ -12,6 +12,14 @@ export const GamestopDE: Store = {
         container: 'body',
         text: ['Waiting Room']
       },
+      {
+        container: 'body',
+        text: ['gs-logo.jpg']
+      },
+      {
+        container: 'body',
+        text: ['/INTL/']
+      },
 		],
 		outOfStock: {
 			container: '.megaButton',
@@ -30,12 +38,6 @@ export const GamestopDE: Store = {
 			model: 'ps5 console',
 			series: 'sonyps5c',
 			url: 'https://www.gamestop.de/PS5/Games/58665'
-		},
-		{
-			brand: 'sony',
-			model: 'ps5 digital',
-			series: 'sonyps5de',
-			url: 'https://www.gamestop.de/PS5/Games/60315'
 		},
 		{
 			brand: 'microsoft',
