@@ -3,10 +3,20 @@ import {Store} from './store';
 export const Muller: Store = {
 	currency: '€',
 	labels: {
-		inStock: {
-			container: '.mu-product-cta .mu-button2__content',
-			text: ['In den Warenkorb']
-		},
+		inStock: [
+		  {
+        container: '.mu-product-cta .mu-button2__content',
+        text: ['In den Warenkorb']
+		  },
+      {
+        container: '#lbHeaderP',
+        text: ['Warteschlange']
+		  },
+      {
+        container: '#lbHeaderH2',
+        text: ['Warteraum']
+		  },
+		],
 		maxPrice: {
 			container: '.mu-product-price__price',
 			euroFormat: true
