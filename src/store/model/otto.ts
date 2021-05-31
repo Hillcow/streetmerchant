@@ -8,7 +8,12 @@ export const Otto: Store = {
 				container:
 					'button.prd_ordering__button.p_btn150--1st.js_product_addToBasket',
 				text: ['In den Warenkorb']
-			}
+			},
+      {
+				container:
+					'.promo_articlelist--articles.promo_articlelist--tile-container',
+				text: ['inkl. 2. DualSense']
+			},
 		],
 		maxPrice: {
 			container: '#normalPriceAmount',
@@ -68,7 +73,7 @@ export const Otto: Store = {
       },
       model: 'ps5 console bundle',
       series: 'sonyps5c',
-      url: 'https://www.otto.de/p/playstation-5-inkl-spider-man-miles-morales-1378325180/#variationId=1378325181'
+      url: 'https://www.otto.de/technik/gaming/playstation/ps5/'
     },
     {
       brand: 'microsoft',

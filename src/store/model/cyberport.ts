@@ -118,7 +118,13 @@ export const Cyberport: Store = {
 			model: '5950x',
 			series: 'ryzen5950',
 			url: 'https://www.cyberport.de?DEEP=2001-71l'
-		}
+		},
+    {
+      brand: 'microsoft',
+      model: 'xbox series x',
+      series: 'xboxsx',
+			url: 'https://partner.cyberport.de/trck/eclick/5abbb2ba72408e5b97f396993289618a1f1982f94b0cdec5'
+		},
 	],
 	name: 'cyberport'
 };

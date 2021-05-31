@@ -41,14 +41,13 @@ export const Muller: Store = {
 			url:
 				'https://www.mueller.de/p/playstation-5-konsole-2675305/'
 		},
-    /*
 		{
 			brand: 'sony',
 			model: 'ps5 digital',
 			series: 'sonyps5de',
 			url:
-				'https://www.smythstoys.com/de/de-de/gaming/playstation/playstation-5-konsole-und-zubeh%c3%b6r/sony-playstation-5-konsole-digital-edition/p/195651'
-		}*/
+				'https://www.mueller.de/p/playstation-5-konsole-digital-edition-2675308/'
+		}
 	],
 	name: 'muller'
 };
