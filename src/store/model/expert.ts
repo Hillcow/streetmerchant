@@ -48,6 +48,18 @@ export const Expert: Store = {
 			url:
 				'https://tinyurl.com/y2krqo5g'
 		},
+    {
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://tinyurl.com/y6rsapfd'
+    },
+    {
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://tinyurl.com/y4tnj7es'
+    },
 		{
 			brand: 'microsoft',
 			model: 'xbox series x',
