@@ -284,19 +284,13 @@ export const Mediamarkt: Store = {
       brand: 'sony',
       model: 'ps5 console bundle',
       series: 'sonyps5c',
-      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f3306be4e9f1a947191'
+      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f33dc329716e630ac4e'
     },
     {
       brand: 'sony',
       model: 'ps5 console bundle',
       series: 'sonyps5c',
-      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f3317e465b8d860cf51'
-    },
-    {
-      brand: 'sony',
-      model: 'ps5 console bundle',
-      series: 'sonyps5c',
-      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f33c9c134a229ffc3c4'
+      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f3371a229799655f59e'
     },
 		{
 			brand: 'microsoft',
