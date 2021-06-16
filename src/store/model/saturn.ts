@@ -12,10 +12,11 @@ export const Saturn: Store = {
 			container: 'span[font-family="price"]',
 			euroFormat: false
 		},
-		inStock: {
-			container: '#pdp-add-to-cart-button',
-			text: ['in den Warenkorb']
-		},
+    inStock:
+      {
+        container: '#pdp-add-to-cart-button',
+        text: ['in den Warenkorb']
+      },
 		outOfStock: [
 			{
 				container: '#root',
@@ -36,7 +37,11 @@ export const Saturn: Store = {
 			{
 				container: '#root',
 				text: ['Dieser Artikel ist bald wieder für Sie verfügbar']
-			}
+			},
+      {
+        container: '#root',
+        text: ['Leider haben wir für diese Kategorie keine passenden Produkte gefunden.']
+      }
 		]
 	},
 	links: [
@@ -44,7 +49,7 @@ export const Saturn: Store = {
 			brand: 'test:brand',
 			model: 'test:model',
 			series: 'test:series',
-			url: 'https://www.saturn.de/de/product/-2641856.html'
+			url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b31efeaec36c34698c'
 		},
 		{
 			brand: 'asus',
@@ -212,19 +217,7 @@ export const Saturn: Store = {
       brand: 'sony',
       model: 'ps5 console bundle',
       series: 'sonyps5c',
-      url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b3fc577e159be17ab8'
-    },
-    {
-      brand: 'sony',
-      model: 'ps5 console bundle',
-      series: 'sonyps5c',
-      url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b3d5ecbdb58cc23012'
-    },
-    {
-      brand: 'sony',
-      model: 'ps5 console bundle',
-      series: 'sonyps5c',
-      url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b33d3e25002f8b3407'
+      url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b321260868445ee01f'
     },
 		{
 			brand: 'microsoft',

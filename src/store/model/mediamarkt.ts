@@ -12,10 +12,12 @@ export const Mediamarkt: Store = {
 			container: 'span[font-family="price"]',
 			euroFormat: false
 		},
-		inStock: {
-			container: '#pdp-add-to-cart-button',
-			text: ['in den Warenkorb']
-		},
+		inStock:
+		  {
+        container: '#pdp-add-to-cart-button',
+        text: ['in den Warenkorb']
+		  }
+    ,
 		outOfStock: [
 			{
 				container: '#root',
@@ -36,7 +38,11 @@ export const Mediamarkt: Store = {
 			{
 				container: '#root',
 				text: ['Dieser Artikel ist bald wieder für Sie verfügbar']
-			}
+			},
+      {
+        container: '#root',
+        text: ['Leider haben wir für diese Kategorie keine passenden Produkte gefunden.']
+      }
 		]
 	},
 	links: [

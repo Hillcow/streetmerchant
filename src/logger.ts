@@ -108,7 +108,7 @@ export const Print = {
 		return `✖ ${buildProductString(link, store)} :: CLOUDFLARE, WAITING`;
 	},
 	inStock(link: Link, store: Store, color?: boolean, sms?: boolean): string {
-		const productString = `${buildProductString(link, store)} JETZT KAUFEN`;
+		const productString = `${buildProductString(link, store)} JETZT VERFÜGBAR!`;
 
 		if (color) {
 			return chalk.bgGreen.white.bold(`‼️ ${productString}`);

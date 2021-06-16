@@ -1,6 +1,7 @@
 import {Link, Store} from "../store/model";
 import {config} from '../config';
 import {logger, Print} from "../logger";
+import {sendTweet} from "./twitter";
 
 const axios = require('axios').default;
 
@@ -25,5 +26,6 @@ export async function sendForaumNotification(link: Link, store: Store) {
 		})
 		.catch(function (error: any) {
 			logger.error(error);
+      sendTweet(link, store);
 		});
 }

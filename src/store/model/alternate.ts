@@ -15,7 +15,7 @@ export const Alternate: Store = {
         text: [
           'Auf Lager'
         ]
-      }
+      },
 		],
 		maxPrice: {
 			container: 'div.price > span',
@@ -365,12 +365,6 @@ export const Alternate: Store = {
       series: 'sonyps5c',
       url: 'https://tidd.ly/3hAtGTG'
     },
-		{
-			brand: 'sony',
-			model: 'ps5 console',
-			series: 'sonyps5c',
-			url: 'https://tidd.ly/3bwJ13N'
-		},
 		{
 			brand: 'xfx',
 			model: 'merc',

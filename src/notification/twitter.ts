@@ -21,7 +21,7 @@ export function sendTweet(link: Link, store: Store) {
 	) {
 		logger.debug('↗ sending twitter message');
 
-		let status = `${Print.inStock(link, store)}: ${link.url}*`;
+		let status = `${Print.inStock(link, store)}\n\n➡️ Hier bestellen: ${link.url}*`;
 
 		if (twitter.tweetTags) {
 			status += `\n\n${twitter.tweetTags}`;
