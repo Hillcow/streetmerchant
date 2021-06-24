@@ -59,7 +59,7 @@ export const AmazonDe: Store = {
       brand: 'sony',
       model: 'ps5 console bundle',
       series: 'sonyps5c',
-      url: 'https://amzn.to/3cUNOxc'
+      url: 'https://amzn.to/3h3I7hc'
     },
     {
       brand: 'microsoft',
