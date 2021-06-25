@@ -71,7 +71,7 @@ export const AmazonDe: Store = {
       },
       model: 'xbox series x',
       series: 'xboxsx',
-      url: 'https://amzn.to/37dIUIQ'
+      url: 'https://amzn.to/3uJda6P'
     },
     {
       brand: 'test:brand',
