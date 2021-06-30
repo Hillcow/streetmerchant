@@ -14,6 +14,20 @@ export const Otto: Store = {
 					'.promo_articlelist--articles.promo_articlelist--tile-container',
 				text: ['inkl. 2. DualSense']
 			},
+      {
+				container:
+					'.promo_articlelist--gallery.promo_articlelist--container',
+				text: ['inkl. 2. DualSense']
+			},
+      {
+				container:
+					'.promo-module-prefetched',
+				text: ['inkl. 2. DualSense']
+			},
+      {
+				container: 'body',
+				text: ['PlayStation 5, inkl.']
+			},
 		],
 		maxPrice: {
 			container: '#normalPriceAmount',

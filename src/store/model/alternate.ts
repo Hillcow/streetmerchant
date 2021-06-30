@@ -363,7 +363,7 @@ export const Alternate: Store = {
       brand: 'sony',
       model: 'ps5 console',
       series: 'sonyps5c',
-      url: 'https://tidd.ly/3hAtGTG'
+      url: 'https://www.alternate.de/PS5'
     },
 		{
 			brand: 'xfx',
