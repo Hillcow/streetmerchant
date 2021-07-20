@@ -213,12 +213,58 @@ export const Saturn: Store = {
 			series: 'sonyps5de',
 				url: 'https://bit.ly/35ZvzDD'
 		},
-    {
+
+    /*
+    { // ps5 + mm
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b33d3e25002f8b3407'
+    },
+    { // ps5 + ds + mm
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b3b406588476dbf3bf'
+    },
+    { // ps5 + r + mm
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b37c2891223060364b'
+    },
+    { // ps5 + rift apart innof
       brand: 'sony',
       model: 'ps5 console bundle',
       series: 'sonyps5c',
       url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b321260868445ee01f'
     },
+    { // ps5 + returnal
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b321260868445ee01f?url=https://www.saturn.de/de/product/_sony-ps5-returnal-2741761.html'
+    },
+    { // ps5 + rift apart of
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b33f096126e5c3ae0c'
+    },
+    { // ps5de + psplus90
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5de',
+      url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b3c37e9bd6ffd1ba7d'
+    },
+    { // ps5de + ds
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5de',
+      url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b3c360c62863c0dd60'
+    },
+     */
+
 		{
 			brand: 'microsoft',
 			model: 'xbox series x',

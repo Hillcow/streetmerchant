@@ -48,6 +48,7 @@ export const Expert: Store = {
 			url:
 				'https://tinyurl.com/y2krqo5g'
 		},
+    /*
     {
       brand: 'sony',
       model: 'ps5 console bundle',
@@ -59,6 +60,18 @@ export const Expert: Store = {
       model: 'ps5 console bundle',
       series: 'sonyps5c',
       url: 'https://tinyurl.com/y4tnj7es'
+    },*/
+    { // rift apart + nioh
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://tinyurl.com/yzrc5y3x'
+    },
+    { // rift apart + controller
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://tinyurl.com/ygy23adl'
     },
 		{
 			brand: 'microsoft',

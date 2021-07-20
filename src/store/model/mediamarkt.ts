@@ -286,12 +286,59 @@ export const Mediamarkt: Store = {
 			series: 'sonyps5de',
 			url: 'https://bit.ly/301q9UU'
 		},
-    {
+
+    /*
+
+    { // ps5 + mm
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f3306be4e9f1a947191'
+    },
+    { // ps5 + ds + mm
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f33341b2d4d6d150642'
+    },
+    { // ps5 + r + mm
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f33dc329716e630ac4e'
+    },
+    { // ps5 + rift apart innof
       brand: 'sony',
       model: 'ps5 console bundle',
       series: 'sonyps5c',
       url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f333fe7c4d5495c44d7'
     },
+    { // ps5 + returnal
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f33aed895d79d9fd985'
+    },
+    { // ps5 + rift apart of
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f33960b389fbd40faed'
+    },
+    { // ps5de + psplus90
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5de',
+      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f3371a229799655f59e'
+    },
+    { // ps5de + ds
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5de',
+      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f33ef880922ab532ea5'
+    },
+     */
+
 		{
 			brand: 'microsoft',
 			model: 'xbox series x',

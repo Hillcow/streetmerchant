@@ -3,10 +3,20 @@ import {Store} from './store';
 export const Cyberport: Store = {
 	currency: '€',
 	labels: {
-		inStock: {
-			container: '.tooltipAvailabilityParent',
-			text: ['sofort verfügbar']
-		},
+		inStock: [
+		  {
+        container: '.tooltipAvailabilityParent',
+        text: ['sofort verfügbar']
+		  },
+      {
+        container: '.tooltipParent',
+        text: ['sofort verfügbar']
+      },
+      {
+        container: '.searchResults .productTitleName',
+        text: ['Sony PlayStation 5']
+      }
+		],
 		maxPrice: {
 			container: '#productDetailOverview .price',
 			euroFormat: true
@@ -14,7 +24,7 @@ export const Cyberport: Store = {
 		outOfStock: {
 			container: '.tooltipAvailabilityParent',
 			text: ['noch nicht verfügbar']
-		}
+		},
 	},
 	links: [
 		{
@@ -125,6 +135,20 @@ export const Cyberport: Store = {
       series: 'xboxsx',
 			url: 'https://partner.cyberport.de/trck/eclick/5abbb2ba72408e5b97f396993289618a1f1982f94b0cdec5'
 		},
+    /*
+    { // übersicht
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://partner.cyberport.de/trck/eclick/5abbb2ba72408e5bdf31e5cd1a81e021e75379665510ea38'
+    },
+    */
+    { // ps5de + mf
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5de',
+      url: 'https://partner.cyberport.de/trck/eclick/5abbb2ba72408e5bdf31e5cd1a81e0216638ae818432fd56'
+    },
 	],
 	name: 'cyberport'
 };
