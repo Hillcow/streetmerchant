@@ -62,7 +62,14 @@ export const EuronicsDE: Store = {
 			series: 'sonyps5c',
 			url:
 				'https://tidd.ly/2Jyg3Gb'
-		}
+		},
+    { // rift apart + miles morales u
+			brand: 'sony',
+			model: 'ps5 console bundle',
+			series: 'sonyps5c',
+			url:
+				'https://tidd.ly/3A1SyKg'
+		},
 	],
 	name: 'euronics-de'
 };
