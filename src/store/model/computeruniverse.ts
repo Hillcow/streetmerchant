@@ -574,6 +574,12 @@ export const Computeruniverse: Store = {
 			url:
 				'https://tidd.ly/3a9Y7uQ'
 		},
+    { // ps5 + 12monate ps plus
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://tidd.ly/3jkkwKi'
+    },
     {
       brand: 'microsoft',
       model: 'xbox series x',
