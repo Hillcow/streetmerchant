@@ -63,13 +63,20 @@ export const EuronicsDE: Store = {
 			url:
 				'https://tidd.ly/2Jyg3Gb'
 		},
-    { // rift apart + miles morales u
+    { // rift apart
 			brand: 'sony',
 			model: 'ps5 console bundle',
 			series: 'sonyps5c',
 			url:
-				'https://tidd.ly/3A1SyKg'
+				'https://tidd.ly/3iQCQf1'
 		},
+    { // ghost of tsushima
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url:
+        'https://tidd.ly/2W3FSna'
+    },
 	],
 	name: 'euronics-de'
 };

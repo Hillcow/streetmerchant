@@ -23,6 +23,13 @@ export const Euronics: Store = {
 			url:
 				'https://www.euronics.it/console/sony-computer/playstation-5-digital-edition/eProd202008907'
 		},
+    {
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5de',
+      url:
+        'https://www.euronics.it/console/sony-computer/playstation-5-digital-edition/eProd202008907'
+    },
 		{
 			brand: 'microsoft',
 			model: 'xbox series x',

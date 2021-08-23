@@ -4,7 +4,7 @@ export const Computeruniverse: Store = {
 	currency: '€',
 	labels: {
 		inStock: {
-			container: '.availability',
+			container: '.product-stock',
 			text: [
 				'bestellartikel',
 				'auf lager und sofort lieferbar',
@@ -16,7 +16,7 @@ export const Computeruniverse: Store = {
 			euroFormat: true
 		},
 		outOfStock: {
-			container: '.availability',
+			container: '.product-stock',
 			text: ['nicht verfügbar']
 		}
 	},
@@ -26,7 +26,7 @@ export const Computeruniverse: Store = {
 			model: 'test:model',
 			series: 'test:series',
 			url:
-				'https://www.computeruniverse.net/de/gainward-geforce-gtx-1660-super-ghost-6-gb-high-end-grafikkarte'
+				'https://www.computeruniverse.net/de/p/90803287'
 		},
 		{
 			brand: 'asus',
@@ -585,7 +585,7 @@ export const Computeruniverse: Store = {
       model: 'xbox series x',
       series: 'xboxsx',
       url: 'https://tidd.ly/3nPjgAW'
-    }
+    },
 	],
 	name: 'computeruniverse'
 };

@@ -41,6 +41,13 @@ export const Medimax: Store = {
       series: 'sonyps5de',
       url:
         'https://www.medimax.de/p/1315337/play-station-5-digital-edition-825gb-ssd'
+    },
+    {
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url:
+        'https://www.medimax.de/p/1343017/playstation-5-825gb-ssd-ratchet-clank-rift'
     }
   ],
   name: 'medimax'

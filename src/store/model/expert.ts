@@ -73,6 +73,48 @@ export const Expert: Store = {
       series: 'sonyps5c',
       url: 'https://tinyurl.com/ygy23adl'
     },
+    { // returnal + controller black
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://tinyurl.com/yfzzxm7z'
+    },
+    { // digital + kamera
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5de',
+      url: 'https://tinyurl.com/ygpr7jaq'
+    },
+    { // disk + got
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5de',
+      url: 'https://tinyurl.com/yje386jt'
+    },
+    { // digital + kopfhörer
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5de',
+      url: 'https://tinyurl.com/ygf8l3bo'
+    },
+    { // controller black + mf
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5de',
+      url: 'https://tinyurl.com/yezt6omh'
+    },
+    { // rift apart + controller black
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5de',
+      url: 'https://tinyurl.com/yfr44e2w'
+    },
+    { // f1 2021 + controller black
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5de',
+      url: 'https://tinyurl.com/yejxbh5w'
+    },
 		{
 			brand: 'microsoft',
 			model: 'xbox series x',
