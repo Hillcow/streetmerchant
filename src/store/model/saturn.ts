@@ -214,25 +214,12 @@ export const Saturn: Store = {
 				url: 'https://bit.ly/35ZvzDD'
 		},
 
+    /*
     { // ps5 + got
       brand: 'sony',
       model: 'ps5 console bundle',
       series: 'sonyps5c',
       url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b3daac5178a6816f1f'
-    },
-
-    { // ps5 + rift apart innof
-      brand: 'sony',
-      model: 'ps5 console bundle',
-      series: 'sonyps5c',
-      url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b321260868445ee01f'
-    },
-
-    { // ps5 + rift apart of
-      brand: 'sony',
-      model: 'ps5 console bundle',
-      series: 'sonyps5c',
-      url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b33f096126e5c3ae0c'
     },
 
     /*
