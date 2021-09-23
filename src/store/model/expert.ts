@@ -48,6 +48,19 @@ export const Expert: Store = {
 			url:
 				'https://tinyurl.com/y2krqo5g'
 		},
+    { // ps5 + rift apart + midnight black controller
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://tinyurl.com/yfr44e2w'
+    },
+    { // ps5 + returnal + midnight black controller
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://tinyurl.com/yfzzxm7z'
+    },
+
     /*
     {
       brand: 'sony',
@@ -60,7 +73,7 @@ export const Expert: Store = {
       model: 'ps5 console bundle',
       series: 'sonyps5c',
       url: 'https://tinyurl.com/y4tnj7es'
-    },*/
+    },
     { // returnal + controller black
       brand: 'sony',
       model: 'ps5 console bundle',
@@ -79,7 +92,6 @@ export const Expert: Store = {
       series: 'sonyps5de',
       url: 'https://tinyurl.com/ygpr7jaq'
     },
-    /*
     { // rift apart + nioh
       brand: 'sony',
       model: 'ps5 console bundle',

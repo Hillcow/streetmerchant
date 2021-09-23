@@ -220,6 +220,7 @@ export const Saturn: Store = {
       url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b321260868445ee01f'
     },
 
+    /*
 
     { // ps5 + got
       brand: 'sony',
@@ -271,6 +272,8 @@ export const Saturn: Store = {
       series: 'sonyps5de',
       url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b3c360c62863c0dd60'
     },
+
+     */
 
 		{
 			brand: 'microsoft',

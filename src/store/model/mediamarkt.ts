@@ -286,6 +286,13 @@ export const Mediamarkt: Store = {
 			series: 'sonyps5de',
 			url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f33747a62a3f43c7f70'
 		},
+    { // ps5 + got
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f33dd5ad028c4d02f09'
+    },
+    /*
     { // ps5 + rift apart innof
       brand: 'sony',
       model: 'ps5 console bundle',
@@ -300,12 +307,6 @@ export const Mediamarkt: Store = {
       url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f3306be4e9f1a947191'
     },
 
-    { // ps5 + got
-      brand: 'sony',
-      model: 'ps5 console bundle',
-      series: 'sonyps5c',
-      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f33dd5ad028c4d02f09'
-    },
     { // ps5 + ds + mm
       brand: 'sony',
       model: 'ps5 console bundle',
@@ -348,6 +349,8 @@ export const Mediamarkt: Store = {
       series: 'sonyps5de',
       url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f33ef880922ab532ea5'
     },
+
+     */
 
 		{
 			brand: 'microsoft',
