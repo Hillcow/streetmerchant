@@ -21,7 +21,7 @@ export const Mediamarkt: Store = {
 		outOfStock: [
 			{
 				container: '#root',
-				text: ['Dieser Artikel ist aktuell nicht verfügbar.']
+				text: ['Dieser Artikel ist aktuell nicht verfügbar']
 			},
 			{
 				container: '#root',
@@ -41,7 +41,7 @@ export const Mediamarkt: Store = {
 			},
       {
         container: '#root',
-        text: ['Leider haben wir für diese Kategorie keine passenden Produkte gefunden.']
+        text: ['Leider haben wir für diese Kategorie keine passenden Produkte gefunden']
       }
 		]
 	},
@@ -278,22 +278,33 @@ export const Mediamarkt: Store = {
 			brand: 'sony',
 			model: 'ps5 console',
 			series: 'sonyps5c',
-			url: 'http://bit.ly/MediaMarktPS5'
+			url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f3325a6beb3ebda5194'
 		},
 		{
 			brand: 'sony',
 			model: 'ps5 digital',
 			series: 'sonyps5de',
-			url: 'https://bit.ly/301q9UU'
+			url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f33747a62a3f43c7f70'
 		},
-
-    /*
+    { // ps5 + rift apart innof
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f333fe7c4d5495c44d7'
+    },
 
     { // ps5 + mm
       brand: 'sony',
       model: 'ps5 console bundle',
       series: 'sonyps5c',
       url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f3306be4e9f1a947191'
+    },
+
+    { // ps5 + got
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f33dd5ad028c4d02f09'
     },
     { // ps5 + ds + mm
       brand: 'sony',
@@ -337,7 +348,6 @@ export const Mediamarkt: Store = {
       series: 'sonyps5de',
       url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f33ef880922ab532ea5'
     },
-     */
 
 		{
 			brand: 'microsoft',
@@ -349,7 +359,7 @@ export const Mediamarkt: Store = {
 			brand: 'microsoft',
 			model: 'xbox series s',
 			series: 'xboxss',
-			url: 'https://www.mediamarkt.de/de/product/-2677359.html'
+			url: 'https://www.mediamarkt.de/de/product/-2677359.html?tag=1'
 		},
 	],
 	name: 'mediamarkt'

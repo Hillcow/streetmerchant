@@ -5,13 +5,9 @@ export const Medimax: Store = {
   labels: {
     inStock: [
       {
-        container: '.product-cart-add-to-cart-button',
-        text: ['In den Warenkorb']
+        container: '.cmsproductlist-name-link',
+        text: ['PlayStation 5 825GB SSD']
       },
-      {
-        container: '.stock-message',
-        text: ['Lieferung in']
-      }
     ],
     maxPrice: {
       container: '.priceOfProduct',
@@ -33,6 +29,25 @@ export const Medimax: Store = {
       brand: 'sony',
       model: 'ps5 console',
       series: 'sonyps5c',
+      url: 'https://www.medimax.de/c/859/computer-gaming/spielekonsolen-spiele/playstation?sort=price-desc&ref=Foraum&q=%3Arelevance',
+      labels: {
+        inStock: [
+            {
+            container: '.stock-status-message',
+            text: ['liefer']
+          },
+          {
+            container: 'a.cmsproductlist-description-link',
+            text: ['spielekonsole']
+          },
+        ]
+      },
+    },
+    /*
+    {
+      brand: 'sony',
+      model: 'ps5 console',
+      series: 'sonyps5c',
       url: 'https://www.medimax.de/p/1315336/play-station-5-825gb-ssd'
     },
     {
@@ -48,7 +63,7 @@ export const Medimax: Store = {
       series: 'sonyps5c',
       url:
         'https://www.medimax.de/p/1343017/playstation-5-825gb-ssd-ratchet-clank-rift'
-    }
+    }*/
   ],
   name: 'medimax'
 };

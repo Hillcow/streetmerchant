@@ -16,10 +16,10 @@ import {sendTwitchMessage} from './twitch';
 import {updateRedis} from './redis';
 import {sendForaumNotification} from './foraum';
 
-export function sendNotification(link: Link, store: Store) {
+export function sendNotification(link: Link, store: Store, base64image?: String) {
 	// Priority
 	playSound();
-	sendForaumNotification(link, store);
+	sendForaumNotification(link, store, base64image);
 	sendDiscordMessage(link, store);
 	sendDesktopNotification(link, store);
 	sendEmail(link, store);

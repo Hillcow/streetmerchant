@@ -205,16 +205,22 @@ export const Saturn: Store = {
 			brand: 'sony',
 			model: 'ps5 console',
 			series: 'sonyps5c',
-			url: 'http://bit.ly/SaturnPS5'
+			url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b360fc64fce10d7c2d'
 		},
 		{
 			brand: 'sony',
 			model: 'ps5 digital',
 			series: 'sonyps5de',
-				url: 'https://bit.ly/35ZvzDD'
+      url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b33b82da63f6974f80'
 		},
+    { // ps5 + rift apart innof
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b321260868445ee01f'
+    },
 
-    /*
+
     { // ps5 + got
       brand: 'sony',
       model: 'ps5 console bundle',
@@ -222,7 +228,7 @@ export const Saturn: Store = {
       url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b3daac5178a6816f1f'
     },
 
-    /*
+
     { // ps5 + mm
       brand: 'sony',
       model: 'ps5 console bundle',
@@ -240,12 +246,6 @@ export const Saturn: Store = {
       model: 'ps5 console bundle',
       series: 'sonyps5c',
       url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b37c2891223060364b'
-    },
-    { // ps5 + rift apart innof
-      brand: 'sony',
-      model: 'ps5 console bundle',
-      series: 'sonyps5c',
-      url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b321260868445ee01f'
     },
     { // ps5 + returnal
       brand: 'sony',
@@ -271,7 +271,6 @@ export const Saturn: Store = {
       series: 'sonyps5de',
       url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b3c360c62863c0dd60'
     },
-     */
 
 		{
 			brand: 'microsoft',

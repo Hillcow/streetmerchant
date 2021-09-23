@@ -299,8 +299,6 @@ async function lookupCard(
 				: link.openCartAction(browser));
 		}
 
-		sendNotification(link, store);
-
 		if (config.page.inStockWaitTime) {
 			inStock[link.url] = true;
 
@@ -309,12 +307,18 @@ async function lookupCard(
 			}, 1000 * config.page.inStockWaitTime);
 		}
 
+		let base64image
 		if (config.page.screenshot) {
-			logger.debug('ℹ saving screenshot');
-
 			link.screenshot = `success-${Date.now()}.png`;
-			await page.screenshot({path: link.screenshot});
+      base64image = await page.screenshot({ encoding: "base64" })
 		}
+
+    sendNotification(link, store, base64image);
+
+    if (config.page.screenshot) {
+      logger.debug('ℹ saving screenshot');
+      await page.screenshot({ path: link.screenshot })
+    }
 	}
 
 	return statusCode;
