@@ -543,22 +543,21 @@ export const Computeruniverse: Store = {
 			url:
 				'https://www.computeruniverse.net/de/amd-ryzen-9-5950x-box-ohne-kuehler'
 		},
-		{
-			brand: 'sony',
-			model: 'ps5 console',
-			series: 'sonyps5c',
-			url:
-				'https://tidd.ly/38ODC6Y',
+    { // ps5 konsolen kategorie
+      brand: 'sony',
+      model: 'ps5 console',
+      series: 'sonyps5de',
+      url:
+        'https://tidd.ly/38ODC6Y',
       labels: {
         inStock: {
-          container: '.product-stock__delivery-text',
+          container: '.at__product__add-to-basket',
           text: [
-            'auf Lager und sofort lieferbar',
-            'Kurzfristig verfügbar',
+            'in den warenkorb',
           ]
         },
       },
-		},
+    },
     /*
     {
 			brand: 'sony',
