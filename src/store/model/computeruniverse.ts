@@ -2,24 +2,7 @@ import {Store} from './store';
 
 export const Computeruniverse: Store = {
 	currency: '€',
-	labels: {
-		inStock: {
-			container: '.product-stock',
-			text: [
-				'bestellartikel',
-				'auf lager und sofort lieferbar',
-				'kurzfristig verfügbar'
-			]
-		},
-		maxPrice: {
-			container: '.product-price',
-			euroFormat: true
-		},
-		outOfStock: {
-			container: '.product-stock',
-			text: ['nicht verfügbar']
-		}
-	},
+	labels: {},
 	links: [
 		{
 			brand: 'test:brand',
@@ -565,6 +548,23 @@ export const Computeruniverse: Store = {
 			model: 'ps5 console',
 			series: 'sonyps5c',
 			url:
+				'https://tidd.ly/38ODC6Y',
+      labels: {
+        inStock: {
+          container: '.product-stock__delivery-text',
+          text: [
+            'auf Lager und sofort lieferbar',
+            'Kurzfristig verfügbar',
+          ]
+        },
+      },
+		},
+    /*
+    {
+			brand: 'sony',
+			model: 'ps5 console',
+			series: 'sonyps5c',
+			url:
 				'https://tidd.ly/3iSfTqh'
 		},
 		{
@@ -580,11 +580,34 @@ export const Computeruniverse: Store = {
       series: 'sonyps5c',
       url: 'https://tidd.ly/3jkkwKi'
     },
+    { // ps5 DE + 12monate ps plus
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://tidd.ly/39V4Ed4'
+    },*/
     {
       brand: 'microsoft',
       model: 'xbox series x',
       series: 'xboxsx',
-      url: 'https://tidd.ly/3nPjgAW'
+      url: 'https://tidd.ly/3nPjgAW',
+      labels: {
+        inStock: {
+          container: '.product-stock__delivery-text',
+          text: [
+            'auf Lager und sofort lieferbar',
+            'Kurzfristig verfügbar',
+          ]
+        },
+        maxPrice: {
+          container: '.price',
+          euroFormat: true
+        },
+        outOfStock: {
+          container: '.product-stock',
+          text: ['nicht verfügbar']
+        }
+      },
     },
 	],
 	name: 'computeruniverse'
