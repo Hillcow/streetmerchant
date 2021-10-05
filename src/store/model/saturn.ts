@@ -12,37 +12,6 @@ export const Saturn: Store = {
 			container: 'span[font-family="price"]',
 			euroFormat: false
 		},
-    inStock:
-      {
-        container: '#pdp-add-to-cart-button',
-        text: ['in den Warenkorb']
-      },
-		outOfStock: [
-			{
-				container: '#root',
-				text: ['Dieser Artikel ist aktuell nicht verfügbar.']
-			},
-			{
-				container: '#root',
-				text: ['Leider keine Lieferung möglich']
-			},
-			{
-				container: '#root',
-				text: ['Nicht verfügbar']
-			},
-			{
-				container: '#root',
-				text: ['Dieser Artikel ist dauerhaft ausverkauft']
-			},
-			{
-				container: '#root',
-				text: ['Dieser Artikel ist bald wieder für Sie verfügbar']
-			},
-      {
-        container: '#root',
-        text: ['Leider haben wir für diese Kategorie keine passenden Produkte gefunden.']
-      }
-		]
 	},
 	links: [
 		{
@@ -201,12 +170,39 @@ export const Saturn: Store = {
 			series: '3090',
 			url: 'https://www.saturn.de/de/product/-2683226.html'
 		},
-		{
+		{ // ps5 console old
 			brand: 'sony',
 			model: 'ps5 console',
 			series: 'sonyps5c',
-			url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b360fc64fce10d7c2d'
+			url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b360fc64fce10d7c2d',
+      labels: {
+        inStock: {
+          container: '#pdp-add-to-cart-button',
+          text: ['in den Warenkorb']
+        },
+        outOfStock: {
+          container: '#root',
+          text: ["Dieser Artikel ist aktuell nicht verfügbar", "Leider keine Lieferung möglich", "Nicht verfügbar", "Dieser Artikel ist dauerhaft ausverkauft", "Dieser Artikel ist bald wieder für Sie verfügbar"]
+        }
+      }
 		},
+    { // ps5 console *new revision*
+      brand: 'sony',
+      model: 'ps5 console',
+      series: 'sonyps5c',
+      url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b3841df084948b6a39',
+      labels: {
+        inStock: {
+          container: '#pdp-add-to-cart-button',
+          text: ['in den Warenkorb']
+        },
+        outOfStock: {
+          container: '#root',
+          text: ["Dieser Artikel ist aktuell nicht verfügbar", "Leider keine Lieferung möglich", "Nicht verfügbar", "Dieser Artikel ist dauerhaft ausverkauft", "Dieser Artikel ist bald wieder für Sie verfügbar"]
+        }
+      }
+    },
+    /*
 		{
 			brand: 'sony',
 			model: 'ps5 digital',
@@ -218,6 +214,26 @@ export const Saturn: Store = {
       model: 'ps5 console bundle',
       series: 'sonyps5c',
       url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b321260868445ee01f'
+    },*/
+
+    { // ps5 bundle overview
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f332c1e11c292e23e15',
+      labels: {
+        inStock: {
+          container: '#root',
+          text: [
+            'mms-delivery-online-availability_PARTIAL_AVAILABLE',
+            'mms-delivery-online-availability_AVAILABLE',
+          ]
+        },
+        outOfStock: {
+          container: '#root',
+          text: ['Leider haben wir für diese Kategorie keine passenden Produkte gefunden.']
+        }
+      },
     },
 
     /*

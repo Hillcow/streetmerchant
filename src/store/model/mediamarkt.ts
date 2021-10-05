@@ -12,38 +12,6 @@ export const Mediamarkt: Store = {
 			container: 'span[font-family="price"]',
 			euroFormat: false
 		},
-		inStock:
-		  {
-        container: '#pdp-add-to-cart-button',
-        text: ['in den Warenkorb']
-		  }
-    ,
-		outOfStock: [
-			{
-				container: '#root',
-				text: ['Dieser Artikel ist aktuell nicht verfügbar']
-			},
-			{
-				container: '#root',
-				text: ['Leider keine Lieferung möglich']
-			},
-			{
-				container: '#root',
-				text: ['Nicht verfügbar']
-			},
-			{
-				container: '#root',
-				text: ['Dieser Artikel ist dauerhaft ausverkauft']
-			},
-			{
-				container: '#root',
-				text: ['Dieser Artikel ist bald wieder für Sie verfügbar']
-			},
-      {
-        container: '#root',
-        text: ['Leider haben wir für diese Kategorie keine passenden Produkte gefunden']
-      }
-		]
 	},
 	links: [
 		{
@@ -274,12 +242,44 @@ export const Mediamarkt: Store = {
 			series: '3090',
 			url: 'https://www.mediamarkt.de/de/product/-2683226.html'
 		},
-		{
+
+		{ // ps5 console old
 			brand: 'sony',
 			model: 'ps5 console',
 			series: 'sonyps5c',
-			url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f3325a6beb3ebda5194'
+			url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f3325a6beb3ebda5194',
+			labels: {
+			  inStock: {
+          container: '#pdp-add-to-cart-button',
+          text: ['in den Warenkorb']
+        },
+        outOfStock: {
+          container: '#root',
+          text: ["Dieser Artikel ist aktuell nicht verfügbar", "Leider keine Lieferung möglich", "Nicht verfügbar", "Dieser Artikel ist dauerhaft ausverkauft", "Dieser Artikel ist bald wieder für Sie verfügbar"]
+        }
+			}
 		},
+
+    { // ps5 console *new revision*
+      brand: 'sony',
+      model: 'ps5 console',
+      series: 'sonyps5c',
+      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f337ca5c715da38efa5',
+      labels: {
+        inStock: {
+          container: '#pdp-add-to-cart-button',
+          text: ['in den Warenkorb']
+        },
+        outOfStock: {
+          container: '#root',
+          text: ["Dieser Artikel ist aktuell nicht verfügbar", "Leider keine Lieferung möglich", "Nicht verfügbar", "Dieser Artikel ist dauerhaft ausverkauft", "Dieser Artikel ist bald wieder für Sie verfügbar"]
+        }
+      }
+    },
+
+
+
+    /*
 		{
 			brand: 'sony',
 			model: 'ps5 digital',
@@ -291,6 +291,27 @@ export const Mediamarkt: Store = {
       model: 'ps5 console bundle',
       series: 'sonyps5c',
       url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f33dd5ad028c4d02f09'
+    },
+
+     */
+    { // ps5 bundle overview
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f332c1e11c292e23e15',
+      labels: {
+        inStock: {
+          container: '#root',
+          text: [
+            'mms-delivery-online-availability_PARTIAL_AVAILABLE',
+            'mms-delivery-online-availability_AVAILABLE',
+          ]
+        },
+        outOfStock: {
+          container: '#root',
+          text: ['Leider haben wir für diese Kategorie keine passenden Produkte gefunden.']
+        }
+      },
     },
     /*
     { // ps5 + rift apart innof
