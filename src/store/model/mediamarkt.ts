@@ -243,6 +243,43 @@ export const Mediamarkt: Store = {
 			url: 'https://www.mediamarkt.de/de/product/-2683226.html'
 		},
 
+    { // // TEST TEST TEST ps5 bundle overview
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'test:series',
+      url: 'https://www.mediamarkt.de/de/category/playstation-635.html',
+      labels: {
+        inStock: {
+          container: '#root',
+          text: [
+            'mms-delivery-online-availability_PARTIAL_AVAILABLE',
+            'mms-delivery-online-availability_AVAILABLE',
+          ]
+        },
+        outOfStock: {
+          container: '#root',
+          text: ['Leider haben wir für diese Kategorie keine passenden Produkte gefunden.']
+        }
+      },
+    },
+
+    { // TEST TEST TEST ps5 console old
+      brand: 'sony',
+      model: 'ps5 console',
+      series: 'test:series',
+      url: 'https://www.mediamarkt.de/de/product/_fifa-22-sport-playstation-4-2750640.html',
+      labels: {
+        inStock: {
+          container: '#pdp-add-to-cart-button',
+          text: ['in den Warenkorb']
+        },
+        outOfStock: {
+          container: '#root',
+          text: ["Dieser Artikel ist aktuell nicht verfügbar", "Leider keine Lieferung möglich", "Nicht verfügbar", "Dieser Artikel ist dauerhaft ausverkauft", "Dieser Artikel ist bald wieder für Sie verfügbar"]
+        }
+      }
+    },
+
 		{ // ps5 console old
 			brand: 'sony',
 			model: 'ps5 console',
