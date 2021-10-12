@@ -332,7 +332,17 @@ export const Saturn: Store = {
 			brand: 'microsoft',
 			model: 'xbox series x',
 			series: 'xboxsx',
-			url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b30b7d7284317e0c48'
+			url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b30b7d7284317e0c48',
+      labels: {
+        inStock: {
+          container: '#pdp-add-to-cart-button',
+          text: ['in den Warenkorb']
+        },
+        outOfStock: {
+          container: '#root',
+          text: ["Dieser Artikel ist aktuell nicht verfügbar", "Leider keine Lieferung möglich", "Nicht verfügbar", "Dieser Artikel ist dauerhaft ausverkauft", "Dieser Artikel ist bald wieder für Sie verfügbar"]
+        }
+      }
 		},
 		{
 			brand: 'microsoft',

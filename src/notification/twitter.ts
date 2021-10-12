@@ -13,7 +13,12 @@ const client = new Twitter({
 });
 
 export function sendTweet(link: Link, store: Store) {
-	if (
+  let currentDate = new Date();
+  let time = currentDate.getHours() + ":"
+    + currentDate.getMinutes() + ":"
+    + currentDate.getSeconds();
+
+  if (
 		twitter.accessTokenKey &&
 		twitter.accessTokenSecret &&
 		twitter.consumerKey &&
@@ -24,7 +29,7 @@ export function sendTweet(link: Link, store: Store) {
 		let status = `${Print.inStock(link, store)}\n\n➡️ Hier bestellen: ${link.url}*`;
 
 		if (twitter.tweetTags) {
-			status += `\n\n${twitter.tweetTags}`;
+			status += `\n\n🕘 ${time}\n${twitter.tweetTags}`;
 		}
 
 		client.post('statuses/update', {status}, (error) => {
