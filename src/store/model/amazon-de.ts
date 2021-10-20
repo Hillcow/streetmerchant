@@ -41,18 +41,6 @@ export const AmazonDe: Store = {
       series: 'sonyps5c',
       url: 'https://www.amazon.de/dp/B08H93ZRK9?tag=o5-21'
     },
-    { // neues modell
-      brand: 'sony',
-      labels: {
-        inStock: {
-          container: '#productTitle',
-          text: ['PS5']
-        }
-      },
-      model: 'ps5 console',
-      series: 'sonyps5c',
-      url: 'https://amzn.to/3zJt98b'
-    },
     {
       brand: 'sony',
       cartUrl:
@@ -67,12 +55,30 @@ export const AmazonDe: Store = {
       series: 'sonyps5de',
       url: 'https://www.amazon.de/dp/B08H98GVK8?tag=o5-21'
     },
+    /*
     {
       brand: 'sony',
       model: 'ps5 console bundle',
       series: 'sonyps5c',
       url: 'https://amzn.to/3h3I7hc'
     },
+    
+     */
+    /*
+    { // neues modell
+      brand: 'sony',
+      labels: {
+        inStock: {
+          container: '#productTitle',
+          text: ['PS5']
+        }
+      },
+      model: 'ps5 console',
+      series: 'sonyps5c',
+      url: 'https://amzn.to/3zJt98b'
+    },
+
+     */
     {
       brand: 'microsoft',
       model: 'xbox series x',

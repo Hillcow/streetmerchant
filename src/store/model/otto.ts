@@ -48,42 +48,20 @@ export const Otto: Store = {
 			url:
 				'https://www.otto.de/p/playstation-5-medienfernbedienung-1170617135#variationId=1170617136'
 		},
-		{
-			brand: 'sony',
-			labels: {
-				inStock: {
-					container:
-						'.js_shortInfo__variationName.prd_shortInfo__variationName',
-					text: ['konsole']
-				}
-			},
-			model: 'ps5 console',
-			series: 'sonyps5c',
-			url:
-				'https://www.otto.de/p/playstation-5-1136008456/#variationId=1136008459'
-		},
-		{
-			brand: 'sony',
-			labels: {
-				inStock: {
-					container:
-						'.js_shortInfo__variationName.prd_shortInfo__variationName',
-					text: ['konsole']
-				}
-			},
-			model: 'ps5 digital',
-			series: 'sonyps5de',
-			url:
-				'https://www.otto.de/p/playstation-5-digital-edition-1162264145/#variationId=1162266935'
-		},
     {
       brand: 'sony',
       labels: {
-        inStock: {
-          container:
-            '.js_shortInfo__variationName.prd_shortInfo__variationName',
-          text: ['konsole']
-        }
+        inStock: [
+          {
+            container:
+              '.promo_articlelist--container',
+            text: ['konsole']
+          },
+          {
+            container:
+              '.promo_articlelist--container',
+            text: ['playstation 5, inkl.']
+          }]
       },
       model: 'ps5 console bundle',
       series: 'sonyps5c',
