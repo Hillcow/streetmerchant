@@ -257,7 +257,7 @@ export const Saturn: Store = {
       brand: 'sony',
       model: 'ps5 console bundle',
       series: 'sonyps5c',
-      url: 'https://pvn.mediamarkt.de/trck/eclick/57fce76616197f332c1e11c292e23e15',
+      url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b31efeaec36c34698c',
       labels: {
         inStock: {
           container: '#root',
