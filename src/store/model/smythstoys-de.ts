@@ -25,7 +25,7 @@ export const SmythsToysDE: Store = {
 			model: 'ps5 console',
 			series: 'sonyps5c',
 			url:
-				'https://www.smythstoys.com/de/de-de/gaming/playstation/playstation-5-konsole-und-zubeh%c3%b6r/sony-playstation-5-konsole/p/195650'
+				'https://www.smythstoys.com/de/de-de/gaming/playstation/playstation-5-konsole-und-zubeh%c3%b6r/sony-playstation-ps5-konsole/p/195650'
 		},
     /*
 		{

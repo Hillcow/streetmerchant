@@ -62,7 +62,7 @@ export const AmazonDe: Store = {
       series: 'sonyps5c',
       url: 'https://amzn.to/3h3I7hc'
     },
-    
+
      */
     /*
     { // neues modell
