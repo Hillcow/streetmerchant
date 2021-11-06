@@ -54,6 +54,8 @@ export async function sendForaumNotification(link: Link, store: Store, base64ima
 	let key = config.notifications.foraum.key
 	let console = config.notifications.foraum.console
   let screenshot = null
+  let title = null
+  let price = link.price ?? null
   if (link.screenshot && base64image) {
     logger.info("Screenshot available: " + link.screenshot);
     screenshot = base64image
@@ -67,7 +69,9 @@ export async function sendForaumNotification(link: Link, store: Store, base64ima
 		key,
 		console,
 		series,
-    screenshot
+    screenshot,
+    title,
+    price
 	})
 		.then(function (response: any) {
 			logger.info(response);

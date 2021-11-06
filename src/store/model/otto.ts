@@ -69,6 +69,20 @@ export const Otto: Store = {
     },
     {
       brand: 'microsoft',
+      labels: {
+        inStock: [
+          {
+            container:
+              '.promo_articlelist--container',
+            text: ['xbox series x, inkl.']
+          }]
+      },
+      model: 'xbox series x',
+      series: 'xboxsx',
+      url: 'https://www.otto.de/technik/gaming/xbox/xbox-series-x/'
+    },
+    {
+      brand: 'microsoft',
       model: 'xbox series x',
       series: 'xboxsx',
       url:
