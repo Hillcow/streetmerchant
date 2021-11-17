@@ -38,16 +38,15 @@ export const Muller: Store = {
 			brand: 'sony',
 			model: 'ps5 console',
 			series: 'sonyps5c',
-			url:
-				'https://www.mueller.de/p/playstation-5-konsole-2675305/'
+			url: 'https://www.mueller.de/p/playstation-5-konsole-2675305/'
 		},
-		{
+    {
 			brand: 'sony',
-			model: 'ps5 digital',
+			model: 'ps5 console',
 			series: 'sonyps5de',
 			url:
 				'https://www.mueller.de/p/playstation-5-konsole-digital-edition-2675308/'
-		}
+		},
 	],
 	name: 'muller'
 };

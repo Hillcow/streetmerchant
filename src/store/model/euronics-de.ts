@@ -49,19 +49,20 @@ export const EuronicsDE: Store = {
 			url:
 				'https://tidd.ly/2IKk75H'
 		},
+    {
+      brand: 'sony',
+      model: 'ps5 console',
+      series: 'sonyps5c',
+      url:
+        'https://tidd.ly/2Jyg3Gb'
+    },
+    /*
 		{
 			brand: 'sony',
 			model: 'ps5 digital',
 			series: 'sonyps5de',
 			url:
 				'https://tidd.ly/3myxsg4'
-		},
-		{
-			brand: 'sony',
-			model: 'ps5 console',
-			series: 'sonyps5c',
-			url:
-				'https://tidd.ly/2Jyg3Gb'
 		},
     { // rift apart
 			brand: 'sony',
@@ -76,7 +77,7 @@ export const EuronicsDE: Store = {
       series: 'sonyps5c',
       url:
         'https://tidd.ly/2W3FSna'
-    },
+    },*/
 	],
 	name: 'euronics-de'
 };

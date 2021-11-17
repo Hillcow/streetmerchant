@@ -135,6 +135,7 @@ export const Cyberport: Store = {
       series: 'xboxsx',
 			url: 'https://partner.cyberport.de/trck/eclick/5abbb2ba72408e5b97f396993289618a1f1982f94b0cdec5'
 		},
+    /*
     { // Microsoft Xbox Series X 1TB + Xbox Wireless Controller Pulse Red für 555€
       brand: 'microsoft',
       model: 'xbox series x',
@@ -146,6 +147,12 @@ export const Cyberport: Store = {
       model: 'xbox series x',
       series: 'xboxsx',
       url: 'https://tidd.ly/37X3PQ8'
+    },*/
+    { // Microsoft Xbox Series X 1TB + GamePass Ultimate 2 Jahre
+      brand: 'microsoft',
+      model: 'xbox series x',
+      series: 'xboxsx',
+      url: 'https://tidd.ly/3mZGwxq'
     },
     /*
     { // übersicht
