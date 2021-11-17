@@ -11,6 +11,10 @@ export const EuronicsDE: Store = {
       {
         container: 'body',
         text: ['Warteschlange']
+      },
+      {
+        container: '.text-image h1',
+        text: ['Wählen Sie das gewünschte Produkt aus']
       }
 		]
     ,
@@ -18,14 +22,23 @@ export const EuronicsDE: Store = {
 			container: '.price--content',
 			euroFormat: true
 		},
-		outOfStock: {
-			container:
-				'.product--buybox .alert.is--error.is--rounded .alert--content',
-			text: [
-				'Artikel steht derzeit nicht zur Verfügung',
-				'Morgen im Laufe des Morgens und nur online unter'
-			]
-		}
+		outOfStock: [
+      {
+        container:
+          '.product--buybox .alert.is--error.is--rounded .alert--content',
+        text: [
+          'Artikel steht derzeit nicht zur Verfügung',
+          'Morgen im Laufe des Morgens und nur online unter'
+        ]
+		  },
+      {
+        container:
+          'body',
+        text: [
+          'Leider ist das gewünschte Produkt bereits vergriffen'
+        ]
+      },
+    ]
 	},
 	links: [
 		{
@@ -49,12 +62,17 @@ export const EuronicsDE: Store = {
 			url:
 				'https://tidd.ly/2IKk75H'
 		},
+    { // ÜBERSICHT
+      brand: 'sony',
+      model: 'ps5 console',
+      series: 'sonyps5c',
+      url: 'https://tidd.ly/37P0RwK'
+    },
     {
       brand: 'sony',
       model: 'ps5 console',
       series: 'sonyps5c',
-      url:
-        'https://tidd.ly/2Jyg3Gb'
+      url: 'https://tidd.ly/3FnYfol'
     },
     /*
 		{
