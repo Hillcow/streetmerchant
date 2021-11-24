@@ -61,7 +61,13 @@ export const Otto: Store = {
             container:
               '.promo_articlelist--container',
             text: ['playstation 5, inkl.']
-          }]
+          }],
+        outOfStock: [
+          {
+            container: 'body',
+            text: ['leider ausverkauft']
+          }
+        ]
       },
       model: 'ps5 console bundle',
       series: 'sonyps5c',

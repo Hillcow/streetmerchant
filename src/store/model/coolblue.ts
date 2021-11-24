@@ -4,24 +4,16 @@ export const Coolblue: Store = {
 	currency: '€',
 	labels: {
 		inStock: {
-			container: '.product-order',
-			text: ['bestel snel', 'morgen in huis']
+			container: '.js-products-component',
+			text: ['/warenkorb', 'Morgen geliefert']
 		},
-		maxPrice: {
-			container: '.js-order-block .sales-price__current',
-			euroFormat: true
-		},
-		outOfStock: {
-			container: '.product-order',
-			text: ['binnenkort leverbaar', 'tijdelijk uitverkocht']
-		}
 	},
 	links: [
 		{
 			brand: 'test:brand',
 			model: 'test:model',
 			series: 'test:series',
-			url: 'https://www.coolblue.nl/product/826844/'
+			url: 'https://prf.hn/click/camref:1011lkPFu/pubref:foraum/destination:https%3A%2F%2Fwww.coolblue.de%2Fkonsolen'
 		},
 		{
 			brand: 'gigabyte',
@@ -118,7 +110,13 @@ export const Coolblue: Store = {
 			model: 'eagle oc',
 			series: '3090',
 			url: 'https://www.coolblue.nl/product/868735/'
-		}
+		},
+    {
+      brand: 'sony',
+      model: 'ps5 console',
+      series: 'sonyps5c',
+      url: 'https://prf.hn/click/camref:1011lkPFu/pubref:foraum/destination:https%3A%2F%2Fwww.coolblue.de%2Fkonsolen%2Fcomputerplatform%3Aplaystation-5'
+    }
 	],
 	name: 'coolblue'
 };
