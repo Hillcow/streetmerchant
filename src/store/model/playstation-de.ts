@@ -12,7 +12,11 @@ export const PlayStationDe: Store = {
 			{
 				container: '.bulleted-info.queue',
 				text: ['Warteschlange']
-			}
+			},
+      {
+        container: 'body',
+        text: ['Queue']
+      },
 		],
 		outOfStock: {
 			container: '.productHero-info .out-stock-wrpr:not(.hide)',
@@ -22,30 +26,28 @@ export const PlayStationDe: Store = {
 	links: [
 		{
 			brand: 'test:brand',
-			itemNumber: '9399506-DE',
+			//itemNumber: '9399506-DE',
 			model: 'test:model',
 			series: 'test:series',
-			url:
-				'https://direct.playstation.com/de-de/buy-accessories/dualsense-wireless-controller'
+			url: 'https://direct.playstation.com/de-de/buy-accessories/dualsense-wireless-controller'
 		},
 		{
 			brand: 'sony',
-			itemNumber: '9709091-DE',
+			//itemNumber: '9709091-DE',
 			model: 'ps5 console',
 			series: 'sonyps5c',
-			url:
-				'https://direct.playstation.com/de-de/buy-consoles/playstation5-console'
+			url: 'https://psdirect-queue.playstation.com/?c=sonyemea&e=sndede1213&t=https%3A%2F%2Fdirect.playstation.com%2Fde-de%2Fbuy-consoles%2Fplaystation5-console&cid=de-DE&l=Vega%20-%20SafetyNet%20-%20Branded%20DE'
 		},
 		{
 			brand: 'sony',
-			itemNumber: '9710196-DE',
+			//itemNumber: '9710196-DE',
 			model: 'ps5 digital',
 			series: 'sonyps5de',
-			url:
-				'https://direct.playstation.com/de-de/buy-consoles/playstation5-digital-edition-console'
+			url: 'https://direct.playstation.com/de-de/buy-consoles/playstation5-digital-edition-console'
 		}
 	],
 	name: 'playstation-de',
+  /*
 	realTimeInventoryLookup: async (itemNumber: string) => {
     const request_url = 'https://api.direct.playstation.com/commercewebservices/ps-direct-de/products/productList?fields=BASIC&productCodes=' +
 			itemNumber;
@@ -59,5 +61,5 @@ export const PlayStationDe: Store = {
 		}
 
 		return false;
-	}
+	}*/
 };

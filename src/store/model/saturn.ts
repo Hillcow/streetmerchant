@@ -12,13 +12,21 @@ export const Saturn: Store = {
 			container: 'span[font-family="price"]',
 			euroFormat: false
 		},
+    inStock: [
+      {
+        container: '#root',
+        text: [
+          "StyledAvailabilityStatusWrapper"
+        ]
+      }
+    ],
 	},
 	links: [
 		{
 			brand: 'test:brand',
 			model: 'test:model',
 			series: 'test:series',
-			url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b31efeaec36c34698c'
+			url: 'https://www.saturn.de/de/product/baker-35mm-rechtwinklig-audio-kabel-aux-kabel-p-89478128.html'
 		},
 		{
 			brand: 'asus',

@@ -5,21 +5,10 @@ export const Spielegrotte: Store = {
 	labels: {
 		inStock: [
 			{
-				container:
-					'html > body > table > tbody > tr > td > div > table > tbody > tr > td > center > table > tbody > tr > td > a.klein > img',
-				text: ['']
+				container: '.alleartikel',
+				text: ['konsole']
 			}
 		],
-		maxPrice: {
-			container:
-				'html > body > table > tbody > tr > td > div > table > tbody > tr > td > center > table > tbody > tr > td > font > b',
-			euroFormat: true
-		},
-		outOfStock: {
-			container:
-				'html > body > table > tbody > tr > td > div > table > tbody > tr > td > center > font > b',
-			text: ['Dieses Produkt ist leider neu nicht mehr verfügbar']
-		}
 	},
 	links: [
 		{
@@ -30,16 +19,10 @@ export const Spielegrotte: Store = {
 		},
 		{
 			brand: 'sony',
-			model: 'ps5 console',
+			model: 'ps5 console bundle',
 			series: 'sonyps5c',
-			url: 'https://www.spielegrotte.de/index.php?kat=100100&anr=56005'
+			url: 'https://spielegrotte.de/index.php?kat=100100&subkat=260'
 		},
-		{
-			brand: 'sony',
-			model: 'ps5 digital',
-			series: 'sonyps5de',
-			url: 'https://www.spielegrotte.de/index.php?kat=100100&anr=56006'
-		}
 	],
 	name: 'spielegrotte'
 };

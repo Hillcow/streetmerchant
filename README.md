@@ -47,4 +47,4 @@ cd streetmerchant && npm i && npm run start
 
 For more information and customization, visit [jef.codes/streetmerchant/getting-started](https://jef.codes/streetmerchant/getting-started).
 
-to build docker image run `npm run build && docker buildx build . --platform linux/amd64 --push -t fabianr/ps5bot`
+to build docker image on M1 Mac (!) run: `npm run build && docker buildx build . --platform linux/amd64 --push -t fabianr/ps5bot && docker build . -t fabianr/ps5bot_m1 && docker push fabianr/ps5bot_m1`

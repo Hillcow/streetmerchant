@@ -12,13 +12,21 @@ export const Mediamarkt: Store = {
 			container: 'span[font-family="price"]',
 			euroFormat: false
 		},
+    inStock: [
+      {
+        container: '#root',
+        text: [
+          "StyledAvailabilityStatusWrapper"
+        ]
+      }
+    ],
 	},
 	links: [
 		{
 			brand: 'test:brand',
 			model: 'test:model',
 			series: 'test:series',
-			url: 'https://bit.ly/2JE31XR'
+			url: 'https://www.mediamarkt.de/de/product/_hama-0-9-m-2030950.html'
 		},
 		{
 			brand: 'asus',
