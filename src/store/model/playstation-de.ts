@@ -38,13 +38,14 @@ export const PlayStationDe: Store = {
 			series: 'sonyps5c',
 			url: 'https://direct.playstation.com/de-de/buy-consoles/playstation5-console'
 		},
+    /*
 		{
 			brand: 'sony',
 			itemNumber: '9710196-DE',
 			model: 'ps5 digital',
 			series: 'sonyps5de',
 			url: 'https://direct.playstation.com/de-de/buy-consoles/playstation5-digital-edition-console'
-		}
+		}*/
 	],
 	name: 'playstation-de',
 
