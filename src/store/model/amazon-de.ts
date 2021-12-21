@@ -11,10 +11,16 @@ export const AmazonDe: Store = {
         'geben sie die zeichen unten ein'
       ]
     },
-    inStock: {
-      container: '#merchant-info',
-      text: ['Verkauf und Versand durch Amazon.']
-    },
+    inStock: [
+      {
+        container: '#merchant-info',
+        text: ['Verkauf und Versand durch Amazon.']
+      },
+      {
+        container: '#merchant-info',
+        text: ['Amazon Warehouse']
+      }
+    ],
     maxPrice: {
       container: '#priceblock_ourprice',
       euroFormat: true
