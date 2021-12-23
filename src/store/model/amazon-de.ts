@@ -15,10 +15,6 @@ export const AmazonDe: Store = {
       {
         container: '#merchant-info',
         text: ['Verkauf und Versand durch Amazon.']
-      },
-      {
-        container: '#merchant-info',
-        text: ['Amazon Warehouse']
       }
     ],
     maxPrice: {
