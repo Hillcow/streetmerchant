@@ -60,19 +60,19 @@ export const EuronicsDE: Store = {
 			model: 'xbox series x',
 			series: 'xboxsx',
 			url:
-				'https://tidd.ly/2IKk75H'
+				'https://www.euronics.de/spiele-und-konsolen-film-und-musik/spiele-und-konsolen/xbox-series-x/spielekonsole/xbox-series-x-1tb-konsole-4061856838045'
 		},
     { // ÜBERSICHT
       brand: 'sony',
       model: 'ps5 console',
       series: 'sonyps5c',
-      url: 'https://tidd.ly/37P0RwK'
+      url: 'https://www.euronics.de/spiele-und-konsolen-film-und-musik/spiele-und-konsolen/playstation-5/spielekonsole/'
     },
     {
       brand: 'sony',
       model: 'ps5 console',
       series: 'sonyps5c',
-      url: 'https://tidd.ly/3FnYfol'
+      url: 'https://www.euronics.de/spiele-und-konsolen-film-und-musik/spiele-und-konsolen/playstation-5/spielekonsole/playstation-5-mit-laufwerk-konsole-4065327217124'
     },
     /*
 		{
