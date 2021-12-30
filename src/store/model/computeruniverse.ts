@@ -2,7 +2,18 @@ import {Store} from './store';
 
 export const Computeruniverse: Store = {
 	currency: '€',
-	labels: {},
+	labels: {
+    outOfStock: [
+      {
+        container: '.product-stock',
+        text: ['product-stock__low-stock']
+      },
+      {
+        container: '.product-stock',
+        text: ['nur noch']
+      },
+    ]
+  },
 	links: [
 		{
 			brand: 'test:brand',
