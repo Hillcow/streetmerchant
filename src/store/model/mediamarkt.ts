@@ -339,6 +339,7 @@ export const Mediamarkt: Store = {
     },
 
      */
+    /*
     { // ps5 bundle overview
       brand: 'sony',
       model: 'ps5 console bundle',
@@ -358,6 +359,8 @@ export const Mediamarkt: Store = {
         }
       },
     },
+
+     */
     /*
     { // ps5 + rift apart innof
       brand: 'sony',

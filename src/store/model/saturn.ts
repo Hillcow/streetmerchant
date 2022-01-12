@@ -261,6 +261,7 @@ export const Saturn: Store = {
       url: 'https://pvn.saturn.de/trck/eclick/a542e4a5159a90b321260868445ee01f'
     },*/
 
+    /*
     { // ps5 bundle overview
       brand: 'sony',
       model: 'ps5 console bundle',
@@ -280,7 +281,6 @@ export const Saturn: Store = {
         }
       },
     },
-
     /*
 
     { // ps5 + got
