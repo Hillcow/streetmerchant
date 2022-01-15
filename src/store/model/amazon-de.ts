@@ -29,6 +29,20 @@ export const AmazonDe: Store = {
     ]
   },
   links: [
+    { // horizon forbidden west bundle
+      brand: 'sony',
+      cartUrl:
+        'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B09QG2JZYS&Quantity.1=1&tag=o5-21',
+      labels: {
+        inStock: {
+          container: '#productTitle',
+          text: ['sony playstation 5']
+        }
+      },
+      model: 'ps5 console',
+      series: 'sonyps5c',
+      url: 'https://amzn.to/3rliz4p'
+    },
     {
       brand: 'sony',
       cartUrl:
