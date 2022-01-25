@@ -15,7 +15,7 @@ export const PlayStationDe: Store = {
 			},
       {
         container: 'body',
-        text: ['Queue']
+        text: ['Warteschlange']
       },
 		],
 		outOfStock: {

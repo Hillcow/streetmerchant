@@ -231,6 +231,7 @@ export const Saturn: Store = {
         }
       }
 		},
+
     { // ps5 console *new revision*
       brand: 'sony',
       model: 'ps5 console',

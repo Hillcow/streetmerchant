@@ -25,6 +25,9 @@ import open from 'open';
 import {processBackoffDelay} from './model/helpers/backoff';
 import {sendNotification} from '../notification';
 import useProxy from '@doridian/puppeteer-page-proxy';
+import axios from "axios";
+import {red} from "chalk";
+const { http, https } = require('follow-redirects');
 
 const inStock: Record<string, boolean> = {};
 
@@ -269,6 +272,33 @@ async function lookupCard(
 	link: Link
 ): Promise<number> {
 	const givenWaitFor = store.waitUntil ? store.waitUntil : 'networkidle0';
+
+
+
+  if (store.name.includes("playstation")) {
+    // @ts-ignore
+    await axios({
+      method: 'GET',
+      url: link.url,
+      params: {
+      }
+    })
+      .then((response) => {
+        let redirect = response.request._redirectable._options.href
+        if (redirect && redirect.includes("psdirect-queue")) {
+          console.log("found redirect: " + redirect)
+          link.url = redirect
+        } else if (redirect) {
+
+        }
+      })
+      .catch(error => {
+        console.log(error)
+      });
+  }
+
+
+
 	const response: Response | null = await page.goto(link.url, {
 		waitUntil: givenWaitFor
 	});
