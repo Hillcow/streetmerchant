@@ -1,6 +1,6 @@
 import {Store} from './store';
 
-export const Libro: Store = {
+export const LibroAt: Store = {
   backoffStatusCodes: [403, 429, 503],
   currency: '€',
   labels: {
@@ -29,5 +29,5 @@ export const Libro: Store = {
       url: 'https://tinyurl.com/yxzydtqr'
     },
   ],
-  name: 'libro'
+  name: 'libro-at'
 };
