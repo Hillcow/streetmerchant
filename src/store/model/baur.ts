@@ -6,7 +6,7 @@ export const Baur: Store = {
 		inStock: [
 			{
 				container:
-					'body',
+					'button.inform-add-to-basket',
 				text: ['In den Warenkorb legen']
 			},
 		],
