@@ -34,6 +34,7 @@ export const Muller: Store = {
 			url:
 				'https://www.mueller.de/p/alpecin-coffein-shampoo-c1-fuer-mehr-haar-568613/'
 		},
+    /*
 		{
 			brand: 'sony',
 			model: 'ps5 console',
@@ -46,7 +47,47 @@ export const Muller: Store = {
 			series: 'sonyps5de',
 			url:
 				'https://www.mueller.de/p/playstation-5-konsole-digital-edition-2675308/'
+		},*/
+    {
+			brand: 'sony',
+			model: 'ps5 console',
+			series: 'sonyps5de',
+			url:
+				'https://www.mueller.de/search/?q=Ps5&sortBy=pricedesc',
+      labels: {
+        inStock: [
+            {
+            container: '.mu-product-list__items:first-child div.mu-product-tile__name',
+            text: ['playstation 5 konsole']
+            },
+            {
+              container: '.mu-product-list__items:first-child div.mu-product-tile__name',
+              text: ['playstation 5 konsole']
+            },
+          ],
+        maxPrice: {
+          container: '.mu-product-list__items:first-child span.mu-product-tile__price',
+          euroFormat: true
+        },
+      },
 		},
+    {
+      brand: 'sony',
+      model: 'ps5 console',
+      series: 'test:series',
+      url:
+        'https://www.mueller.de/search/?q=Ps5&sortBy=pricedesc',
+      labels: {
+        inStock: {
+          container: '.mu-product-list__items:first-child div.mu-product-tile__name',
+          text: ['Wireless-Controller']
+        },
+        maxPrice: {
+          container: '.mu-product-list__items:first-child span.mu-product-tile__price',
+          euroFormat: true
+        },
+      },
+    },
 	],
 	name: 'muller'
 };
