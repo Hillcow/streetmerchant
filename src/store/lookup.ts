@@ -298,8 +298,9 @@ async function lookupCard(
   }
 
 
+  let urlToCheck = link.scrapeUrl ? link.scrapeUrl : link.url;
 
-	const response: Response | null = await page.goto(link.url, {
+	const response: Response | null = await page.goto(urlToCheck, {
 		waitUntil: givenWaitFor
 	});
 

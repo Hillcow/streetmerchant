@@ -11,68 +11,54 @@ export const AmazonDe: Store = {
         'geben sie die zeichen unten ein'
       ]
     },
+    maxPrice: {
+      container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-price span.a-offscreen:first-of-type',
+      euroFormat: true
+    },
     inStock: [
       {
         container: '#merchant-info',
         text: ['Verkauf und Versand durch Amazon.']
+      },
+      {
+        container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy a:first-of-type',
+        text: ['amazon']
       }
     ],
-    maxPrice: {
-      container: '#priceblock_ourprice',
-      euroFormat: true
-    },
     outOfStock: [
       {
-        container: '#availability',
-        text: ['Derzeit nicht verfügbar']
+        container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy a:first-of-type',
+        text: ['warehouse']
       }
     ]
   },
   links: [
     { // horizon forbidden west bundle
       brand: 'sony',
-      cartUrl:
-        'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B09QG2JZYS&Quantity.1=1&tag=o5-21',
-      labels: {
-        inStock: {
-          container: '#productTitle',
-          text: ['sony playstation 5']
-        }
-      },
       model: 'ps5 console',
       series: 'sonyps5c',
-      url: 'https://amzn.to/3rliz4p'
+      url: 'https://www.amazon.de/dp/B09QG2JZYS?tag=foraumbot-21&ref=foraum&language=de_DE&aod=1',
+      cartUrl: 'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B09QG2JZYS&Quantity.1=1&tag=foraumbot-21',
+      scrapeUrl: 'https://www.amazon.de/gp/aod/ajax?asin=B09QG2JZYS',
     },
-    {
+    { // ps5 disc
       brand: 'sony',
-      cartUrl:
-        'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B08H93ZRK9&Quantity.1=1&tag=o5-21',
-      labels: {
-        inStock: {
-          container: '#productTitle',
-          text: ['sony playstation 5']
-        }
-      },
       model: 'ps5 console',
       series: 'sonyps5c',
-      url: 'https://www.amazon.de/dp/B08H93ZRK9?tag=o5-21'
+      url: 'https://www.amazon.de/dp/B08H93ZRK9?tag=foraumbot-21&ref=foraum&language=de_DE&aod=1',
+      cartUrl: 'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B08H93ZRK9&Quantity.1=1&tag=foraumbot-21',
+      scrapeUrl: 'https://www.amazon.de/gp/aod/ajax?asin=B08H93ZRK9',
     },
-    {
+    { // ps5 digital
       brand: 'sony',
-      cartUrl:
-        'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B08H98GVK8&Quantity.1=1&tag=o5-21',
-      labels: {
-        inStock: {
-          container: '#productTitle',
-          text: ['sony playstation 5']
-        }
-      },
-      model: 'ps5 digital',
-      series: 'sonyps5de',
-      url: 'https://www.amazon.de/dp/B08H98GVK8?tag=o5-21'
+      model: 'ps5 console',
+      series: 'sonyps5c',
+      url: 'https://www.amazon.de/dp/B08H98GVK8?tag=foraumbot-21&ref=foraum&language=de_DE&aod=1',
+      cartUrl: 'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B08H98GVK8&Quantity.1=1&tag=foraumbot-21',
+      scrapeUrl: 'https://www.amazon.de/gp/aod/ajax?asin=B08H98GVK8',
     },
     /*
-    {
+    { // rift apart bundle
       brand: 'sony',
       model: 'ps5 console bundle',
       series: 'sonyps5c',
@@ -95,23 +81,20 @@ export const AmazonDe: Store = {
     },
 
      */
-    {
+    { // xbox series x
       brand: 'microsoft',
       model: 'xbox series x',
       series: 'xboxsx',
-      url: 'https://amzn.to/3uJda6P',
-      labels: {
-        inStock: {
-          container: '#productTitle',
-          text: ['xbox series x']
-        }
-      },
+      url: 'https://www.amazon.de/dp/B08H93ZRLL?tag=foraumbot-21&ref=foraum&language=de_DE&aod=1',
+      cartUrl: 'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B08H93ZRLL&Quantity.1=1&tag=foraumbot-21',
+      scrapeUrl: 'https://www.amazon.de/gp/aod/ajax?asin=B08H93ZRLL',
     },
     {
       brand: 'test:brand',
       model: 'test:model',
       series: 'test:series',
-      url: 'https://amzn.to/3nV9DiC'
+      url: 'https://www.amazon.de/dp/B08QF6F7TD?tag=foraumbot-21&ref=foraum&aod=1',
+      scrapeUrl: 'https://www.amazon.de/gp/aod/ajax?asin=B08QF6F7TD',
     },
   ],
   name: 'amazon-de'

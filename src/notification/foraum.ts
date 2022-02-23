@@ -50,6 +50,7 @@ export async function sendForaumNotification(link: Link, store: Store, base64ima
 
 	let storeName = store.name
 	let url = link.url
+	let cartUrl = link.cartUrl
 	let series = link.series
 	let key = config.notifications.foraum.key
 	let console = config.notifications.foraum.console
@@ -65,6 +66,7 @@ export async function sendForaumNotification(link: Link, store: Store, base64ima
 
 	axios.post(config.notifications.foraum.url, {
 		url,
+    cartUrl,
 		storeName,
 		key,
 		console,

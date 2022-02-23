@@ -163,6 +163,7 @@ export type Link = {
   series: Series;
   screenshot?: string;
   url: string;
+  scrapeUrl?: string;
 };
 
 export type LabelQuery = Element[] | Element | string[];
