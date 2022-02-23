@@ -17,10 +17,6 @@ export const AmazonDe: Store = {
     },
     inStock: [
       {
-        container: '#merchant-info',
-        text: ['Verkauf und Versand durch Amazon.']
-      },
-      {
         container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy a:first-of-type',
         text: ['amazon']
       }
@@ -35,7 +31,7 @@ export const AmazonDe: Store = {
   links: [
     { // horizon forbidden west bundle
       brand: 'sony',
-      model: 'ps5 console',
+      model: 'ps5 console bundle',
       series: 'sonyps5c',
       url: 'https://www.amazon.de/dp/B09QG2JZYS?tag=foraumbot-21&ref=foraum&language=de_DE&aod=1',
       cartUrl: 'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B09QG2JZYS&Quantity.1=1&tag=foraumbot-21',
@@ -52,7 +48,7 @@ export const AmazonDe: Store = {
     { // ps5 digital
       brand: 'sony',
       model: 'ps5 console',
-      series: 'sonyps5c',
+      series: 'sonyps5de',
       url: 'https://www.amazon.de/dp/B08H98GVK8?tag=foraumbot-21&ref=foraum&language=de_DE&aod=1',
       cartUrl: 'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B08H98GVK8&Quantity.1=1&tag=foraumbot-21',
       scrapeUrl: 'https://www.amazon.de/gp/aod/ajax?asin=B08H98GVK8',
