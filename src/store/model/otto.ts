@@ -5,8 +5,7 @@ export const Otto: Store = {
 	labels: {
 		inStock: [
 			{
-				container:
-					'button.prd_ordering__button.p_btn150--1st.js_product_addToBasket',
+				container: 'button.js_product_addToBasket',
 				text: ['In den Warenkorb']
 			},
       {
@@ -73,6 +72,7 @@ export const Otto: Store = {
       series: 'sonyps5c',
       url: 'https://www.otto.de/technik/gaming/playstation/ps5/'
     },
+    /*
     {
       brand: 'microsoft',
       labels: {
@@ -86,7 +86,7 @@ export const Otto: Store = {
       model: 'xbox series x',
       series: 'xboxsx',
       url: 'https://www.otto.de/technik/gaming/xbox/xbox-series-x/'
-    },
+    },*/
     {
       brand: 'microsoft',
       model: 'xbox series x',
