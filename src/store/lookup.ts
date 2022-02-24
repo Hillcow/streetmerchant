@@ -428,7 +428,7 @@ async function lookupCardInStock(store: Store, page: Page, link: Link) {
 	const baseOptions: Selector = {
 		requireVisible: false,
 		selector: store.labels.container ?? 'body',
-		type: 'textContent'
+		type: link.scrapeUrl ? 'innerHTML' : 'textContent'
 	};
 
 	if (store.labels.captcha) {
@@ -485,10 +485,10 @@ async function lookupCardInStock(store: Store, page: Page, link: Link) {
 		const options = {
 			...baseOptions,
 			requireVisible: true,
-			type: 'outerHTML' as const
+      type: link.scrapeUrl ? 'innerHTML' as const : 'outerHTML' as const
 		};
 
-		if (!(await pageIncludesLabels(page, store.labels.inStock, options))) {
+		if (!(await pageIncludesLabels(page, store.labels.inStock, options, true))) {
 			logger.info(Print.outOfStock(link, store, true));
 			return false;
 		}
@@ -498,7 +498,7 @@ async function lookupCardInStock(store: Store, page: Page, link: Link) {
 		const options = {
 			...baseOptions,
 			requireVisible: true,
-			type: 'outerHTML' as const
+			type: link.scrapeUrl ? 'innerHTML' as const : 'outerHTML' as const
 		};
 
 		if (!(await pageIncludesLabels(page, link.labels.inStock, options))) {

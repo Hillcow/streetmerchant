@@ -25,7 +25,7 @@ export const AmazonDe: Store = {
       {
         container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy a:first-of-type',
         text: ['warehouse']
-      }
+      },
     ]
   },
   links: [

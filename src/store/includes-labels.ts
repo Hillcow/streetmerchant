@@ -45,7 +45,8 @@ function getQueryAsElementArray(
 export async function pageIncludesLabels(
 	page: Page,
 	query: LabelQuery,
-	options: Selector
+	options: Selector,
+  debug?: Boolean
 ) {
 	const elementQueries = getQueryAsElementArray(query, options.selector);
 
@@ -59,6 +60,7 @@ export async function pageIncludesLabels(
 			}
 
 			logger.debug(contents);
+      if (debug === true && includesLabels(contents, query.text)) logger.info(contents);
 
 			return includesLabels(contents, query.text);
 		})
