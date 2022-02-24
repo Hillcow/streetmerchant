@@ -10,7 +10,7 @@ export const AmazonUk: Store = {
 		},
     maxPrice: {
       container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-price span.a-offscreen:first-of-type',
-      euroFormat: true
+      euroFormat: false
     },
     inStock: [
       {
@@ -41,6 +41,14 @@ export const AmazonUk: Store = {
       url: 'https://www.amazon.co.uk/dp/B08H97NYGP?tag=foraumbot-uk-21&ref=foraum&aod=1',
       cartUrl: 'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08H97NYGP&Quantity.1=1&tag=foraumbot-uk-21',
       scrapeUrl: 'https://www.amazon.co.uk/gp/aod/ajax?asin=B08H97NYGP',
+    },
+    { // series x
+      brand: 'microsoft',
+      model: 'xbox series x',
+      series: 'xboxsx',
+      url: 'https://www.amazon.it/dp/B08H93GKNJ?tag=foraumbot-it-21&ref=foraum&aod=1',
+      cartUrl: 'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08H93GKNJ&Quantity.1=1&tag=foraumbot-it-21',
+      scrapeUrl: 'https://www.amazon.it/gp/aod/ajax?asin=B08H93GKNJ',
     },
     { // TEST
       brand: 'test:brand',

@@ -14,7 +14,7 @@ export async function sendForaumNotification(link: Link, store: Store, base64ima
       store.name = "Baur"
       break
     case "amazon-de":
-      store.name = "AmazonDE"
+      store.name = "Amazon DE"
       break
     case "mediamarkt":
       store.name = "MediaMarkt"
