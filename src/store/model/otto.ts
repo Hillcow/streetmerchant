@@ -91,8 +91,15 @@ export const Otto: Store = {
       brand: 'microsoft',
       model: 'xbox series x',
       series: 'xboxsx',
-      url:
-        'https://www.otto.de/p/xbox-series-x-1229057353'
+      url: 'https://www.otto.de/p/xbox-series-x-1229057353',
+      labels: {
+        inStock: [
+          {
+            container: 'h1.prd_shortInfo__variationName',
+            text: ['Xbox Series X']
+          },
+        ]
+      }
     },
 	],
 	name: 'otto'
