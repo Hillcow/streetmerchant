@@ -14,13 +14,13 @@ export const AmazonUk: Store = {
     },
     inStock: [
       {
-        container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy a:first-of-type',
+        container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
         text: ['amazon']
       }
     ],
     outOfStock: [
       {
-        container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy a:first-of-type',
+        container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
         text: ['warehouse']
       }
     ]
@@ -48,7 +48,7 @@ export const AmazonUk: Store = {
       series: 'xboxsx',
       url: 'https://www.amazon.it/dp/B08H93GKNJ?tag=foraumbot-it-21&ref=foraum&aod=1',
       cartUrl: 'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08H93GKNJ&Quantity.1=1&tag=foraumbot-it-21',
-      scrapeUrl: 'https://www.amazon.it/gp/aod/ajax?asin=B08H93GKNJ',
+      scrapeUrl: 'https://www.amazon.co.uk/gp/aod/ajax?asin=B08H93GKNJ',
     },
     { // TEST
       brand: 'test:brand',
