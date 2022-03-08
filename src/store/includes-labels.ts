@@ -1,4 +1,4 @@
-import {Element, LabelQuery, Pricing} from './model';
+import {Element, LabelQuery, Pricing, Store} from './model';
 import {Page} from 'puppeteer';
 import {logger} from '../logger';
 
@@ -46,7 +46,8 @@ export async function pageIncludesLabels(
 	page: Page,
 	query: LabelQuery,
 	options: Selector,
-  debug?: Boolean
+  store?: Store,
+  debug?: Boolean,
 ) {
 	const elementQueries = getQueryAsElementArray(query, options.selector);
 
@@ -59,14 +60,43 @@ export async function pageIncludesLabels(
 				return false;
 			}
 
-			logger.debug(contents);
       if (debug === true && includesLabels(contents, query.text)) logger.info(contents);
+
+      if (store && store.name.includes("amazon")) {
+        if (includesLabels(contents, ["warehouse"])) {
+          if (debug === true) logger.info("warehouse detected");
+          setStoreNameWarehouse(store);
+        }
+      }
 
 			return includesLabels(contents, query.text);
 		})
 	);
 
 	return resolved.includes(true);
+}
+
+export function setStoreNameWarehouse(store: Store) {
+  switch (store.name) {
+    case "amazon-de":
+      store.name = "amazon-de-warehouse"
+      break;
+    case "amazon-uk":
+      store.name = "amazon-uk-warehouse"
+      break;
+    case "amazon-es":
+      store.name = "amazon-es-warehouse"
+      break;
+    case "amazon-it":
+      store.name = "amazon-it-warehouse"
+      break;
+    case "amazon-fr":
+      store.name = "amazon-fr-warehouse"
+      break;
+    case "amazon":
+      store.name = "amazon-warehouse"
+      break;
+  }
 }
 
 export async function extractPageContents(

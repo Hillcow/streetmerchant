@@ -19,12 +19,6 @@ export const AmazonIt: Store = {
         container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
         text: ['amazon']
       }
-    ],
-    outOfStock: [
-      {
-        container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
-        text: ['warehouse']
-      }
     ]
 	},
 	links: [

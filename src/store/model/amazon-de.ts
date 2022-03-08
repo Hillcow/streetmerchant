@@ -18,15 +18,9 @@ export const AmazonDe: Store = {
     inStock: [
       {
         container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
-        text: ['digital prof']
+        text: ['amazon']
       }
     ],
-    outOfStock: [
-      {
-        container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
-        text: ['warehouse']
-      },
-    ]
   },
   links: [
     { // horizon forbidden west bundle

@@ -444,7 +444,8 @@ async function lookupCardInStock(store: Store, page: Page, link: Link) {
 			await pageIncludesLabels(
 				page,
 				store.labels.bannedSeller,
-				baseOptions
+				baseOptions,
+        store
 			)
 		) {
 			logger.warn(Print.bannedSeller(link, store, true));
@@ -488,7 +489,7 @@ async function lookupCardInStock(store: Store, page: Page, link: Link) {
       type: link.scrapeUrl ? 'innerHTML' as const : 'outerHTML' as const
 		};
 
-		if (!(await pageIncludesLabels(page, store.labels.inStock, options, true))) {
+		if (!(await pageIncludesLabels(page, store.labels.inStock, options, store, true))) {
 			logger.info(Print.outOfStock(link, store, true));
 			return false;
 		}
@@ -501,7 +502,7 @@ async function lookupCardInStock(store: Store, page: Page, link: Link) {
 			type: link.scrapeUrl ? 'innerHTML' as const : 'outerHTML' as const
 		};
 
-		if (!(await pageIncludesLabels(page, link.labels.inStock, options))) {
+		if (!(await pageIncludesLabels(page, link.labels.inStock, options, store))) {
 			logger.info(Print.outOfStock(link, store, true));
 			return false;
 		}

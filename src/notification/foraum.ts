@@ -80,14 +80,7 @@ export async function sendForaumNotification(link: Link, store: Store, base64ima
 		})
 		.catch(function (error: any) {
 			logger.error(error);
-      if (
-        store.name !== "amazon-uk"
-        && store.name !== "amazon-es"
-        && store.name !== "amazon-it"
-        && store.name !== "amazon-fr"
-        && store.name !== "amazon"
-        && store.name !== "amazon-de-warehouse"
-      ) {
+      if (!store.name.includes("amazon")) {
         sendTweet(link, store);
       }
 		});
