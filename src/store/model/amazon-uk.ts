@@ -30,7 +30,7 @@ export const AmazonUk: Store = {
     },
     { // ps5 digital
       brand: 'sony',
-      model: 'ps5 console',
+      model: 'ps5 digital',
       series: 'sonyps5de',
       url: 'https://www.amazon.co.uk/dp/B08H97NYGP?tag=foraumbot-uk-21&ref=foraum&aod=1',
       cartUrl: 'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08H97NYGP&Quantity.1=1&tag=foraumbot-uk-21',

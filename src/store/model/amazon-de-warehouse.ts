@@ -23,6 +23,7 @@ export const AmazonDeWarehouse: Store = {
     ]
   },
   links: [
+    /*
     { // ps5 disc
       brand: 'sony',
       model: 'ps5 console',
@@ -63,6 +64,7 @@ export const AmazonDeWarehouse: Store = {
     },
 
      */
+    /*
     { // xbox series x
       brand: 'microsoft',
       model: 'xbox series x',
@@ -78,6 +80,7 @@ export const AmazonDeWarehouse: Store = {
       url: 'https://www.amazon.de/dp/B08QF6F7TD?tag=foraumbot-21&ref=foraum&aod=1',
       scrapeUrl: 'https://www.amazon.de/gp/aod/ajax?asin=B08QF6F7TD',
     },
+     */
   ],
 	name: 'amazon-de-warehouse'
 };
