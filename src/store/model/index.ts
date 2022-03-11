@@ -80,6 +80,7 @@ import {Nvidia} from './nvidia';
 import {NvidiaApi} from './nvidia-api';
 import {OfficeDepot} from './officedepot';
 import {Otto} from './otto';
+import {O2De} from './o2-de';
 import {Overclockers} from './overclockers';
 import {PCComponentes} from './pccomponentes';
 import {PCKing} from './pcking';
@@ -198,6 +199,7 @@ export const storeList = new Map([
 	[NvidiaApi.name, NvidiaApi],
 	[OfficeDepot.name, OfficeDepot],
 	[Otto.name, Otto],
+	[O2De.name, O2De],
 	[Overclockers.name, Overclockers],
 	[Pccg.name, Pccg],
 	[PCKing.name, PCKing],
