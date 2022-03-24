@@ -6,6 +6,7 @@ import {AlternateNL} from './alternate-nl';
 import {Amazon} from './amazon';
 import {AmazonCa} from './amazon-ca';
 import {AmazonDe} from './amazon-de';
+import {AlzaDe} from './alza-de';
 import {AlzaAt} from './alza-at';
 import {AmazonDeWarehouse} from './amazon-de-warehouse';
 import {AmazonEs} from './amazon-es';
@@ -125,6 +126,7 @@ export const storeList = new Map([
 	[Amazon.name, Amazon],
 	[AmazonCa.name, AmazonCa],
 	[AmazonDe.name, AmazonDe],
+	[AlzaDe.name, AlzaDe],
 	[AlzaAt.name, AlzaAt],
 	[AmazonDeWarehouse.name, AmazonDeWarehouse],
 	[AmazonEs.name, AmazonEs],
