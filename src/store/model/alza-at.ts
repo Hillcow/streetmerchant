@@ -16,11 +16,11 @@ export const AlzaAt: Store = {
     },
   },
   links: [
-    { // ps5 overview
+    { // ps5 overview *neu*
       brand: 'sony',
       model: 'ps5 console bundle',
       series: 'sonyps5c',
-      url: 'https://www.alza.at/gaming/playstation-5-spielkonsolen/a18876712.htm?idp=13871&banner_id=41107'
+      url: 'https://www.alza.at/gaming/playstation-5-spielkonsolen/18876712.htm?idp=13871&banner_id=41107'
     },
     {
       brand: 'test:brand',
