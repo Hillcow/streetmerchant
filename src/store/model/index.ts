@@ -65,6 +65,7 @@ import {GamestopIE} from './gamestop-ie';
 import {HarveyNormanIE} from './harveynorman-ie';
 import {JohnLewis} from './johnlewis';
 import {Kabum} from './kabum';
+import {Kaufland} from './kaufland';
 import {LibroAt} from './libro-at'
 import {Mediamarkt} from './mediamarkt';
 import {Medimax} from './medimax';
@@ -185,6 +186,7 @@ export const storeList = new Map([
 	[HarveyNormanIE.name, HarveyNormanIE],
 	[JohnLewis.name, JohnLewis],
 	[Kabum.name, Kabum],
+	[Kaufland.name, Kaufland],
 	[LibroAt.name, LibroAt],
 	[Mediamarkt.name, Mediamarkt],
 	[Medimax.name, Medimax],
