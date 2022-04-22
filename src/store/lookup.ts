@@ -350,6 +350,9 @@ async function lookupCard(
       logger.debug('ℹ saving screenshot');
       await page.screenshot({ path: link.screenshot })
     }
+
+    // reset warehouse name
+    store.name = store.name.replace('-warehouse','');
 	}
 
 	return statusCode;

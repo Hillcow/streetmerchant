@@ -71,7 +71,7 @@ export const Muller: Store = {
 		},
     {
 			brand: 'sony',
-			model: 'ps5 console',
+			model: 'ps5 console bundle',
 			series: 'sonyps5c',
 			url: 'https://www.mueller.de/search/?q=Ps5&sortBy=pricedesc',
       labels: {

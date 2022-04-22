@@ -23,14 +23,6 @@ export const AmazonDe: Store = {
     ],
   },
   links: [
-    { // horizon forbidden west bundle
-      brand: 'sony',
-      model: 'ps5 console bundle',
-      series: 'sonyps5c',
-      url: 'https://www.amazon.de/dp/B09QG2JZYS?tag=foraumbot-21&ref=foraum&language=de_DE&aod=1',
-      cartUrl: 'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B09QG2JZYS&Quantity.1=1&tag=foraumbot-21',
-      scrapeUrl: 'https://www.amazon.de/gp/aod/ajax?asin=B09QG2JZYS',
-    },
     { // ps5 disc
       brand: 'sony',
       model: 'ps5 console',
@@ -47,6 +39,15 @@ export const AmazonDe: Store = {
       cartUrl: 'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B08H98GVK8&Quantity.1=1&tag=foraumbot-21',
       scrapeUrl: 'https://www.amazon.de/gp/aod/ajax?asin=B08H98GVK8',
     },
+    /*
+    { // horizon forbidden west bundle
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://www.amazon.de/dp/B09QG2JZYS?tag=foraumbot-21&ref=foraum&language=de_DE&aod=1',
+      cartUrl: 'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B09QG2JZYS&Quantity.1=1&tag=foraumbot-21',
+      scrapeUrl: 'https://www.amazon.de/gp/aod/ajax?asin=B09QG2JZYS',
+    },*/
     /*
     { // rift apart bundle
       brand: 'sony',

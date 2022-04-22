@@ -5,8 +5,8 @@ export const Spielegrotte: Store = {
 	labels: {
 		inStock: [
 			{
-				container: '.alleartikel',
-				text: ['konsole']
+				container: 'tr > td > div.alleartikel',
+				text: ['PlayStation 5 Disc Konsole + ']
 			}
 		],
 	},
