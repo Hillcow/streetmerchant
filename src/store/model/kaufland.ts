@@ -5,7 +5,7 @@ export const Kaufland: Store = {
 	currency: '€',
 	labels: {
 		maxPrice: {
-			container: '.rd-buybox__price-container > .rd-buybox__price',
+			container: 'p.rd-price-information__price',
 			euroFormat: true
 		},
     inStock: [
