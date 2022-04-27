@@ -4,9 +4,10 @@ export const Otto: Store = {
 	currency: '€',
 	labels: {
 		outOfStock: {
-			container: 'div.p_message.p_message--hint > strong',
+			container: 'body',
 			text: [
-				'Deinen gewünschten Artikel können wir leider nicht mehr liefern'
+				'Deinen gewünschten Artikel können wir leider nicht mehr liefern',
+        'PlayStation 5 auf otto.de leider ausverkauft'
 			]
 		}
 	},
@@ -25,19 +26,9 @@ export const Otto: Store = {
           {
             container:
               '.promo_articlelist--container',
-            text: ['konsole']
-          },
-          {
-            container:
-              '.promo_articlelist--container',
             text: ['playstation 5, inkl.']
-          }],
-        outOfStock: [
-          {
-            container: 'body',
-            text: ['leider ausverkauft']
           }
-        ]
+        ],
       },
       model: 'ps5 console bundle',
       series: 'sonyps5c',

@@ -80,7 +80,7 @@ export async function sendForaumNotification(link: Link, store: Store, base64ima
 		})
 		.catch(function (error: any) {
 			logger.error(error);
-      if (!store.name.includes("amazon")) {
+      if (store.name.includes("amazon") && !store.name.includes("warehouse")) {
         sendTweet(link, store);
       }
 		});
