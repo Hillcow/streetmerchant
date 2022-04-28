@@ -11,7 +11,7 @@ export const AlzaAt: Store = {
       }
     ],
     maxPrice: {
-      container: '.priceInner > span:nth-of-type(2)',
+      container: '.priceInner > span.c2',
       euroFormat: true
     },
   },
