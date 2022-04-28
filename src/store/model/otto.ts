@@ -24,11 +24,14 @@ export const Otto: Store = {
       labels: {
         inStock: [
           {
-            container:
-              '.promo_articlelist--container',
-            text: ['playstation 5, inkl.']
+            container: '.promo_articlelist--container ul.promo_articlelist--articles > li:first-child',
+            text: ['>PlayStation 5, inkl. ']
           }
         ],
+        maxPrice: {
+          container: '.promo_articlelist--container ul.promo_articlelist--articles > li:first-child div.promo_articlelist--price-retail',
+          euroFormat: true
+        },
       },
       model: 'ps5 console bundle',
       series: 'sonyps5c',
