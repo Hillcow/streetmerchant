@@ -1,8 +1,6 @@
 import {Link, Store} from "../store/model";
 import {config} from '../config';
 import {logger, Print} from "../logger";
-import {sendTweet} from "./twitter";
-import fetch from "node-fetch";
 
 const axios = require('axios').default;
 
@@ -80,8 +78,9 @@ export async function sendForaumNotification(link: Link, store: Store, base64ima
 		})
 		.catch(function (error: any) {
 			logger.error(error);
+      /*
       if (error && store.name.includes("amazon") && !store.name.includes("warehouse")) {
         sendTweet(link, store);
-      }
+      }*/
 		});
 }

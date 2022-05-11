@@ -25,7 +25,7 @@ export const Otto: Store = {
         inStock: [
           {
             container: '.promo_articlelist--container ul.promo_articlelist--articles > li:first-child',
-            text: ['>PlayStation 5, inkl. ']
+            text: ['>PlayStation 5, ink']
           }
         ],
         maxPrice: {
