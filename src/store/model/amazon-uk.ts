@@ -36,6 +36,44 @@ export const AmazonUk: Store = {
       cartUrl: 'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08H97NYGP&Quantity.1=1&tag=foraumbot-uk-21',
       scrapeUrl: 'https://www.amazon.co.uk/gp/aod/ajax?asin=B08H97NYGP',
     },
+    /*
+    { // ps5 disc direct
+      brand: 'sony',
+      model: 'ps5 console',
+      series: 'sonyps5c',
+      url: 'https://www.amazon.co.uk/gp/product/handle-buy-box?ASIN=B08H95Y452&quantity=1&submit.buy-now=1&tag=foraumbot-21&offerListingID=9EYgRjck%2F%2FiW5ikfaGfqGkRXPZN%2FcXdDAqGRWJeARQeyaMq2sFbxnD3vSLnTIFylvLOF6ODTBcA4lPCx7xlbxaJXYH5G1lwyN36%2Fk8nVuO8%3D',
+      labels: {
+        inStock: [
+          {
+            container: '#authportal-center-section > #authportal-main-section form.auth-validate-form h1',
+            text: ['anmelden']
+          }
+        ],
+        outOfStock: {
+          container: '#sc-retail-cart-container h1',
+          text: ['einkaufswagen']
+        }
+      }
+    },
+    { // ps5 digital direct
+      brand: 'sony',
+      model: 'ps5 digital',
+      series: 'sonyps5de',
+      url: 'https://www.amazon.co.uk/gp/product/handle-buy-box?ASIN=B08H97NYGP&quantity=1&submit.buy-now=1&tag=foraumbot-21&offerListingID=1Ql5AVuDPMD4xTHM%2Fci7BYHxtogV7K%2FU6VzOGiKl%2BiXMw1zMFD8feEKwjnp9ZmHDYsgh5YzDA4vx1BBebak1QlsWTTTpcbZ75tALt3ZKEsat5gczy%2FKk1pBiEdlG8RBp',
+      labels: {
+        inStock: [
+          {
+            container: '#authportal-center-section > #authportal-main-section form.auth-validate-form h1',
+            text: ['anmelden']
+          }
+        ],
+        outOfStock: {
+          container: '#sc-retail-cart-container h1',
+          text: ['einkaufswagen']
+        }
+      }
+    },
+     */
     { // series x
       brand: 'microsoft',
       model: 'xbox series x',

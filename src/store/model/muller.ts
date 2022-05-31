@@ -43,7 +43,7 @@ export const Muller: Store = {
             text: ['In den Warenkorb']
           },
           {
-            container: '.mu-column-layout__section mu-column-layout__section--last',
+            container: '.mu-product-bundles__headline',
             text: ['Empfohlene Kombinationen']
           },
           {
@@ -64,7 +64,7 @@ export const Muller: Store = {
           },
         ],
         maxPrice: {
-          container: '.mu-product-price__price',
+          container: '.mu-product-bundles__details .mu-product-price__price',
           euroFormat: true
         },
       },
