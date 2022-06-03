@@ -28,6 +28,14 @@ export const AmazonUk: Store = {
       cartUrl: 'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08H95Y452&Quantity.1=1&tag=foraumbot-uk-21',
       scrapeUrl: 'https://www.amazon.co.uk/gp/aod/ajax?asin=B08H95Y452',
     },
+    { // ps5 horizon bundle
+      brand: 'sony',
+      model: 'ps5 console',
+      series: 'sonyps5c',
+      url: 'https://www.amazon.co.uk/dp/B0B1MKB2G3?tag=foraumbot-uk-21&ref=foraum&aod=1',
+      cartUrl: 'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B0B1MKB2G3&Quantity.1=1&tag=foraumbot-uk-21',
+      scrapeUrl: 'https://www.amazon.co.uk/gp/aod/ajax?asin=B0B1MKB2G3',
+    },
     { // ps5 digital
       brand: 'sony',
       model: 'ps5 digital',

@@ -40,6 +40,46 @@ export const AmazonIt: Store = {
         ]
       },
     },
+    { // ps5 horizon bundle
+      brand: 'sony',
+      model: 'ps5 console',
+      series: 'sonyps5c',
+      url: 'https://www.amazon.it/dp/B0B11RR7TC?tag=foraumbot-it-21&ref=foraum&aod=1',
+      cartUrl: 'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B0B11RR7TC&Quantity.1=1&tag=foraumbot-it-21',
+      scrapeUrl: 'https://www.amazon.it/gp/aod/ajax?asin=B0B11RR7TC',
+      labels: {
+        maxPrice: {
+          container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-price span.a-price:first-of-type',
+          euroFormat: true
+        },
+        inStock: [
+          {
+            container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
+            text: ['amazon']
+          }
+        ]
+      },
+    },
+    { // ps5 + gt7 bundle
+      brand: 'sony',
+      model: 'ps5 console',
+      series: 'sonyps5c',
+      url: 'https://www.amazon.it/dp/B09ZHHZ6NJ?tag=foraumbot-it-21&ref=foraum&aod=1',
+      cartUrl: 'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B09ZHHZ6NJ&Quantity.1=1&tag=foraumbot-it-21',
+      scrapeUrl: 'https://www.amazon.it/gp/aod/ajax?asin=B09ZHHZ6NJ',
+      labels: {
+        maxPrice: {
+          container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-price span.a-price:first-of-type',
+          euroFormat: true
+        },
+        inStock: [
+          {
+            container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
+            text: ['amazon']
+          }
+        ]
+      },
+    },
     { // ps5 digital
       brand: 'sony',
       model: 'ps5 digital',
