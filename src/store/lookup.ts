@@ -321,7 +321,7 @@ async function lookupCard(
 		const givenUrl =
 			link.cartUrl && config.store.autoAddToCart
 				? link.cartUrl
-				: link.url;
+				: urlToCheck;
 		logger.info(`${Print.inStock(link, store, true)}\n${givenUrl}`);
 
 		if (config.browser.open) {

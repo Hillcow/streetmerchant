@@ -70,6 +70,46 @@ export const AmazonFr: Store = {
         ]
       },
     },
+    { // ps5 disc + horizon
+      brand: 'sony',
+      model: 'ps5 console',
+      series: 'sonyps5c',
+      url: 'https://www.amazon.fr/dp/B0B1MKB2G3?tag=foraumbot-fr-21&ref=foraum&aod=1',
+      cartUrl: 'https://www.amazon.fr/gp/aws/cart/add.html?ASIN.1=B0B1MKB2G3&Quantity.1=1&tag=foraumbot-fr-21',
+      scrapeUrl: 'https://www.amazon.fr/gp/aod/ajax?asin=B0B1MKB2G3',
+      labels: {
+        maxPrice: {
+          container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-price span.a-price:first-of-type',
+          euroFormat: true
+        },
+        inStock: [
+          {
+            container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
+            text: ['amazon']
+          }
+        ]
+      },
+    },
+    { // ps5 digital + horizon
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5de',
+      url: 'https://www.amazon.fr/dp/B0B2GH8Q3P?tag=foraumbot-fr-21&ref=foraum&aod=1',
+      cartUrl: 'https://www.amazon.fr/gp/aws/cart/add.html?ASIN.1=B0B2GH8Q3P&Quantity.1=1&tag=foraumbot-fr-21',
+      scrapeUrl: 'https://www.amazon.fr/gp/aod/ajax?asin=B0B2GH8Q3P',
+      labels: {
+        maxPrice: {
+          container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-price span.a-price:first-of-type',
+          euroFormat: true
+        },
+        inStock: [
+          {
+            container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
+            text: ['amazon']
+          }
+        ]
+      },
+    },
     /*
     { // ps5 disc direct
       brand: 'sony',
