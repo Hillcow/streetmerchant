@@ -36,7 +36,25 @@ export const AmazonUk: Store = {
       cartUrl: 'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08H97NYGP&Quantity.1=1&tag=foraumbot-uk-21',
       scrapeUrl: 'https://www.amazon.co.uk/gp/aod/ajax?asin=B08H97NYGP',
     },
-    /*
+
+    { // ps5 disc + horizon
+      brand: 'sony',
+      model: 'ps5 console',
+      series: 'sonyps5c',
+      url: 'https://www.amazon.co.uk/dp/B0B11RR7TC?tag=foraumbot-uk-21&ref=foraum&aod=1',
+      cartUrl: 'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B0B11RR7TC&Quantity.1=1&tag=foraumbot-uk-21',
+      scrapeUrl: 'https://www.amazon.co.uk/gp/aod/ajax?asin=B0B11RR7TC',
+    },
+    { // ps5 digital + horizon
+      brand: 'sony',
+      model: 'ps5 console',
+      series: 'sonyps5de',
+      url: 'https://www.amazon.co.uk/dp/B09ZYB72VP?tag=foraumbot-uk-21&ref=foraum&aod=1',
+      cartUrl: 'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B09ZYB72VP&Quantity.1=1&tag=foraumbot-uk-21',
+      scrapeUrl: 'https://www.amazon.co.uk/gp/aod/ajax?asin=B09ZYB72VP',
+    },
+
+    /*+
     { // ps5 disc direct
       brand: 'sony',
       model: 'ps5 console',

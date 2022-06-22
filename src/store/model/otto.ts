@@ -7,7 +7,6 @@ export const Otto: Store = {
 			container: 'body',
 			text: [
 				'Deinen gewünschten Artikel können wir leider nicht mehr liefern',
-        'PlayStation 5 auf otto.de leider ausverkauft'
 			]
 		}
 	},
