@@ -39,15 +39,9 @@ export const Expert: Store = {
 			brand: 'sony',
 			model: 'ps5 console',
 			series: 'sonyps5c',
-			url: 'https://tinyurl.com/y3mchd3z'
+			url: 'https://www.expert.de/shop/unsere-produkte/gaming-freizeit/sony-playstation/playstation-konsolen'
 		},
-		{
-			brand: 'sony',
-			model: 'ps5 digital',
-			series: 'sonyps5de',
-			url:
-				'https://tinyurl.com/y2krqo5g'
-		},
+    /*
     { // ps5 + rift apart + midnight black controller
       brand: 'sony',
       model: 'ps5 console bundle',

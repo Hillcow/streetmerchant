@@ -558,8 +558,7 @@ export const Computeruniverse: Store = {
       brand: 'sony',
       model: 'ps5 console',
       series: 'sonyps5de',
-      url:
-        'https://tidd.ly/38ODC6Y',
+      url: 'https://tidd.ly/3AfiAwL',
       labels: {
         inStock: {
           container: '.at__product__add-to-basket',

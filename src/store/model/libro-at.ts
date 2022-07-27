@@ -5,8 +5,12 @@ export const LibroAt: Store = {
   currency: '€',
   labels: {
     inStock: {
-      container: 'body',
-      text: ['addToCart']
+      container: '.listing',
+      text: ['cart']
+    },
+    maxPrice: {
+      container: '.listing > .listing__item:first-of-type .product-price',
+      euroFormat: true
     },
     outOfStock: [
       {
@@ -20,7 +24,7 @@ export const LibroAt: Store = {
       brand: 'sony',
       model: 'ps5 console',
       series: 'sonyps5c',
-      url: 'https://tinyurl.com/yxzydtqr'
+      url: 'https://track.webgains.com/click.html?wgcampaignid=1498775&wgprogramid=282295&wgtarget=https://www.libro.at/gaming/ps5/ps5-konsolen/'
     },
     {
       brand: 'test:brand',

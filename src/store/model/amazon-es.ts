@@ -8,6 +8,12 @@ export const AmazonEs: Store = {
 			container: 'body',
 			text: ['introduzca los caracteres que ve a continuación']
 		},
+    outOfStock: {
+      container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-AGS-Note li a',
+      text: [
+        'internacionales',
+      ]
+    }
 	},
 	links: [
     { // TEST
@@ -67,7 +73,7 @@ export const AmazonEs: Store = {
             container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
             text: ['amazon']
           }
-        ]
+        ],
       }
     },
     { // ps5 disc horizon bundle official
@@ -186,6 +192,7 @@ export const AmazonEs: Store = {
       }
     },
 */
+    /*
     { // series x
       brand: 'microsoft',
       model: 'xbox series x',
@@ -194,6 +201,7 @@ export const AmazonEs: Store = {
       cartUrl: 'https://www.amazon.es/gp/aws/cart/add.html?ASIN.1=B08JDSW1ZW&Quantity.1=1&tag=foraumbot-sp-21',
       scrapeUrl: 'https://www.amazon.es/gp/aod/ajax?asin=B08JDSW1ZW',
     },
+     */
   ],
   name: 'amazon-es'
 };

@@ -209,7 +209,7 @@ export const AmazonDe: Store = {
       }
     },
      */
-    /*
+
     { // horizon forbidden west bundle
       brand: 'sony',
       model: 'ps5 console bundle',
@@ -217,7 +217,19 @@ export const AmazonDe: Store = {
       url: 'https://www.amazon.de/dp/B09QG2JZYS?tag=foraumbot-21&ref=foraum&language=de_DE&aod=1',
       cartUrl: 'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B09QG2JZYS&Quantity.1=1&tag=foraumbot-21',
       scrapeUrl: 'https://www.amazon.de/gp/aod/ajax?asin=B09QG2JZYS',
-    },*/
+      labels: {
+        maxPrice: {
+          container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-price span.a-offscreen:first-of-type',
+          euroFormat: true
+        },
+        inStock: [
+          {
+            container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
+            text: ['amazon']
+          }
+        ],
+      }
+    },
     /*
     { // rift apart bundle
       brand: 'sony',
