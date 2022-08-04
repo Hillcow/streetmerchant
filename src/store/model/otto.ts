@@ -24,7 +24,12 @@ export const Otto: Store = {
         inStock: [
           {
             container: '.promo_articlelist--container ul.promo_articlelist--articles > li:first-child',
-            text: ['>PlayStation 5, ink']
+            text: [
+              '>PlayStation 5, ink',
+              '>PlayStation 5 -Digital Edition',
+              '>PlayStation 5 - Digital Edition',
+              '>PlayStation 5 Digital Edition',
+            ]
           }
         ],
         maxPrice: {
