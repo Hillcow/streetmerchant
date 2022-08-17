@@ -11,6 +11,10 @@ export const AmazonDe: Store = {
         'geben sie die zeichen unten ein'
       ]
     },
+    outOfStock: {
+      container: '#aod-sticky-pinned-offer',
+      text: ['Auf Einladung erhältlich']
+    }
   },
   links: [
     { // ps5 disc
@@ -53,6 +57,7 @@ export const AmazonDe: Store = {
         ],
       }
     },
+    /*
     { // ps5 horizon bundle
       brand: 'sony',
       model: 'ps5 console bundle',
@@ -73,6 +78,7 @@ export const AmazonDe: Store = {
         ],
       }
     },
+     */
     { // ps5 digital horizon bundle
       brand: 'sony',
       model: 'ps5 console bundle',
