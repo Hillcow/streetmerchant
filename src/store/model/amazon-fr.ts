@@ -8,6 +8,10 @@ export const AmazonFr: Store = {
 			container: 'body',
 			text: ['entrez les caractères que vous voyez ci-dessous']
 		},
+    outOfStock: {
+      container: '#aod-sticky-pinned-offer',
+      text: ['Disponible sur invitation']
+    }
 	},
 	links: [
     { // TEST
@@ -30,6 +34,7 @@ export const AmazonFr: Store = {
         ]
       },
     },
+    /*
     { // ps5 disc
       brand: 'sony',
       model: 'ps5 console',
@@ -50,6 +55,8 @@ export const AmazonFr: Store = {
         ]
       },
     },
+
+     */
     { // ps5 digital
       brand: 'sony',
       model: 'ps5 digital',

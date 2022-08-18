@@ -10,6 +10,10 @@ export const AmazonIt: Store = {
 				'Inserisci i caratteri visualizzati nello spazio sottostante'
 			]
 		},
+    outOfStock: {
+      container: '#aod-sticky-pinned-offer',
+      text: ['Disponibile su invito']
+    }
 	},
 	links: [
     { // TEST
