@@ -32,13 +32,21 @@ export const Medimax: Store = {
       url: 'https://www.medimax.de/c/859/computer-gaming/spielekonsolen-spiele/playstation?sort=price-desc&ref=Foraum&q=%3Arelevance',
       labels: {
         inStock: [
-            {
-            container: '.stock-status-message',
-            text: ['liefer']
+          {
+            container: '.cmsproductlist-desktop-layout-item:first-of-type .cmsproductlist-description-link',
+            text: ['Playstation 5 mit']
           },
           {
-            container: 'a.cmsproductlist-description-link',
-            text: ['spielekonsole']
+            container: '.cmsproductlist-desktop-layout-item:first-of-type .cmsproductlist-description-link',
+            text: ['Playstation 5 Digital Edition']
+          },
+          {
+            container: '.cmsproductlist-desktop-layout-item:first-of-type cmsproductlist-name',
+            text: ['PS5 inkl.']
+          },
+          {
+            container: '.cmsproductlist-desktop-layout-item:first-of-type cmsproductlist-name',
+            text: ['PS5 Digital Edition']
           },
         ]
       },

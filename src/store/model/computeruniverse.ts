@@ -3,16 +3,7 @@ import {Store} from './store';
 export const Computeruniverse: Store = {
 	currency: '€',
 	labels: {
-    outOfStock: [
-      {
-        container: '.product-stock',
-        text: ['product-stock__low-stock']
-      },
-      {
-        container: '.product-stock',
-        text: ['nur noch']
-      },
-    ]
+
   },
 	links: [
 		{
@@ -561,10 +552,8 @@ export const Computeruniverse: Store = {
       url: 'https://tidd.ly/3AfiAwL',
       labels: {
         inStock: {
-          container: '.at__product__add-to-basket',
-          text: [
-            'in den warenkorb',
-          ]
+          container: '.product-stock',
+          text: ['auf Lager',]
         },
       },
     },
