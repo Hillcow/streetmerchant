@@ -24,6 +24,7 @@ export const AmazonUk: Store = {
     }
 	},
 	links: [
+    /*
     { // ps5 disc
       brand: 'sony',
       model: 'ps5 console',
@@ -32,6 +33,7 @@ export const AmazonUk: Store = {
       cartUrl: 'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B08H95Y452&Quantity.1=1&tag=foraumbot-uk-21',
       scrapeUrl: 'https://www.amazon.co.uk/gp/aod/ajax?asin=B08H95Y452',
     },
+     */
     { // ps5 digital
       brand: 'sony',
       model: 'ps5 digital',
