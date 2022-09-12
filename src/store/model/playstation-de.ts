@@ -49,6 +49,7 @@ export const PlayStationDe: Store = {
 	],
 	name: 'playstation-de',
 
+  /*
 	realTimeInventoryLookup: async (itemNumber: string) => {
     const request_url = 'https://api.direct.playstation.com/commercewebservices/ps-direct-de/products/productList?fields=BASIC&productCodes=' +
 			itemNumber;
@@ -63,4 +64,6 @@ export const PlayStationDe: Store = {
 
 		return false;
 	}
+
+   */
 };
