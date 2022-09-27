@@ -59,6 +59,22 @@ export const AmazonUk: Store = {
       cartUrl: 'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B09ZYB72VP&Quantity.1=1&tag=foraumbot-uk-21',
       scrapeUrl: 'https://www.amazon.co.uk/gp/aod/ajax?asin=B09ZYB72VP',
     },
+    { // ps5 disc fifa 23 bundle
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://www.amazon.co.uk/dp/B0BG3HQZTQ?tag=foraumbot-uk-21&ref=foraum&aod=1',
+      cartUrl: 'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B0BG3HQZTQ&Quantity.1=1&tag=foraumbot-uk-21',
+      scrapeUrl: 'https://www.amazon.co.uk/gp/aod/ajax?asin=B0BG3HQZTQ',
+    },
+    { // ps5 digital fifa 23 bundle
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5de',
+      url: 'https://www.amazon.co.uk/dp/B0BG3GRMF9?tag=foraumbot-uk-21&ref=foraum&aod=1',
+      cartUrl: 'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B0BG3GRMF9&Quantity.1=1&tag=foraumbot-uk-21',
+      scrapeUrl: 'https://www.amazon.co.uk/gp/aod/ajax?asin=B0BG3GRMF9',
+    },
 
     /*+
     { // ps5 disc direct

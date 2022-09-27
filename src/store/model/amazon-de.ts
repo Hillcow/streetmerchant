@@ -57,6 +57,46 @@ export const AmazonDe: Store = {
         ],
       }
     },
+    { // FIFA 23 Disc Bundle
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://www.amazon.de/dp/B0BFFTFBR2?tag=foraumbot-21&ref=foraum&language=de_DE&aod=1',
+      cartUrl: 'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B0BFFTFBR2&Quantity.1=1&tag=foraumbot-21',
+      scrapeUrl: 'https://www.amazon.de/gp/aod/ajax?asin=B0BFFTFBR2',
+      labels: {
+        maxPrice: {
+          container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-price span.a-offscreen:first-of-type',
+          euroFormat: true
+        },
+        inStock: [
+          {
+            container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
+            text: ['amazon']
+          }
+        ],
+      }
+    },
+    { // FIFA 23 Digital Bundle
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://www.amazon.de/dp/B0BG2L1MBW?tag=foraumbot-21&ref=foraum&language=de_DE&aod=1',
+      cartUrl: 'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B0BG2L1MBW&Quantity.1=1&tag=foraumbot-21',
+      scrapeUrl: 'https://www.amazon.de/gp/aod/ajax?asin=B0BG2L1MBW',
+      labels: {
+        maxPrice: {
+          container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-price span.a-offscreen:first-of-type',
+          euroFormat: true
+        },
+        inStock: [
+          {
+            container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
+            text: ['amazon']
+          }
+        ],
+      }
+    },
     /*
     { // ps5 horizon bundle
       brand: 'sony',
@@ -99,6 +139,7 @@ export const AmazonDe: Store = {
         ],
       }
     },
+    /*
     { // ps5 horizon + controller
       brand: 'sony',
       model: 'ps5 console bundle',
