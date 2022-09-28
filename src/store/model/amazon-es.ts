@@ -96,33 +96,13 @@ export const AmazonEs: Store = {
         ]
       }
     },
-    { // ps5 big bundle: gt7, controller, horizon
+    { // ps5 fifa 23 bundle
       brand: 'sony',
-      model: 'ps5 console',
+      model: 'ps5 console bundle',
       series: 'sonyps5c',
-      url: 'https://www.amazon.es/dp/B09TX2RZQY?tag=foraumbot-sp-21&ref=foraum&aod=1',
-      cartUrl: 'https://www.amazon.es/gp/aws/cart/add.html?ASIN.1=B09TX2RZQY&Quantity.1=1&tag=foraumbot-sp-21',
-      scrapeUrl: 'https://www.amazon.es/gp/aod/ajax?asin=B09TX2RZQY',
-      labels: {
-        maxPrice: {
-          container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-price span.a-price:first-of-type',
-          euroFormat: true
-        },
-        inStock: [
-          {
-            container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
-            text: ['amazon']
-          }
-        ]
-      }
-    },
-    { // ps5 big bundle: gt7, controller, horizon
-      brand: 'sony',
-      model: 'ps5 console',
-      series: 'sonyps5c',
-      url: 'https://www.amazon.es/dp/B09YDT22WT?tag=foraumbot-sp-21&ref=foraum&aod=1',
-      cartUrl: 'https://www.amazon.es/gp/aws/cart/add.html?ASIN.1=B09YDT22WT&Quantity.1=1&tag=foraumbot-sp-21',
-      scrapeUrl: 'https://www.amazon.es/gp/aod/ajax?asin=B09YDT22WT',
+      url: 'https://www.amazon.es/dp/B0BFFV77NT?tag=foraumbot-sp-21&ref=foraum&aod=1',
+      cartUrl: 'https://www.amazon.es/gp/aws/cart/add.html?ASIN.1=B0BFFV77NT&Quantity.1=1&tag=foraumbot-sp-21',
+      scrapeUrl: 'https://www.amazon.es/gp/aod/ajax?asin=B0BFFV77NT',
       labels: {
         maxPrice: {
           container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-price span.a-price:first-of-type',
