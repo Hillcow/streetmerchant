@@ -29,7 +29,7 @@ export const Medimax: Store = {
       brand: 'sony',
       model: 'ps5 console',
       series: 'sonyps5c',
-      url: 'https://www.medimax.de/c/859/computer-gaming/spielekonsolen-spiele/playstation?q=%3Aprice-desc%3AhasStock%3Atrue%3Abrand%3Abrand_03112%3AepProductAvailableInRange%3APREORDER',
+      url: 'https://www.medimax.de/search?sort=price-desc&q=PlayStation+5%3Arelevance%3Abrand%3Abrand_03112&ref=Foraum',
       //url: 'https://www.medimax.de/c/859/computer-gaming/spielekonsolen-spiele/playstation?sort=price-desc&ref=Foraum&hasStock=true',
       labels: {
         inStock: [
