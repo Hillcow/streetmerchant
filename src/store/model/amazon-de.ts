@@ -33,7 +33,7 @@ export const AmazonDe: Store = {
           {
             container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
             text: ['amazon']
-          }
+          },
         ],
       }
     },
@@ -53,7 +53,7 @@ export const AmazonDe: Store = {
           {
             container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
             text: ['amazon']
-          }
+          },
         ],
       }
     },
@@ -77,7 +77,7 @@ export const AmazonDe: Store = {
         ],
       }
     },
-    { // FIFA 23 Digital Bundle
+    { // FIFA 23 Disc Bundle + GT7
       brand: 'sony',
       model: 'ps5 console bundle',
       series: 'sonyps5c',
@@ -93,7 +93,7 @@ export const AmazonDe: Store = {
           {
             container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
             text: ['amazon']
-          }
+          },
         ],
       }
     },
@@ -135,7 +135,7 @@ export const AmazonDe: Store = {
           {
             container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
             text: ['amazon']
-          }
+          },
         ],
       }
     },
@@ -273,7 +273,7 @@ export const AmazonDe: Store = {
           {
             container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
             text: ['amazon']
-          }
+          },
         ],
       }
     },
@@ -318,7 +318,7 @@ export const AmazonDe: Store = {
           {
             container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
             text: ['amazon']
-          }
+          },
         ],
       }
     },
@@ -337,7 +337,7 @@ export const AmazonDe: Store = {
           {
             container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
             text: ['amazon']
-          }
+          },
         ],
       }
     },

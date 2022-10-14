@@ -70,6 +70,44 @@ export const Muller: Store = {
       },
 		},
     {
+      brand: 'sony',
+      model: 'ps5 console',
+      series: 'sonyps5c',
+      url: 'https://www.mueller.de/p/playstation-5-konsole-mit-laufwerk-mit-fifa-23-2858667/',
+      labels: {
+        inStock: [
+          {
+            container: '.mu-product-cta .mu-button2__content',
+            text: ['In den Warenkorb']
+          },
+          {
+            container: '.mu-product-bundles__headline',
+            text: ['Empfohlene Kombinationen']
+          },
+          {
+            container: '#lbHeaderP',
+            text: ['Warteschlange']
+          },
+          {
+            container: '#lbHeaderP',
+            text: ['Wartenummer']
+          },
+          {
+            container: '#lbHeaderH2',
+            text: ['Warteraum']
+          },
+          {
+            container: '#lbHeaderH2',
+            text: ['Wartenummer']
+          },
+        ],
+        maxPrice: {
+          container: '.mu-product-bundles__details .mu-product-price__price',
+          euroFormat: true
+        },
+      },
+    },
+    {
 			brand: 'sony',
 			model: 'ps5 console bundle',
 			series: 'sonyps5c',
