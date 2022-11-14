@@ -29,7 +29,8 @@ export const Medimax: Store = {
       brand: 'sony',
       model: 'ps5 console',
       series: 'sonyps5c',
-      url: 'https://www.medimax.de/search?sort=price-desc&q=PlayStation+5%3Arelevance%3Abrand%3Abrand_03112&ref=Foraum',
+      url: 'https://www.medimax.de/c/brand_03112/marken/playstation?q=:price-desc:hasStock:true&startPrice=450.00&endPrice=800.00&minPrice=450&maxPrice=800&ref=Foraum',
+      //url: 'https://www.medimax.de/search?sort=price-desc&q=PlayStation+5%3Arelevance%3Abrand%3Abrand_03112&ref=Foraum',
       //url: 'https://www.medimax.de/c/859/computer-gaming/spielekonsolen-spiele/playstation?sort=price-desc&ref=Foraum&hasStock=true',
       labels: {
         inStock: [
@@ -39,15 +40,23 @@ export const Medimax: Store = {
           },
           {
             container: '.cmsproductlist-desktop-layout-item:first-of-type .cmsproductlist-description-link',
+            text: ['PlayStation®5-Konsole']
+          },
+          {
+            container: '.cmsproductlist-desktop-layout-item:first-of-type .cmsproductlist-description-link',
             text: ['Playstation 5 Digital Edition']
           },
           {
-            container: '.cmsproductlist-desktop-layout-item:first-of-type cmsproductlist-name',
+            container: '.cmsproductlist-desktop-layout-item:first-of-type .cmsproductlist-name-link',
             text: ['PS5 inkl.']
           },
           {
-            container: '.cmsproductlist-desktop-layout-item:first-of-type cmsproductlist-name',
+            container: '.cmsproductlist-desktop-layout-item:first-of-type .cmsproductlist-name-link',
             text: ['PS5 Digital Edition']
+          },
+          {
+            container: '.cmsproductlist-desktop-layout-item:first-of-type .cmsproductlist-name-link',
+            text: ['PS5 Laufwerk']
           },
         ]
       },

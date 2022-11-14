@@ -75,6 +75,14 @@ export const AmazonUk: Store = {
       cartUrl: 'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B0BG3GRMF9&Quantity.1=1&tag=foraumbot-uk-21',
       scrapeUrl: 'https://www.amazon.co.uk/gp/aod/ajax?asin=B0BG3GRMF9',
     },
+    { // ps5 gow ragnarök disc bundle
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5c',
+      url: 'https://www.amazon.co.uk/dp/B0BK1G3PW9?tag=foraumbot-uk-21&ref=foraum&aod=1',
+      cartUrl: 'https://www.amazon.co.uk/gp/aws/cart/add.html?ASIN.1=B0BK1G3PW9&Quantity.1=1&tag=foraumbot-uk-21',
+      scrapeUrl: 'https://www.amazon.co.uk/gp/aod/ajax?asin=B0BK1G3PW9',
+    },
 
     /*+
     { // ps5 disc direct

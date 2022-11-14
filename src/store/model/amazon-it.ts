@@ -64,6 +64,26 @@ export const AmazonIt: Store = {
         ]
       },
     },
+    { // ps5 gow bundle
+      brand: 'sony',
+      model: 'ps5 console',
+      series: 'sonyps5c',
+      url: 'https://www.amazon.it/dp/B0BJFLXC3P?tag=foraumbot-it-21&ref=foraum&aod=1',
+      cartUrl: 'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B0BJFLXC3P&Quantity.1=1&tag=foraumbot-it-21',
+      scrapeUrl: 'https://www.amazon.it/gp/aod/ajax?asin=B0BJFLXC3P',
+      labels: {
+        maxPrice: {
+          container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-price span.a-price:first-of-type',
+          euroFormat: true
+        },
+        inStock: [
+          {
+            container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
+            text: ['amazon']
+          }
+        ]
+      },
+    },
     { // ps5 fifa 23 bundle
       brand: 'sony',
       model: 'ps5 console bundle',
