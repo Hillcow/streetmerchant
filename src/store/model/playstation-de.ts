@@ -18,10 +18,16 @@ export const PlayStationDe: Store = {
         text: ['Warteschlange']
       },
 		],
-		outOfStock: {
-			container: '.productHero-info .out-stock-wrpr:not(.hide)',
-			text: ['Nicht lieferbar']
-		}
+		outOfStock: [
+      {
+        container: '.MainPart_pMessageOnQueueTicket',
+        text: ['Nicht lieferbar']
+		  },
+      {
+        container: '.MainPart_pMessageOnQueueTicket',
+        text: ['heute ausverkauft.']
+		  },
+    ],
 	},
 	links: [
 		{
@@ -37,6 +43,20 @@ export const PlayStationDe: Store = {
 			model: 'ps5 console',
 			series: 'sonyps5c',
 			url: 'https://direct.playstation.com/de-de/buy-consoles/playstation5-console'
+		},
+    {
+			brand: 'sony',
+			itemNumber: '9709091-DE',
+			model: 'ps5 console',
+			series: 'sonyps5c',
+			url: 'https://direct.playstation.com/de-de/buy-consoles/playstation5-console-god-of-war-ragnarok-bundle'
+		},
+    {
+			brand: 'sony',
+			itemNumber: '9709091-DE',
+			model: 'ps5 console',
+			series: 'sonyps5c',
+			url: 'https://direct.playstation.com/de-de/buy-consoles/playstation5-console-ea-sports-fifa-23-bundle'
 		},
     /*
 		{

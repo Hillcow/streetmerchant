@@ -117,6 +117,46 @@ export const AmazonDe: Store = {
         ],
       }
     },
+    { // PS5 Digital + FIFA 23 + Pulse 3D white
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5de',
+      url: 'https://www.amazon.de/dp/B0BMWDBXFS?tag=foraumbot-21&ref=foraum&language=de_DE&aod=1',
+      cartUrl: 'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B0BMWDBXFS&Quantity.1=1&tag=foraumbot-21',
+      scrapeUrl: 'https://www.amazon.de/gp/aod/ajax?asin=B0BMWDBXFS',
+      labels: {
+        maxPrice: {
+          container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-price span.a-offscreen:first-of-type',
+          euroFormat: true
+        },
+        inStock: [
+          {
+            container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
+            text: ['amazon']
+          },
+        ],
+      }
+    },
+    { // PS5 Digital + FIFA 23 + Pulse 3D BLACK
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5de',
+      url: 'https://www.amazon.de/dp/B0BMWDKD38?tag=foraumbot-21&ref=foraum&language=de_DE&aod=1',
+      cartUrl: 'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B0BMWDKD38&Quantity.1=1&tag=foraumbot-21',
+      scrapeUrl: 'https://www.amazon.de/gp/aod/ajax?asin=B0BMWDKD38',
+      labels: {
+        maxPrice: {
+          container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-price span.a-offscreen:first-of-type',
+          euroFormat: true
+        },
+        inStock: [
+          {
+            container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
+            text: ['amazon']
+          },
+        ],
+      }
+    },
     { // PS5 GoW Ragnarök Bundle
       brand: 'sony',
       model: 'ps5 console bundle',
