@@ -177,6 +177,26 @@ export const AmazonDe: Store = {
         ],
       }
     },
+    { // PS5 GoW Ragnarök Digital Bundle
+      brand: 'sony',
+      model: 'ps5 console bundle',
+      series: 'sonyps5de',
+      url: 'https://www.amazon.de/dp/B0BK9KCLN9?tag=foraumbot-21&ref=foraum&language=de_DE&aod=1',
+      cartUrl: 'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B0BK9KCLN9&Quantity.1=1&tag=foraumbot-21',
+      scrapeUrl: 'https://www.amazon.de/gp/aod/ajax?asin=B0BK9KCLN9',
+      labels: {
+        maxPrice: {
+          container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-price span.a-offscreen:first-of-type',
+          euroFormat: true
+        },
+        inStock: [
+          {
+            container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
+            text: ['amazon']
+          },
+        ],
+      }
+    },
     /*
     { // ps5 horizon bundle
       brand: 'sony',
