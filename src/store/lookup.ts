@@ -272,9 +272,7 @@ async function lookupCard(
 	link: Link
 ): Promise<number> {
 	const givenWaitFor = store.waitUntil ? store.waitUntil : 'networkidle0';
-
-
-
+  /*
   if (store.name.includes("playstation")) {
     // @ts-ignore
     await axios({
@@ -296,6 +294,7 @@ async function lookupCard(
         console.log(error)
       });
   }
+   */
 
 
   let urlToCheck = link.scrapeUrl ? link.scrapeUrl : link.url;

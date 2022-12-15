@@ -17,6 +17,10 @@ export const PlayStationDe: Store = {
         container: 'body',
         text: ['Warteschlange']
       },
+      {
+        container: 'body',
+        text: ['"stock":{"stockLevelStatus":"inStock"}']
+      },
 		],
 		outOfStock: [
       {
@@ -37,6 +41,18 @@ export const PlayStationDe: Store = {
 			series: 'test:series',
 			url: 'https://direct.playstation.com/de-de/buy-accessories/dualsense-wireless-controller'
 		},
+
+    /**
+     * PS5 Disc: 9423898-DE
+     * PS5 Digital: 9424994-DE
+     */
+    {
+      brand: 'sony',
+      model: 'ps5 console',
+      series: 'sonyps5c',
+      url: 'https://api.direct.playstation.com/commercewebservices/ps-direct-de/users/anonymous/products/productList?fields=BASIC&lang=de_DE&productCodes=9423898-DE,9424994-DE',
+    },
+    /*
 		{
 			brand: 'sony',
 			itemNumber: '9709091-DE',
