@@ -50,7 +50,8 @@ export const PlayStationDe: Store = {
       brand: 'sony',
       model: 'ps5 console',
       series: 'sonyps5c',
-      url: 'https://api.direct.playstation.com/commercewebservices/ps-direct-de/users/anonymous/products/productList?fields=BASIC&lang=de_DE&productCodes=9423898-DE,9424994-DE',
+      url: 'https://direct.playstation.com/de-de/hardware/ps5',
+      scrapeUrl: 'https://api.direct.playstation.com/commercewebservices/ps-direct-de/users/anonymous/products/productList?fields=BASIC&lang=de_DE&productCodes=9423898-DE,9424994-DE',
     },
     /*
 		{

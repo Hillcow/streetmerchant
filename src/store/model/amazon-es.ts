@@ -8,12 +8,16 @@ export const AmazonEs: Store = {
 			container: 'body',
 			text: ['introduzca los caracteres que ve a continuación']
 		},
-    outOfStock: {
-      container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-AGS-Note li a',
-      text: [
-        'internacionales',
-      ]
-    }
+    outOfStock: [
+      {
+        container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-AGS-Note li a',
+        text: ['internacionales',]
+      },
+      {
+        container: '#aod-sticky-pinned-offer',
+        text: ['Disponível por convite']
+      }
+    ]
 	},
 	links: [
     { // TEST
@@ -36,6 +40,7 @@ export const AmazonEs: Store = {
         ]
       }
     },
+    /*
     { // ps5 disc
       brand: 'sony',
       model: 'ps5 console',
@@ -56,6 +61,8 @@ export const AmazonEs: Store = {
         ]
       }
     },
+
+     */
     { // ps5 digital
       brand: 'sony',
       model: 'ps5 digital',
