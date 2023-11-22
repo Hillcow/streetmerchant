@@ -549,7 +549,7 @@ export const Computeruniverse: Store = {
       brand: 'sony',
       model: 'ps5 console',
       series: 'sonyps5de',
-      url: 'https://tidd.ly/3AfiAwL',
+      url: 'https://www.computeruniverse.net/de/c/games-filme-spielzeug/sony-playstation-5-konsolen',
       labels: {
         inStock: {
           container: '.product-stock',
@@ -588,7 +588,7 @@ export const Computeruniverse: Store = {
       brand: 'microsoft',
       model: 'xbox series x',
       series: 'xboxsx',
-      url: 'https://tidd.ly/3nPjgAW',
+      url: 'https://www.computeruniverse.net/de/p/90815724',
       labels: {
         inStock: {
           container: '.product-stock__delivery-text',

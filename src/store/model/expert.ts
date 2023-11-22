@@ -8,7 +8,11 @@ export const Expert: Store = {
 			{
 				container: 'span.widget-ArticleStatus-buttonText',
 				text: ['In den Warenkorb']
-			}
+			},
+      {
+				container: 'button.onlineBtn-ORDER',
+				text: ['In den Warenkorb']
+			},
 		],
 		maxPrice: {
 			container:
@@ -40,6 +44,19 @@ export const Expert: Store = {
 			model: 'ps5 console',
 			series: 'sonyps5c',
 			url: 'https://www.expert.de/shop/unsere-produkte/gaming-freizeit/sony-playstation/playstation-konsolen'
+		},
+    {
+			brand: 'sony',
+			model: 'psportal',
+			series: 'psportal',
+			url: 'https://www.expert.de/shop/unsere-produkte/gaming-freizeit/sony-playstation/playstation-controller/11364175744-playstation-portal-remote-player.html',
+      labels: {
+        maxPrice: {
+          container:
+            'div.exp_price',
+          euroFormat: false
+        }
+      }
 		},
     /*
     { // ps5 + rift apart + midnight black controller

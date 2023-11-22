@@ -34,6 +34,7 @@ export const PlayStationDe: Store = {
     ],
 	},
 	links: [
+    /*
 		{
 			brand: 'test:brand',
 			itemNumber: '9399506-DE',
@@ -41,6 +42,23 @@ export const PlayStationDe: Store = {
 			series: 'test:series',
 			url: 'https://direct.playstation.com/de-de/buy-accessories/dualsense-wireless-controller'
 		},
+     */
+
+    {
+      brand: 'sony',
+      model: 'psportal',
+      series: 'psportal',
+      url: 'https://direct.playstation.com/de-de/buy-accessories/playstation-portal-remote-player',
+      scrapeUrl: 'https://api.direct.playstation.com/commercewebservices/ps-direct-de/users/anonymous/products/productList?fields=BASIC&lang=de_DE&productCodes=1000041537-DE',
+    },
+
+    {
+      brand: 'sony',
+      model: 'ps5 console slim',
+      series: 'sonyps5cslim',
+      url: 'https://direct.playstation.com/de-de/search?q=PlayStation+5+Konsole+Modellgruppe+-+Slim',
+      scrapeUrl: 'https://api.direct.playstation.com/commercewebservices/ps-direct-de/users/anonymous/products/productList?fields=BASIC&lang=de_DE&productCodes=1000040586-DE,1000040657-DE',
+    },
 
     /**
      * PS5 Disc: 9423898-DE

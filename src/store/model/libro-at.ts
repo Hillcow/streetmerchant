@@ -30,7 +30,7 @@ export const LibroAt: Store = {
       brand: 'test:brand',
       model: 'test:model',
       series: 'test:series',
-      url: 'https://tinyurl.com/yxzydtqr'
+      url: 'https://track.webgains.com/click.html?wgcampaignid=1498775&wgprogramid=282295&wgtarget=https://www.libro.at/gaming'
     },
   ],
   name: 'libro-at'

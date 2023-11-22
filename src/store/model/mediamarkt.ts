@@ -9,14 +9,14 @@ export const Mediamarkt: Store = {
 			text: ['Das ging uns leider zu schnell.']
 		},
 		maxPrice: {
-			container: 'span[font-family="price"]',
-			euroFormat: false
+			container: 'span[data-test="branded-price-whole-value"]',
+			euroFormat: true
 		},
     inStock: [
       {
-        container: '#root',
+        container: 'button#pdp-add-to-cart-button',
         text: [
-          "StyledAvailabilityStatusWrapper"
+          "In den Warenkorb"
         ]
       }
     ],
@@ -28,6 +28,12 @@ export const Mediamarkt: Store = {
 			series: 'test:series',
 			url: 'https://www.mediamarkt.de/de/product/_hama-0-9-m-2030950.html'
 		},
+    {
+      brand: 'sony',
+      model: 'psportal',
+      series: 'psportal',
+      url: 'https://www.mediamarkt.de/de/product/_sony-playstation-portaltm-remote-player-2899832.html'
+    },
 		{
 			brand: 'asus',
 			model: 'dual',
