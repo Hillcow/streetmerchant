@@ -32,6 +32,11 @@ export const PlayStationDe: Store = {
         text: ['heute ausverkauft.']
 		  },
     ],
+    maxPrice: {
+      container: "body",
+      regex: /"value":([0-9.]+)/i,
+      euroFormat: true
+    },
 	},
 	links: [
     /*

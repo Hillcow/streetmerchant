@@ -158,9 +158,14 @@ export async function getPrice(
 
 	if (priceString) {
 		const priceSeparator = query.euroFormat ? /\./g : /,/g;
-		const price = Number.parseFloat(
+		let price = Number.parseFloat(
 			priceString.replace(priceSeparator, '').match(/\d+/g)!.join('.')
 		);
+
+    if (query.regex) {
+      const regexMatch = query.regex.exec(priceString)
+      if (regexMatch && regexMatch.length > 1) price = Number.parseFloat(regexMatch[1])
+    }
 
 		logger.debug('received price', price);
 		return price;

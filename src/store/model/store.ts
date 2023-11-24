@@ -7,6 +7,7 @@ export type Element = {
 
 export type Pricing = {
   container: string;
+  regex?: RegExp;
   euroFormat?: boolean;
 };
 
