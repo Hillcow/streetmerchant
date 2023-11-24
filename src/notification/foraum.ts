@@ -4,47 +4,8 @@ import {logger, Print} from "../logger";
 
 const axios = require('axios').default;
 
-export async function sendForaumNotification(link: Link, store: Store, base64image?: String) {
+export function sendForaumNotification(link: Link, store: Store, base64image?: String) {
 	logger.info("sending request to foraum.de");
-
-	switch (store.name) {
-    case "baur":
-      store.name = "Baur"
-      break
-    case "amazon-de":
-      store.name = "Amazon DE"
-      break
-    case "mediamarkt":
-      store.name = "MediaMarkt"
-      break
-    case "otto":
-      store.name = "Otto"
-      break
-    case "euronics-de":
-      store.name = "Euronics"
-      break
-    case "gamestop-de":
-      store.name = "GameStop"
-      break
-    case "medimax":
-      store.name = "Medimax"
-      break
-    case "saturn":
-      store.name = "Saturn"
-      break
-    case "expert":
-      store.name = "Expert"
-      break
-    case "computeruniverse":
-      store.name = "Computeruniverse"
-      break
-    case "spielegrotte":
-      store.name = "Spielegrotte"
-      break
-    case "muller":
-      store.name = "Müller"
-      break
-  }
 
 	let storeName = store.name
 	let url = link.url

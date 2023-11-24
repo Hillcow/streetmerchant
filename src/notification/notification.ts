@@ -18,8 +18,9 @@ import {sendForaumNotification} from './foraum';
 
 export function sendNotification(link: Link, store: Store, base64image?: String) {
 	// Priority
-	playSound();
+	//playSound();
 	sendForaumNotification(link, store, base64image);
+  /*
 	sendDiscordMessage(link, store);
 	sendDesktopNotification(link, store);
 	sendEmail(link, store);
@@ -35,4 +36,5 @@ export function sendNotification(link: Link, store: Store, base64image?: String)
 	sendTwilioMessage(link, store);
 	sendTwitchMessage(link, store);
 	updateRedis(link, store);
+   */
 }
