@@ -49,6 +49,7 @@ export async function sendForaumNotification(link: Link, store: Store, base64ima
 	let storeName = store.name
 	let url = link.url
 	let cartUrl = link.cartUrl
+	let model = link.model
 	let series = link.series
 	let key = config.notifications.foraum.key
 	let console = config.notifications.foraum.console
@@ -68,6 +69,7 @@ export async function sendForaumNotification(link: Link, store: Store, base64ima
 		storeName,
 		key,
 		console,
+		model,
 		series,
     screenshot,
     title,

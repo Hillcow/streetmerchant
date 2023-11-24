@@ -9,6 +9,14 @@ export const GamestopDE: Store = {
 				text: ['In den Warenkorb']
 			},
       {
+				container: 'button#btnAddToCartPDP',
+				text: ['In den Warenkorb']
+			},
+      {
+				container: 'button.cartAddRadio',
+				text: ['In den Warenkorb']
+			},
+      {
         container: 'body',
         text: ['Waiting Room']
       },
@@ -21,10 +29,16 @@ export const GamestopDE: Store = {
         text: ['/INTL/']
       },
 		],
-		outOfStock: {
-			container: '.megaButton',
-			text: ['Nicht verfügbar']
-		}
+		outOfStock: [
+      {
+        container: '.megaButton',
+        text: ['Nicht verfügbar']
+		  },
+      {
+        container: 'button.buyDisabled',
+        text: ['Derzeit nicht Verfügbar']
+      },
+    ]
 	},
 	links: [
 		{
@@ -32,6 +46,12 @@ export const GamestopDE: Store = {
 			model: 'ps5 console',
 			series: 'test:series',
 			url: 'file:///Users/fabianr/Downloads/GameStop%20Germany%20-%20Waiting%20Room.html'
+		},
+    {
+			brand: 'sony',
+			model: 'psportal',
+			series: 'psportal',
+			url: 'https://www.gamestop.de/PS5/Games/73911'
 		},
     {
 			brand: 'sony',
