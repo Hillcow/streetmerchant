@@ -25,8 +25,6 @@ import open from 'open';
 import {processBackoffDelay} from './model/helpers/backoff';
 import {sendNotification} from '../notification';
 import useProxy from '@doridian/puppeteer-page-proxy';
-import axios from "axios";
-import {red} from "chalk";
 const { http, https } = require('follow-redirects');
 
 const inStock: Record<string, boolean> = {};
@@ -37,8 +35,13 @@ const fs = require('fs');
 
 function nextProxy(store: Store) {
 	if (!store.proxyList) {
-		return;
-	}
+    return;
+  }
+
+  if (config.proxy.own > Math.random()) {
+    logger.info(`ℹ [${store.name}] no proxy`)
+    return;
+  }
 
 	if (store.currentProxyIndex === undefined) {
 		store.currentProxyIndex = 0;
@@ -51,7 +54,7 @@ function nextProxy(store: Store) {
 
 	logger.info(`ℹ [${store.name}] Next proxy: ${store.currentProxyIndex + 1}/${store.proxyList.length}: ${store.proxyList[store.currentProxyIndex]}`);
 
-	return store.proxyList[store.currentProxyIndex];
+  return store.proxyList[store.currentProxyIndex];
 }
 
 async function handleLowBandwidth(request: Request) {

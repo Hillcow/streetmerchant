@@ -14,7 +14,11 @@ export const AmazonDe: Store = {
     outOfStock: {
       container: '#aod-sticky-pinned-offer',
       text: ['Auf Einladung erhältlich']
-    }
+    },
+    maxPrice: {
+      container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-price span.a-offscreen:first-of-type',
+      euroFormat: true
+    },
   },
   links: [
     { // PSPortal AOD

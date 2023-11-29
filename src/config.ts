@@ -337,7 +337,8 @@ const page = {
 const proxy = {
 	address: envOrString(process.env.PROXY_ADDRESS),
 	port: envOrNumber(process.env.PROXY_PORT, 80),
-	protocol: envOrString(process.env.PROXY_PROTOCOL, 'http')
+	protocol: envOrString(process.env.PROXY_PROTOCOL, 'http'),
+	own: envOrNumber(process.env.PROXY_OWN, 0)
 };
 
 // Check for deprecated configuration values
