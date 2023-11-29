@@ -5,8 +5,8 @@ export const Mediamarkt: Store = {
 	currency: '€',
 	labels: {
 		captcha: {
-			container: 'p',
-			text: ['Das ging uns leider zu schnell.']
+			container: 'body',
+			text: ['Das ging uns leider zu schnell']
 		},
 		maxPrice: {
 			container: 'span[data-test="branded-price-whole-value"]',

@@ -18,6 +18,7 @@ success-*.png
 *.mp3
 *.flac
 *.exe
+*.log
 desktop.ini
 
 twitch.json

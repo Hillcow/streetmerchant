@@ -18,8 +18,8 @@ export function sendForaumNotification(link: Link, store: Store, base64image?: S
   let title = null
   let price = link.price ?? null
   if (link.screenshot && base64image) {
-    logger.info("Screenshot available: " + link.screenshot);
-    screenshot = base64image
+    logger.info("Screenshot available");
+    //screenshot = base64image
   }
 
   process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
@@ -37,10 +37,10 @@ export function sendForaumNotification(link: Link, store: Store, base64image?: S
     price
 	})
 		.then(function (response: any) {
-			logger.info(response);
+			logger.info("Successfully notified Foraum.");
 		})
 		.catch(function (error: any) {
-			logger.error(error);
+			//logger.error(error);
       /*
       if (error && store.name.includes("amazon") && !store.name.includes("warehouse")) {
         sendTweet(link, store);

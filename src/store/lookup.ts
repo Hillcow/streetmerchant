@@ -33,6 +33,8 @@ const inStock: Record<string, boolean> = {};
 
 const linkBuilderLastRunTimes: Record<string, number> = {};
 
+const fs = require('fs');
+
 function nextProxy(store: Store) {
 	if (!store.proxyList) {
 		return;
@@ -47,7 +49,7 @@ function nextProxy(store: Store) {
 		store.currentProxyIndex = 0;
 	}
 
-	logger.info(`ℹ [${store.name}] Next proxy index: ${store.currentProxyIndex} / Count: ${store.proxyList.length}`);
+	logger.info(`ℹ [${store.name}] Next proxy: ${store.currentProxyIndex}/${store.proxyList.length}: ${store.proxyList[store.currentProxyIndex]}`);
 
 	return store.proxyList[store.currentProxyIndex];
 }
@@ -396,9 +398,15 @@ async function handleResponse(
 					);
 				}
 			} else {
+        fs.appendFile('statuscode.log', `\n[LOG${new Date().toLocaleString()}] ${await page.content()}`, function (err: any) {
+          if (err) throw err;
+        });
 				logger.warn(Print.badStatusCode(link, store, statusCode, true));
 			}
 		} else {
+      fs.appendFile('statuscode.log', `\n[LOG${new Date().toLocaleString()}] ${await page.content()}`, function (err: any) {
+        if (err) throw err;
+      });
 			logger.warn(Print.badStatusCode(link, store, statusCode, true));
 		}
 	}
@@ -437,6 +445,11 @@ async function lookupCardInStock(store: Store, page: Page, link: Link) {
 		if (await pageIncludesLabels(page, store.labels.captcha, baseOptions)) {
 			logger.warn(Print.captcha(link, store, true));
 			await delay(getSleepTime(store));
+
+      fs.appendFile('captcha.log', `\n[LOG${new Date().toLocaleString()}] ${await page.content()}`, function (err: any) {
+        if (err) throw err;
+      });
+
 			return false;
 		}
 	}
@@ -493,6 +506,13 @@ async function lookupCardInStock(store: Store, page: Page, link: Link) {
 
 		if (!(await pageIncludesLabels(page, store.labels.inStock, options, store, true))) {
 			logger.info(Print.outOfStock(link, store, true));
+
+      /*
+      fs.appendFile('outofstock.log', `\n[LOG${new Date().toLocaleString()}] ${await page.content()}`, function (err: any) {
+        if (err) throw err;
+      });
+       */
+
 			return false;
 		}
 	}
@@ -509,6 +529,10 @@ async function lookupCardInStock(store: Store, page: Page, link: Link) {
 			return false;
 		}
 	}
+
+  fs.appendFile('success.log', `\n[LOG${new Date().toLocaleString()}] ${await page.content()}`, function (err: any) {
+    if (err) throw err;
+  });
 
 	return true;
 }

@@ -4,11 +4,19 @@ export const AlzaDe: Store = {
   backoffStatusCodes: [403, 429, 503],
   currency: '€',
   labels: {
+    captcha: {
+      container: 'body',
+      text: ['Bitte bestätigen Sie, dass Sie ein Mensch sind']
+    },
     inStock: [
       {
-        container: '.browsingitemcontainer .canwatchdog',
+        container: '.js-buy-button',
         text: ['kaufen']
-      }
+      },
+      {
+        container: '.js-buy-button',
+        text: ['reservieren']
+      },
     ],
     maxPrice: {
       container: '.priceInner > span.c2',
@@ -16,6 +24,12 @@ export const AlzaDe: Store = {
     },
   },
   links: [
+    { // xbox series x overview
+      brand: 'sony',
+      model: 'psportal',
+      series: 'psportal',
+      url: 'https://www.alza.de/gaming/playstation-portal-remote-player-d8550199.htm'
+    },
     { // xbox series x overview
       brand: 'microsoft',
       model: 'xbox series x',
@@ -26,7 +40,7 @@ export const AlzaDe: Store = {
       brand: 'test:brand',
       model: 'test:model',
       series: 'test:series',
-      url: 'https://www.alza.at/gaming/playstation-5-spiele/18876713.htm?idp=13871&banner_id=41107'
+      url: 'https://www.alza.de/gaming/avatar-frontiers-of-pandora-ps5-d6546437.htm'
     },
   ],
   name: 'alza-de'

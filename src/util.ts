@@ -92,10 +92,16 @@ export async function getRandomUserAgent(): Promise<string> {
 	).map((s) => s.trim());
 
 	if (deprecatedUserAgent.length > 0) {
-		return deprecatedUserAgent[
-			Math.floor(Math.random() * deprecatedUserAgent.length)
-		];
+    const userAgent = deprecatedUserAgent[
+      Math.floor(Math.random() * deprecatedUserAgent.length)
+      ];
+    logger.info('user agent', {userAgent});
+		return userAgent;
 	}
+
+  topUserAgents.push("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.4 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.4 facebookexternalhit/1.1 Facebot Twitterbot/1.0")
+  topUserAgents.push("facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)")
+  topUserAgents.push("Twitterbot/1.0")
 
 	const userAgent =
 		topUserAgents[Math.floor(Math.random() * topUserAgents.length)];

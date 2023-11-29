@@ -48,3 +48,15 @@ cd streetmerchant && npm i && npm run start
 For more information and customization, visit [jef.codes/streetmerchant/getting-started](https://jef.codes/streetmerchant/getting-started).
 
 to build docker image on M1 Mac (!) run: `npm run build && docker buildx build . --platform linux/amd64 --push -t fabianr/ps5bot && docker build . -t fabianr/ps5bot_m1 && docker push fabianr/ps5bot_m1`
+
+
+to run: `cd $HOME && docker stop ps5bot || true && docker rm ps5bot || true && docker pull fabianr/ps5bot && docker run --cap-add=SYS_ADMIN -it -v$(pwd)/global.proxies:/app/global.proxies --env-file ./dotenv -d --name ps5bot --restart on-failure docker.io/fabianr/ps5bot:latest`
+
+crontab -e:
+```
+33 * * * * docker restart ps5bot
+0 6 * * * cd $HOME && docker stop ps5bot || true && docker rm ps5bot || true && docker pull fabianr/ps5bot && docker run --cap-add=SYS_ADMIN -it -v$(pwd)/global.proxies:/app/global.proxies --env-file ./dotenv -d --name ps5bot --restart on-failure docker.io/fabianr/ps5bot:latest
+21 * * * * docker restart mmsbotmmde && docker restart mmsbotsaturn
+0 5 * * * cd $HOME/mmsbot && docker stop mmsbot_mmde || true && docker stop mmsbot_saturn || true && docker rm mmsbot_mmde || true && docker rm mmsbot_saturn || true && docker pull fabianr/mmsbot && docker run --restart on-failure --memory 500m --memory-swap 500m --ulimit core=0 -v /dev/null:/opt/mms-stockshock/stockshock.log -v $PWD/stores.toml:/opt/mms-stockshock/stores.toml -v $PWD/cooldowns.json:/opt/mms-stockshock/cooldowns.json -v $PWD/basket-cooldowns.json:/opt/mms-stockshock/basket-cooldowns.json -e "STORE=saturn" --name mmsbot_saturn -p 8090:8080 -d fabianr/mmsbot && docker run --restart on-failure --memory 500m --memory-swap 500m --ulimit core=0 -v /dev/null:/opt/mms-stockshock/stockshock.log -v $PWD/stores.toml:/opt/mms-stockshock/stores.toml -v $PWD/cooldowns.json:/opt/mms-stockshock/cooldowns.json -v $PWD/basket-cooldowns.json:/opt/mms-stockshock/basket-cooldowns.json -e "STORE=mmde" --name mmsbot_mmde -p 8080:8080 -d fabianr/mmsbot
+0 06 * * * reboot
+```

@@ -5,8 +5,8 @@ export const Saturn: Store = {
 	currency: '€',
 	labels: {
 		captcha: {
-			container: 'p',
-			text: ['Das ging uns leider zu schnell.']
+      container: 'body',
+      text: ['Das ging uns leider zu schnell']
 		},
 		maxPrice: {
 			container: 'span[font-family="price"]',
@@ -22,6 +22,12 @@ export const Saturn: Store = {
     ],
 	},
 	links: [
+    {
+      brand: 'sony',
+      model: 'psportal',
+      series: 'psportal',
+      url: 'https://www.saturn.de/de/product/_sony-playstation-portaltm-remote-player-2899832.html'
+    },
 		{
 			brand: 'test:brand',
 			model: 'test:model',
