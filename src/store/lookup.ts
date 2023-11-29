@@ -49,7 +49,7 @@ function nextProxy(store: Store) {
 		store.currentProxyIndex = 0;
 	}
 
-	logger.info(`ℹ [${store.name}] Next proxy: ${store.currentProxyIndex}/${store.proxyList.length}: ${store.proxyList[store.currentProxyIndex]}`);
+	logger.info(`ℹ [${store.name}] Next proxy: ${store.currentProxyIndex + 1}/${store.proxyList.length}: ${store.proxyList[store.currentProxyIndex]}`);
 
 	return store.proxyList[store.currentProxyIndex];
 }
