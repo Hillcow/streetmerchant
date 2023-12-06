@@ -3,10 +3,20 @@ import {Store} from './store';
 export const Muller: Store = {
 	currency: '€',
 	labels: {
-		outOfStock: {
-			container: '.mu-ps__text',
-			text: ['Vielen Dank an alle, die eine PlayStation 5 bestellt haben.']
-		}
+		outOfStock: [
+      {
+        container: '.mu-ps__text',
+        text: ['Vielen Dank an alle, die eine PlayStation 5 bestellt haben.']
+      },
+      {
+        container: '.mu-availability-box',
+        text: ['Nicht lieferbar']
+      },
+		],
+    maxPrice: {
+      container: '.mu-product-price__price',
+      euroFormat: true
+    },
 	},
 	links: [
 		{
@@ -30,6 +40,25 @@ export const Muller: Store = {
 			url:
 				'https://www.mueller.de/p/playstation-5-konsole-digital-edition-2675308/'
 		},*/
+
+    {
+			brand: 'sony',
+			model: 'psportal',
+			series: 'psportal',
+			url: 'https://www.mueller.de/p/ps5-playstation-portal-remote-player-IPN2957060/',
+      labels: {
+        inStock: [
+          {
+            container: '.mu-product-cta .mu-button2__content',
+            text: ['In den Warenkorb']
+          },
+          {
+            container: '.mu-product-bundles__headline',
+            text: ['Empfohlene Kombinationen']
+          },
+        ],
+      },
+		},
 
     {
 			brand: 'sony',

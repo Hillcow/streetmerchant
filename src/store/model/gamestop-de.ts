@@ -3,6 +3,10 @@ import {Store} from './store';
 export const GamestopDE: Store = {
 	currency: '€',
 	labels: {
+    maxPrice: {
+      container: ".pricetext > span.prodPriceCont",
+      euroFormat: true
+    },
 		inStock: [
 			{
 				container: '#btnAddToCart',

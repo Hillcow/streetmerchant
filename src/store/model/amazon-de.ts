@@ -46,7 +46,7 @@ export const AmazonDe: Store = {
       model: 'psportal',
       series: 'psportal',
       url: 'https://www.amazon.de/dp/B0CJJCZMKJ?tag=foraumbot-21&ref=foraum&language=de_DE&aod=1',
-      scrapeUrl: 'https://www.amazon.de/gp/product/handle-buy-box?ASIN=B0CJJCZMKJ&quantity=1&submit.buy-now=1&offeringID=Ym%2FMPGaq7f8DsQkVpZMbTvxCu72idckaOSPSaZrELoenYpmhJ6YD63isut679ZgYeHkhvjuyZP92EUsWiCYC0zuE3Expz5K94Ytv%2BRdyHrdDjEElidiuCIg3%2B0%2FbvtaXtEk%2BNUn6RhI%3D',
+      scrapeUrl: 'https://www.amazon.de/gp/product/handle-buy-box/ref=dp_start-bbf_1_glance?ASIN=B0CJJCZMKJ&quantity=1&submit.buy-now=1&offeringID=4vTAQtRot5G7c7Kbj97C5GdAC%2BEfCaHePthj3iG%2FpRHqCzUIuybqMh8I03SwroliJprkpTSb0bHv%2F9MBu4N%2FgW0Zyefo1ZZILjVIg7hVDygG0tTNH4dBBF6vPlqKdiuymOE%2BxoO%2FgZw%3D',
       labels: {
         inStock: [
           {
