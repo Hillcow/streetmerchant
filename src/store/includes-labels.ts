@@ -63,7 +63,7 @@ export async function pageIncludesLabels(
       if (debug === true && includesLabels(contents, query.text)) logger.info(contents);
 
       if (store && store.name.includes("amazon")) {
-        if (includesLabels(contents, ["warehouse"])) {
+        if (includesLabels(contents, ["Retourenkauf"])) {
           if (debug === true) logger.info("warehouse detected");
           setStoreNameWarehouse(store);
         }

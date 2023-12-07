@@ -39,6 +39,12 @@ export const AmazonDe: Store = {
             text: ['amazon']
           },
         ],
+        outOfStock: [
+          {
+            container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
+            text: ['Retourenkauf']
+          },
+        ],
       }
     },
     { // PSPortal OfferId
