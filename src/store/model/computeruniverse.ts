@@ -6,6 +6,29 @@ export const Computeruniverse: Store = {
 
   },
 	links: [
+    {
+      brand: 'sony',
+      model: 'psportal',
+      series: 'psportal',
+      url: 'https://www.computeruniverse.net/de/p/7B14-02P',
+      labels: {
+        inStock: {
+          container: '.product-stock__delivery-text',
+          text: [
+            'auf Lager',
+            'Kurzfristig verfügbar',
+          ]
+        },
+        maxPrice: {
+          container: 'span.price',
+          euroFormat: true
+        },
+        outOfStock: {
+          container: '.product-stock',
+          text: ['nicht verfügbar']
+        }
+      },
+    },
 		{
 			brand: 'test:brand',
 			model: 'test:model',

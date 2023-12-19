@@ -6,12 +6,12 @@ export const Baur: Store = {
 		inStock: [
 			{
 				container:
-					'button.inform-add-to-basket',
+					'.MuiGrid-root > button.MuiButton-containedPrimary',
 				text: ['In den Warenkorb legen']
 			},
 		],
 		maxPrice: {
-			container: '#normalPriceAmount',
+			container: '.MuiGrid-grid-xs-12 > div > .MuiTypography-root.MuiTypography-h4',
 			euroFormat: true
 		},
 		outOfStock: {
@@ -35,6 +35,12 @@ export const Baur: Store = {
         }
       },
 		},
+    {
+      brand: 'sony',
+      model: 'psportal',
+      series: 'psportal',
+      url: 'https://www.baur.de/p/AKLBB1790587333',
+    },
     {
       brand: 'sony',
       model: 'ps5 console bundle',

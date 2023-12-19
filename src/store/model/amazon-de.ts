@@ -38,6 +38,10 @@ export const AmazonDe: Store = {
             container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
             text: ['amazon']
           },
+          {
+            container: '#aod-pinned-offer #aod-pinned-offer-additional-content #aod-offer-soldBy div.a-col-right > span.a-size-small:first-of-type',
+            text: ['amazon']
+          },
         ],
         outOfStock: [
           {
@@ -47,22 +51,22 @@ export const AmazonDe: Store = {
         ],
       }
     },
-    { // PSPortal OfferId
+    { // PSPortal offerListingID
       brand: 'sony',
       model: 'psportal',
       series: 'psportal',
       url: 'https://www.amazon.de/dp/B0CJJCZMKJ?tag=foraumbot-21&ref=foraum&language=de_DE&aod=1',
-      scrapeUrl: 'https://www.amazon.de/gp/product/handle-buy-box/ref=dp_start-bbf_1_glance?ASIN=B0CJJCZMKJ&quantity=1&submit.buy-now=1&offeringID=4vTAQtRot5G7c7Kbj97C5GdAC%2BEfCaHePthj3iG%2FpRHqCzUIuybqMh8I03SwroliJprkpTSb0bHv%2F9MBu4N%2FgW0Zyefo1ZZILjVIg7hVDygG0tTNH4dBBF6vPlqKdiuymOE%2BxoO%2FgZw%3D',
+      scrapeUrl: 'https://www.amazon.de/gp/checkoutportal/enter-checkout.html/ref=dp_ma_buy_now?offeringID=zuETH%2F07B2AOH6VAa5l%2Fhq7cHfsDIIsI2m9kws%2BZUYcDs%2FJ94je9zLpslcloBuS4QRBymM%2FcCncYVNgk1EeKySEcpwE583bYlVJvgmbE8cw5FseM7tppuFr0WHoZijnNTQ0dKZrHOzk%3D&asin=B0CJJCZMKJ&quantity=1&rebateId=&buyNow=1',
       labels: {
         inStock: [
           {
-            container: '#authportal-center-section > #authportal-main-section form.auth-validate-form h1',
+            container: 'h1.a-spacing-small',
             text: ['Anmelden']
           }
         ],
         outOfStock: {
-          container: 'table td',
-          text: ['Tut uns leid:']
+          container: 'body',
+          text: ['Tut uns leid']
         }
       }
     },

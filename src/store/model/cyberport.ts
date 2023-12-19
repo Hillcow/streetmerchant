@@ -5,6 +5,10 @@ export const Cyberport: Store = {
 	labels: {
 		inStock: [
 		  {
+        container: 'div.addToCart > button',
+        text: ['In den Warenkorb']
+		  },
+      {
         container: '.tooltipAvailabilityParent',
         text: ['sofort verfügbar']
 		  },
@@ -18,8 +22,8 @@ export const Cyberport: Store = {
       }
 		],
 		maxPrice: {
-			container: '#productDetailOverview .price',
-			euroFormat: true
+			container: 'span.productOmnibox-price__price--store',
+			euroFormat: false
 		},
 		outOfStock: {
 			container: '.tooltipAvailabilityParent',
@@ -34,6 +38,12 @@ export const Cyberport: Store = {
 			url: 'https://www.cyberport.de?DEEP=2E12-3KL'
 		},
 		{
+			brand: 'sony',
+			model: 'psportal',
+			series: 'psportal',
+			url: 'https://www.cyberport.de/gaming/playstation/sony/pdp/7b14-02p/sony-playstation-portal-remote-player-weiss.html'
+		},
+    {
 			brand: 'asus',
 			model: 'strix',
 			series: '3080',
