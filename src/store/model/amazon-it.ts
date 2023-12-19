@@ -10,6 +10,10 @@ export const AmazonIt: Store = {
 				'Inserisci i caratteri visualizzati nello spazio sottostante'
 			]
 		},
+    maxPrice: {
+      container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-price span.a-offscreen:first-of-type',
+      euroFormat: true
+    },
     outOfStock: {
       container: '#aod-sticky-pinned-offer',
       text: ['Disponibile su invito']
@@ -23,6 +27,30 @@ export const AmazonIt: Store = {
       url: 'https://www.amazon.it/dp/B08KKJ37F7?tag=foraumbot-it-21&ref=foraum&aod=1',
       cartUrl: 'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B08KKJ37F7&Quantity.1=1&tag=foraumbot-it-21',
       scrapeUrl: 'https://www.amazon.it/gp/aod/ajax?asin=B08KKJ37F7',
+    },
+    { // ps5 disc
+      brand: 'sony',
+      model: 'psportal',
+      series: 'psportal',
+      url: 'https://www.amazon.it/dp/B0CJJCZMKJ?tag=foraumbot-it-21&ref=foraum&aod=1',
+      cartUrl: 'https://www.amazon.it/gp/aws/cart/add.html?ASIN.1=B0CJJCZMKJ&Quantity.1=1&tag=foraumbot-it-21',
+      scrapeUrl: 'https://www.amazon.it/gp/aod/ajax?asin=B0CJJCZMKJ',
+      labels: {
+        maxPrice: {
+          container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-price span.a-offscreen:first-of-type',
+          euroFormat: true
+        },
+        inStock: [
+          {
+            container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
+            text: ['amazon']
+          },
+          {
+            container: '#aod-pinned-offer #aod-pinned-offer-additional-content #aod-offer-soldBy div.a-col-right > span.a-size-small:first-of-type',
+            text: ['amazon']
+          },
+        ],
+      },
     },
     { // ps5 disc
       brand: 'sony',

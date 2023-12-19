@@ -8,6 +8,10 @@ export const AmazonEs: Store = {
 			container: 'body',
 			text: ['introduzca los caracteres que ve a continuación']
 		},
+    maxPrice: {
+      container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-price span.a-offscreen:first-of-type',
+      euroFormat: true
+    },
     outOfStock: [
       {
         container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-AGS-Note li a',
@@ -63,6 +67,30 @@ export const AmazonEs: Store = {
     },
 
      */
+    {
+      brand: 'sony',
+      model: 'psportal',
+      series: 'psportal',
+      url: 'https://www.amazon.es/dp/B0CJJCZMKJ?tag=foraumbot-sp-21&ref=foraum&aod=1',
+      cartUrl: 'https://www.amazon.es/gp/aws/cart/add.html?ASIN.1=B0CJJCZMKJ&Quantity.1=1&tag=foraumbot-sp-21',
+      scrapeUrl: 'https://www.amazon.es/gp/aod/ajax?asin=B0CJJCZMKJ',
+      labels: {
+        maxPrice: {
+          container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-price span.a-offscreen:first-of-type',
+          euroFormat: true
+        },
+        inStock: [
+          {
+            container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
+            text: ['amazon']
+          },
+          {
+            container: '#aod-pinned-offer #aod-pinned-offer-additional-content #aod-offer-soldBy div.a-col-right > span.a-size-small:first-of-type',
+            text: ['amazon']
+          },
+        ],
+      }
+    },
     { // ps5 digital
       brand: 'sony',
       model: 'ps5 digital',

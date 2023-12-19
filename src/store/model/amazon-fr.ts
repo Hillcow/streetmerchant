@@ -8,6 +8,10 @@ export const AmazonFr: Store = {
 			container: 'body',
 			text: ['entrez les caractères que vous voyez ci-dessous']
 		},
+    maxPrice: {
+      container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-price span.a-offscreen:first-of-type',
+      euroFormat: true
+    },
     outOfStock: {
       container: '#aod-sticky-pinned-offer',
       text: ['Disponible sur invitation']
@@ -32,6 +36,30 @@ export const AmazonFr: Store = {
             text: ['amazon']
           }
         ]
+      },
+    },
+    {
+      brand: 'sony',
+      model: 'psportal',
+      series: 'psportal',
+      url: 'https://www.amazon.fr/dp/B0CJJCZMKJ?tag=foraumbot-fr-21&ref=foraum&aod=1',
+      cartUrl: 'https://www.amazon.fr/gp/aws/cart/add.html?ASIN.1=B0CJJCZMKJ&Quantity.1=1&tag=foraumbot-fr-21',
+      scrapeUrl: 'https://www.amazon.fr/gp/aod/ajax?asin=B0CJJCZMKJ',
+      labels: {
+        maxPrice: {
+          container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-price span.a-offscreen:first-of-type',
+          euroFormat: true
+        },
+        inStock: [
+          {
+            container: '#aod-offer-list > #aod-offer:first-of-type > #aod-offer-soldBy div.a-col-right > *.a-size-small:first-of-type',
+            text: ['amazon']
+          },
+          {
+            container: '#aod-pinned-offer #aod-pinned-offer-additional-content #aod-offer-soldBy div.a-col-right > span.a-size-small:first-of-type',
+            text: ['amazon']
+          },
+        ],
       },
     },
     /*
